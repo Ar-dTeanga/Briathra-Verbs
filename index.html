@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Briathra - Irish Verb Conjugations</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #2c5530;
+            text-align: center;
+        }
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            min-width: 180px;
+        }
+        .filter-group label {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .filter-group select {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            background: white;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        th {
+            background: #2c5530;
+            color: white;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        td {
+            padding: 10px 15px;
+            border-bottom: 1px solid #eee;
+        }
+        tr:hover {
+            background: #f9f9f9;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .irish {
+            color: #2c5530;
+            font-weight: 500;
+        }
+        .count {
+            text-align: center;
+            padding: 10px;
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            .filters {
+                flex-direction: column;
+            }
+            table {
+                font-size: 14px;
+            }
+            th, td {
+                padding: 8px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Briathra - Irish Verb Conjugations</h1>
+    <h2 style="text-align: center; color: #666;">The Verb "To Be" (Bí)</h2>
+
+    <div class="filters">
+        <div class="filter-group">
+            <label for="person">Person</label>
+            <select id="person">
+                <option value="">All</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="pronoun">Pronoun</label>
+            <select id="pronoun">
+                <option value="">All</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="form">Form</label>
+            <select id="form">
+                <option value="">All</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label for="tense">Tense</label>
+            <select id="tense">
+                <option value="">All</option>
+            </select>
+        </div>
+    </div>
+
+    <table id="verbTable">
+        <thead>
+            <tr>
+                <th>Person</th>
+                <th>Pronoun</th>
+                <th>Form</th>
+                <th>Tense</th>
+                <th>English</th>
+                <th>Gaeilge Mumhan (GM)</th>
+                <th>Standard</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+    <p class="count" id="count"></p>
+
+    <script>
+        const data = [
+            ["First Person Singular","I","Positive","Present","I am","Tá mé/Taim/Taimse",""],
+            ["First Person Singular","I","Negative","Present","I am not","Níl mé",""],
+            ["First Person Singular","I","Interrogative","Present","Am I?","An bhfuilim?",""],
+            ["First Person Singular","I","Negative Interrogative","Present","Amn't I","Ná fuilim",""],
+            ["First Person Singular","I","Positive","Past","I was","Do bhíos","Bhí mé"],
+            ["First Person Singular","I","Negative","Past","I wasn't","Níl mé","Ní raibh mé"],
+            ["First Person Singular","I","Interrogative","Past","Was I","","An raibh mé"],
+            ["First Person Singular","I","Negative Interrogative","Past","Wasn't I","","Nach raibh mé"],
+            ["Second Person Singular","You","Positive","Present","You are","Táir","Tá tú"],
+            ["Second Person Singular","You","Negative","Present","You arent","",""],
+            ["Second Person Singular","You","Interrogative","Present","Are you?","An bhfuilir?",""],
+            ["Second Person Singular","You","Negative Interrogative","Present","Aren't you","Ná fuilim?",""],
+            ["Second Person Singular","You","Positive","Past","You were","Do bhís","Bhí tú"],
+            ["Second Person Singular","You","Negative","Past","You weren't","","Ni raibh tú"],
+            ["Second Person Singular","You","Interrogative","Past","Were you","",""],
+            ["Second Person Singular","You","Negative Interrogative","Past","Wasn't you","",""],
+            ["Third Person Singular","He/She/It","Positive","Present","He is","Tá sé",""],
+            ["Third Person Singular","He/She/It","Negative","Present","He isnt","Níl sé",""],
+            ["Third Person Singular","He/She/It","Interrogative","Present","Is he?","An bhfuil sé?",""],
+            ["Third Person Singular","He/She/It","Negative Interrogative","Present","Isn't he?","Ná fuil sé?",""],
+            ["Third Person Singular","He/She/It","Positive","Past","He was","Do bhí sé","Bhí sé"],
+            ["Third Person Singular","He/She/It","Negative","Past","He wasn't","Ní raibh sé","Ni raibh sé"],
+            ["Third Person Singular","He/She/It","Interrogative","Past","Was he?","An raibh sé",""],
+            ["Third Person Singular","He/She/It","Negative Interrogative","Past","Wasn't he?","",""],
+            ["First Person Plural","We","Positive","Present","We are","",""],
+            ["First Person Plural","We","Negative","Present","We aren't","",""],
+            ["First Person Plural","We","Interrogative","Present","Are we?","An bhfuilimíd?",""],
+            ["First Person Plural","We","Negative Interrogative","Present","Aren't we?","Ná fuilimíd",""],
+            ["First Person Plural","We","Positive","Past","We were","Do bhíomair","Bhí sinn"],
+            ["First Person Plural","We","Negative","Past","We weren't","","Ni raibh sinn"],
+            ["First Person Plural","We","Interrogative","Past","Were we?","",""],
+            ["First Person Plural","We","Negative Interrogative","Past","Weren't we?","",""],
+            ["Second Person Plural","Youse","Positive","Present","Youse are","Tá sibh","Tá said"],
+            ["Second Person Plural","Youse","Negative","Present","youse aren't","","Níl siad"],
+            ["Second Person Plural","Youse","Interrogative","Present","Are youse?","An bhfuil sibh?",""],
+            ["Second Person Plural","Youse","Negative Interrogative","Present","Aren't youse?","Ná fuil sibh",""],
+            ["Second Person Plural","Youse","Positive","Past","Youse were","Do bhíobhair","Bhí sibh"],
+            ["Second Person Plural","Youse","Negative","Past","Youse weren't","","Ni raibh sibh"],
+            ["Second Person Plural","Youse","Interrogative","Past","Were youse?","",""],
+            ["Second Person Plural","Youse","Negative Interrogative","Past","Weren't youse","",""],
+            ["Third Person Plural","They","Positive","Present","They are","Taid","Tá said"],
+            ["Third Person Plural","They","Negative","Present","They arent","","Nil siad"],
+            ["Third Person Plural","They","Interrogative","Present","Are they?","An bhfuilid?",""],
+            ["Third Person Plural","They","Negative Interrogative","Present","Aren't they?","Ná fuilid?",""],
+            ["Third Person Plural","They","Positive","Past","They were","Do bhíodar","Bhí siad"],
+            ["Third Person Plural","They","Negative","Past","They weren't","Ní rabhadar?","Ni raibh siad"],
+            ["Third Person Plural","They","Interrogative","Past","Were they?","",""],
+            ["Third Person Plural","They","Negative Interrogative","Past","Weren't they?","",""]
+        ];
+
+        // Get unique values for each filter
+        const persons = [...new Set(data.map(row => row[0]))];
+        const pronouns = [...new Set(data.map(row => row[1]))];
+        const forms = [...new Set(data.map(row => row[2]))];
+        const tenses = [...new Set(data.map(row => row[3]))];
+
+        // Populate filter dropdowns
+        function populateSelect(selectId, options) {
+            const select = document.getElementById(selectId);
+            options.forEach(option => {
+                const opt = document.createElement('option');
+                opt.value = option;
+                opt.textContent = option;
+                select.appendChild(opt);
+            });
+        }
+
+        populateSelect('person', persons);
+        populateSelect('pronoun', pronouns);
+        populateSelect('form', forms);
+        populateSelect('tense', tenses);
+
+        // Filter and render table
+        function renderTable() {
+            const personFilter = document.getElementById('person').value;
+            const pronounFilter = document.getElementById('pronoun').value;
+            const formFilter = document.getElementById('form').value;
+            const tenseFilter = document.getElementById('tense').value;
+
+            const filtered = data.filter(row => {
+                return (!personFilter || row[0] === personFilter) &&
+                       (!pronounFilter || row[1] === pronounFilter) &&
+                       (!formFilter || row[2] === formFilter) &&
+                       (!tenseFilter || row[3] === tenseFilter);
+            });
+
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = filtered.map(row => `
+                <tr>
+                    <td>${row[0]}</td>
+                    <td>${row[1]}</td>
+                    <td>${row[2]}</td>
+                    <td>${row[3]}</td>
+                    <td>${row[4]}</td>
+                    <td class="irish">${row[5]}</td>
+                    <td class="irish">${row[6]}</td>
+                </tr>
+            `).join('');
+
+            document.getElementById('count').textContent = `Showing ${filtered.length} of ${data.length} entries`;
+        }
+
+        // Add event listeners
+        document.getElementById('person').addEventListener('change', renderTable);
+        document.getElementById('pronoun').addEventListener('change', renderTable);
+        document.getElementById('form').addEventListener('change', renderTable);
+        document.getElementById('tense').addEventListener('change', renderTable);
+
+        // Initial render
+        renderTable();
+    </script>
+</body>
+</html>
