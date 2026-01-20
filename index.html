@@ -153,66 +153,32 @@
     <p class="count" id="count"></p>
 
     <script>
-        const data = [
-            ["First Person Singular","I","Positive","Present","I am","Tá mé/Taim/Taimse",""],
-            ["First Person Singular","I","Negative","Present","I am not","Níl mé",""],
-            ["First Person Singular","I","Interrogative","Present","Am I?","An bhfuilim?",""],
-            ["First Person Singular","I","Negative Interrogative","Present","Amn't I","Ná fuilim",""],
-            ["First Person Singular","I","Positive","Past","I was","Do bhíos","Bhí mé"],
-            ["First Person Singular","I","Negative","Past","I wasn't","Níl mé","Ní raibh mé"],
-            ["First Person Singular","I","Interrogative","Past","Was I","","An raibh mé"],
-            ["First Person Singular","I","Negative Interrogative","Past","Wasn't I","","Nach raibh mé"],
-            ["Second Person Singular","You","Positive","Present","You are","Táir","Tá tú"],
-            ["Second Person Singular","You","Negative","Present","You arent","",""],
-            ["Second Person Singular","You","Interrogative","Present","Are you?","An bhfuilir?",""],
-            ["Second Person Singular","You","Negative Interrogative","Present","Aren't you","Ná fuilim?",""],
-            ["Second Person Singular","You","Positive","Past","You were","Do bhís","Bhí tú"],
-            ["Second Person Singular","You","Negative","Past","You weren't","","Ni raibh tú"],
-            ["Second Person Singular","You","Interrogative","Past","Were you","",""],
-            ["Second Person Singular","You","Negative Interrogative","Past","Wasn't you","",""],
-            ["Third Person Singular","He/She/It","Positive","Present","He is","Tá sé",""],
-            ["Third Person Singular","He/She/It","Negative","Present","He isnt","Níl sé",""],
-            ["Third Person Singular","He/She/It","Interrogative","Present","Is he?","An bhfuil sé?",""],
-            ["Third Person Singular","He/She/It","Negative Interrogative","Present","Isn't he?","Ná fuil sé?",""],
-            ["Third Person Singular","He/She/It","Positive","Past","He was","Do bhí sé","Bhí sé"],
-            ["Third Person Singular","He/She/It","Negative","Past","He wasn't","Ní raibh sé","Ni raibh sé"],
-            ["Third Person Singular","He/She/It","Interrogative","Past","Was he?","An raibh sé",""],
-            ["Third Person Singular","He/She/It","Negative Interrogative","Past","Wasn't he?","",""],
-            ["First Person Plural","We","Positive","Present","We are","",""],
-            ["First Person Plural","We","Negative","Present","We aren't","",""],
-            ["First Person Plural","We","Interrogative","Present","Are we?","An bhfuilimíd?",""],
-            ["First Person Plural","We","Negative Interrogative","Present","Aren't we?","Ná fuilimíd",""],
-            ["First Person Plural","We","Positive","Past","We were","Do bhíomair","Bhí sinn"],
-            ["First Person Plural","We","Negative","Past","We weren't","","Ni raibh sinn"],
-            ["First Person Plural","We","Interrogative","Past","Were we?","",""],
-            ["First Person Plural","We","Negative Interrogative","Past","Weren't we?","",""],
-            ["Second Person Plural","Youse","Positive","Present","Youse are","Tá sibh","Tá said"],
-            ["Second Person Plural","Youse","Negative","Present","youse aren't","","Níl siad"],
-            ["Second Person Plural","Youse","Interrogative","Present","Are youse?","An bhfuil sibh?",""],
-            ["Second Person Plural","Youse","Negative Interrogative","Present","Aren't youse?","Ná fuil sibh",""],
-            ["Second Person Plural","Youse","Positive","Past","Youse were","Do bhíobhair","Bhí sibh"],
-            ["Second Person Plural","Youse","Negative","Past","Youse weren't","","Ni raibh sibh"],
-            ["Second Person Plural","Youse","Interrogative","Past","Were youse?","",""],
-            ["Second Person Plural","Youse","Negative Interrogative","Past","Weren't youse","",""],
-            ["Third Person Plural","They","Positive","Present","They are","Taid","Tá said"],
-            ["Third Person Plural","They","Negative","Present","They arent","","Nil siad"],
-            ["Third Person Plural","They","Interrogative","Present","Are they?","An bhfuilid?",""],
-            ["Third Person Plural","They","Negative Interrogative","Present","Aren't they?","Ná fuilid?",""],
-            ["Third Person Plural","They","Positive","Past","They were","Do bhíodar","Bhí siad"],
-            ["Third Person Plural","They","Negative","Past","They weren't","Ní rabhadar?","Ni raibh siad"],
-            ["Third Person Plural","They","Interrogative","Past","Were they?","",""],
-            ["Third Person Plural","They","Negative Interrogative","Past","Weren't they?","",""]
-        ];
+        let data = [];
 
-        // Get unique values for each filter
-        const persons = [...new Set(data.map(row => row[0]))];
-        const pronouns = [...new Set(data.map(row => row[1]))];
-        const forms = [...new Set(data.map(row => row[2]))];
-        const tenses = [...new Set(data.map(row => row[3]))];
+        // Parse CSV text into array
+        function parseCSV(text) {
+            const lines = text.trim().split('\n');
+            // Skip header row, parse data rows
+            return lines.slice(1).map(line => {
+                const cols = line.split(',');
+                // Columns: 0=index, 1=Person, 2=Pronoun, 3=Form, 4=Tense, 5=English, 6=GM, 7=Standard
+                return [
+                    cols[1] || '',  // Person
+                    cols[2] || '',  // Pronoun
+                    cols[3] || '',  // Form
+                    cols[4] || '',  // Tense
+                    cols[5] || '',  // English
+                    cols[6] || '',  // GM
+                    cols[7] || ''   // Standard
+                ];
+            }).filter(row => row[0]); // Filter out empty rows
+        }
 
         // Populate filter dropdowns
         function populateSelect(selectId, options) {
             const select = document.getElementById(selectId);
+            // Clear existing options except "All"
+            select.innerHTML = '<option value="">All</option>';
             options.forEach(option => {
                 const opt = document.createElement('option');
                 opt.value = option;
@@ -220,11 +186,6 @@
                 select.appendChild(opt);
             });
         }
-
-        populateSelect('person', persons);
-        populateSelect('pronoun', pronouns);
-        populateSelect('form', forms);
-        populateSelect('tense', tenses);
 
         // Filter and render table
         function renderTable() {
@@ -257,18 +218,10 @@
             document.getElementById('count').textContent = `Showing ${filtered.length} of ${data.length} entries`;
         }
 
-        // Add event listeners
-        document.getElementById('person').addEventListener('change', renderTable);
-        document.getElementById('pronoun').addEventListener('change', renderTable);
-        document.getElementById('form').addEventListener('change', renderTable);
-        document.getElementById('tense').addEventListener('change', renderTable);
-
         // Convert modern Irish orthography to Seanchló (dotted consonants for lenition)
         function toSeanclo(text) {
             if (!text) return '';
 
-            // Lenition: replace consonant + h with dotted consonant
-            // Using Unicode combining dot above (U+0307)
             const lenitionMap = {
                 'bh': 'ḃ', 'Bh': 'Ḃ', 'BH': 'Ḃ',
                 'ch': 'ċ', 'Ch': 'Ċ', 'CH': 'Ċ',
@@ -289,8 +242,36 @@
             return result;
         }
 
-        // Initial render
-        renderTable();
+        // Load CSV and initialize
+        fetch('Briathra.csv')
+            .then(response => response.text())
+            .then(text => {
+                data = parseCSV(text);
+
+                // Populate filters
+                const persons = [...new Set(data.map(row => row[0]))];
+                const pronouns = [...new Set(data.map(row => row[1]))];
+                const forms = [...new Set(data.map(row => row[2]))];
+                const tenses = [...new Set(data.map(row => row[3]))];
+
+                populateSelect('person', persons);
+                populateSelect('pronoun', pronouns);
+                populateSelect('form', forms);
+                populateSelect('tense', tenses);
+
+                // Add event listeners
+                document.getElementById('person').addEventListener('change', renderTable);
+                document.getElementById('pronoun').addEventListener('change', renderTable);
+                document.getElementById('form').addEventListener('change', renderTable);
+                document.getElementById('tense').addEventListener('change', renderTable);
+
+                // Initial render
+                renderTable();
+            })
+            .catch(err => {
+                document.getElementById('tableBody').innerHTML = '<tr><td colspan="8">Error loading data. Please try again.</td></tr>';
+                console.error('Failed to load CSV:', err);
+            });
     </script>
 </body>
 </html>
