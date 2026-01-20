@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Briathra - Irish Verb Conjugations</title>
     <style>
+        @font-face {
+            font-family: 'Gadelica';
+            src: url('Gadelica.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
         * {
             box-sizing: border-box;
         }
@@ -74,6 +80,11 @@
             color: #2c5530;
             font-weight: 500;
         }
+        .seanclo {
+            font-family: 'Gadelica', serif;
+            font-size: 1.15em;
+            color: #1a3d1f;
+        }
         .count {
             text-align: center;
             padding: 10px;
@@ -132,6 +143,7 @@
                 <th>Tense</th>
                 <th>English</th>
                 <th>Gaeilge Mumhan (GM)</th>
+                <th>Seanchló</th>
                 <th>Standard</th>
             </tr>
         </thead>
@@ -237,6 +249,7 @@
                     <td>${row[3]}</td>
                     <td>${row[4]}</td>
                     <td class="irish">${row[5]}</td>
+                    <td class="irish seanclo">${toSeanclo(row[5])}</td>
                     <td class="irish">${row[6]}</td>
                 </tr>
             `).join('');
@@ -249,6 +262,32 @@
         document.getElementById('pronoun').addEventListener('change', renderTable);
         document.getElementById('form').addEventListener('change', renderTable);
         document.getElementById('tense').addEventListener('change', renderTable);
+
+        // Convert modern Irish orthography to Seanchló (dotted consonants for lenition)
+        function toSeanclo(text) {
+            if (!text) return '';
+
+            // Lenition: replace consonant + h with dotted consonant
+            // Using Unicode combining dot above (U+0307)
+            const lenitionMap = {
+                'bh': 'ḃ', 'Bh': 'Ḃ', 'BH': 'Ḃ',
+                'ch': 'ċ', 'Ch': 'Ċ', 'CH': 'Ċ',
+                'dh': 'ḋ', 'Dh': 'Ḋ', 'DH': 'Ḋ',
+                'fh': 'ḟ', 'Fh': 'Ḟ', 'FH': 'Ḟ',
+                'gh': 'ġ', 'Gh': 'Ġ', 'GH': 'Ġ',
+                'mh': 'ṁ', 'Mh': 'Ṁ', 'MH': 'Ṁ',
+                'ph': 'ṗ', 'Ph': 'Ṗ', 'PH': 'Ṗ',
+                'sh': 'ṡ', 'Sh': 'Ṡ', 'SH': 'Ṡ',
+                'th': 'ṫ', 'Th': 'Ṫ', 'TH': 'Ṫ'
+            };
+
+            let result = text;
+            for (const [modern, seanclo] of Object.entries(lenitionMap)) {
+                result = result.split(modern).join(seanclo);
+            }
+
+            return result;
+        }
 
         // Initial render
         renderTable();
