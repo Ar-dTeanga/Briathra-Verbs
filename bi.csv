@@ -1,0 +1,49 @@
+,,,,,GM,To Be,Standard
+1,First Singular,I,Positive,Present,Tá mé/Táim/Táimse,I am,
+2,First Singular,I,Negative,Present,Níl mé,I am not,
+3,First Singular,I,Interrogative,Present,An bhfuilim,Am I,
+4,First Singular,I,Neg Interrogative,Present,Ná fuilim,Amn't I,
+5,First Singular,I,Positive,Past,Do bhíos,I was,Bhí mé
+6,First Singular,I,Negative,Past,Níl mé,I wasn't,Ní raibh mé
+7,First Singular,I,Interrogative,Past,,Was I,An raibh mé
+8,First Singular,I,Neg Interrogative,Past,,Wasn't I,Nach raibh mé
+9,Second Singular,You,Positive,Present,Táir,You are,Tá tú
+10,Second Singular,You,Negative,Present,,You arent,
+11,Second Singular,You,Interrogative,Present,An bhfuilir,Are you,
+12,Second Singular,You,Neg Interrogative,Present,Ná fuilim,Aren't you,
+13,Second Singular,You,Positive,Past,Do bhís,You were,Bhí tú
+14,Second Singular,You,Negative,Past,,You weren't,Ni raibh tú
+15,Second Singular,You,Interrogative,Past,,Were you,
+16,Second Singular,You,Neg Interrogative,Past,,Wasn't you,
+17,Third Singular,He/She/It,Positive,Present,Tá sé,He is,
+18,Third Singular,He/She/It,Negative,Present,Níl sé,He isnt,
+19,Third Singular,He/She/It,Interrogative,Present,An bhfuil sé,Is he,
+20,Third Singular,He/She/It,Neg Interrogative,Present,Ná fuil sé,Isn't he,
+21,Third Singular,He/She/It,Positive,Past,Do bhí sé,He was,Bhí sé
+22,Third Singular,He/She/It,Negative,Past,Ní raibh sé,He wasn't,Ni raibh sé
+23,Third Singular,He/She/It,Interrogative,Past,An raibh sé,Was he,
+24,Third Singular,He/She/It,Neg Interrogative,Past,,Wasn't he,
+25,First Plural,We,Positive,Present,,We are,
+26,First Plural,We,Negative,Present,,We aren't,
+27,First Plural,We,Interrogative,Present,An bhfuilimíd,Are we,
+28,First Plural,We,Neg Interrogative,Present,Ná fuilimíd,Aren't we,
+29,First Plural,We,Positive,Past,Do bhíomair,We were,Bhí sinn
+30,First Plural,We,Negative,Past,,We weren't,Ni raibh sinn
+31,First Plural,We,Interrogative,Past,,Were we,
+32,First Plural,We,Neg Interrogative,Past,,Weren't we,
+33,Second Plural,Youse,Positive,Present,Tá sibh,Youse are,Tá sibh
+34,Second Plural,Youse,Negative,Present,,youse aren't,Níl siad
+35,Second Plural,Youse,Interrogative,Present,An bhfuil sibh,Are youse,
+36,Second Plural,Youse,Neg Interrogative,Present,Ná fuil sibh,Aren't youse,
+37,Second Plural,Youse,Positive,Past,Do bhíobhair,Youse were,Bhí sibh
+38,Second Plural,Youse,Negative,Past,,Youse weren't,Ni raibh sibh
+39,Second Plural,Youse,Interrogative,Past,,Were youse,
+40,Second Plural,Youse,Neg Interrogative,Past,,Weren't youse,
+41,Third Plural,They,Positive,Present,Taid,They are,Tá said
+42,Third Plural,They,Negative,Present,,They arent,Nil siad
+43,Third Plural,They,Interrogative,Present,An bhfuilid,Are they,
+44,Third Plural,They,Neg Interrogative,Present,Ná fuilid,Aren't they,
+45,Third Plural,They,Positive,Past,Do bhíodar,They were,Bhí siad
+46,Third Plural,They,Negative,Past,Ní rabhadar,They weren't,Ni raibh siad
+47,Third Plural,They,Interrogative,Past,,Were they,
+48,Third Plural,They,Neg Interrogative,Past,,Weren't they,

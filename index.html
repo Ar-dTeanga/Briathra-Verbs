@@ -141,9 +141,9 @@
                 <th>Pronoun</th>
                 <th>Form</th>
                 <th>Tense</th>
-                <th>English</th>
                 <th>Gaeilge Mumhan (GM)</th>
                 <th>Seanchló</th>
+                <th>English</th>
                 <th>Standard</th>
             </tr>
         </thead>
@@ -159,17 +159,29 @@
         function parseCSV(text) {
             const lines = text.trim().split('\n');
             // Skip header row, parse data rows
+            // CSV Columns: 0=index, 1=Person, 2=Pronoun, 3=Form, 4=Tense, 5=GM, 6=English, 7=Standard
             return lines.slice(1).map(line => {
                 const cols = line.split(',');
-                // Columns: 0=index, 1=Person, 2=Pronoun, 3=Form, 4=Tense, 5=English, 6=GM, 7=Standard
+                // Get columns
+                let person = (cols[1] || '').trim();
+                let form = (cols[3] || '').trim();
+                // Ensure ? at end of interrogative forms in all text columns
+                let gm = (cols[5] || '').trim();
+                let english = (cols[6] || '').trim();
+                let standard = (cols[7] || '').trim();
+                if (form === 'Interrogative' || form === 'Neg Interrogative') {
+                    if (gm && !gm.endsWith('?')) gm += '?';
+                    if (english && !english.endsWith('?')) english += '?';
+                    if (standard && !standard.endsWith('?')) standard += '?';
+                }
                 return [
-                    cols[1] || '',  // Person
-                    cols[2] || '',  // Pronoun
-                    cols[3] || '',  // Form
-                    cols[4] || '',  // Tense
-                    cols[5] || '',  // English
-                    cols[6] || '',  // GM
-                    cols[7] || ''   // Standard
+                    person,          // Person (without " Person")
+                    cols[2] || '',   // Pronoun
+                    form,            // Form (Neg Interrogative)
+                    cols[4] || '',   // Tense
+                    gm,              // GM (with ? for interrogatives)
+                    english,         // English (with ? for interrogatives)
+                    standard         // Standard (with ? for interrogatives)
                 ];
             }).filter(row => row[0]); // Filter out empty rows
         }
@@ -202,15 +214,16 @@
             });
 
             const tbody = document.getElementById('tableBody');
+            // Order: Person, Pronoun, Form, Tense, GM, Seanchló, English, Standard
             tbody.innerHTML = filtered.map(row => `
                 <tr>
                     <td>${row[0]}</td>
                     <td>${row[1]}</td>
                     <td>${row[2]}</td>
                     <td>${row[3]}</td>
-                    <td>${row[4]}</td>
-                    <td class="irish">${row[5]}</td>
-                    <td class="irish seanclo">${toSeanclo(row[5])}</td>
+                    <td class="irish">${row[4]}</td>
+                    <td class="irish seanclo">${toSeanclo(row[4])}</td>
+                    <td>${row[5]}</td>
                     <td class="irish">${row[6]}</td>
                 </tr>
             `).join('');
@@ -243,7 +256,7 @@
         }
 
         // Load CSV and initialize
-        fetch('Briathra.csv')
+        fetch('bi.csv')
             .then(response => response.text())
             .then(text => {
                 data = parseCSV(text);
