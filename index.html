@@ -165,6 +165,11 @@
     </table>
     <p class="count" id="count"></p>
 
+    <footer style="text-align: center; margin-top: 40px; padding: 20px; font-size: 0.8em; color: #666;">
+        <p>Seanchló font: <a href="https://www.gaelchlo.com/" target="_blank" style="color: #2c5530;">Gadelica</a> by Vincent Morley</p>
+        <p>© 2025 Ár dTeanga</p>
+    </footer>
+
     <script>
         // Verb definitions: csv filename -> [Irish name, English meaning]
         const verbs = {
@@ -201,7 +206,8 @@
         // Update page title
         function updateTitle() {
             const [irish, english] = verbs[currentVerb];
-            document.getElementById('verbTitle').textContent = `The Verb "${english}" (${irish})`;
+            const seanclo = toSeanclo(irish);
+            document.getElementById('verbTitle').innerHTML = `${irish} - <span class="seanclo">${seanclo}</span> - ${english}`;
             document.title = `${irish} - Irish Verb Conjugations`;
         }
 
