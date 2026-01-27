@@ -25,6 +25,18 @@
             color: #2c5530;
             text-align: center;
         }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 5px;
+            text-decoration: none;
+            color: #2c5530;
+        }
+        nav a:hover, nav a.active {
+            font-weight: bold;
+        }
         .filters {
             display: flex;
             flex-wrap: wrap;
@@ -104,8 +116,9 @@
     </style>
 </head>
 <body>
+    <nav id="verbNav"></nav>
     <h1>Briathra - Irish Verb Conjugations</h1>
-    <h2 style="text-align: center; color: #666;">The Verb "To Be" (Bí)</h2>
+    <h2 id="verbTitle" style="text-align: center; color: #666;"></h2>
 
     <div class="filters">
         <div class="filter-group">
@@ -153,19 +166,52 @@
     <p class="count" id="count"></p>
 
     <script>
+        // Verb definitions: csv filename -> [Irish name, English meaning]
+        const verbs = {
+            'bi': ['Bí', 'To Be'],
+            'abair': ['Abair', 'To Say'],
+            'beir': ['Beir', 'To Catch'],
+            'clois': ['Clois', 'To Hear'],
+            'dean': ['Déan', 'To Do'],
+            'faigh': ['Faigh', 'To Get'],
+            'feic': ['Feic', 'To See'],
+            'ith': ['Ith', 'To Eat'],
+            'tabhair': ['Tabhair', 'To Give'],
+            'tar': ['Tar', 'To Come'],
+            'teigh': ['Téigh', 'To Go']
+        };
+
         let data = [];
+        let currentVerb = 'bi';
+
+        // Get verb from URL hash or default to 'bi'
+        function getVerbFromHash() {
+            const hash = window.location.hash.slice(1);
+            return verbs[hash] ? hash : 'bi';
+        }
+
+        // Build navigation
+        function buildNav() {
+            const nav = document.getElementById('verbNav');
+            nav.innerHTML = Object.entries(verbs).map(([key, [irish, _]]) =>
+                `<a href="#${key}" class="${key === currentVerb ? 'active' : ''}">${irish}</a>`
+            ).join(' | ');
+        }
+
+        // Update page title
+        function updateTitle() {
+            const [irish, english] = verbs[currentVerb];
+            document.getElementById('verbTitle').textContent = `The Verb "${english}" (${irish})`;
+            document.title = `${irish} - Irish Verb Conjugations`;
+        }
 
         // Parse CSV text into array
         function parseCSV(text) {
             const lines = text.trim().split('\n');
-            // Skip header row, parse data rows
-            // CSV Columns: 0=index, 1=Person, 2=Pronoun, 3=Form, 4=Tense, 5=GM, 6=English, 7=Standard
             return lines.slice(1).map(line => {
                 const cols = line.split(',');
-                // Get columns
                 let person = (cols[1] || '').trim();
                 let form = (cols[3] || '').trim();
-                // Ensure ? at end of interrogative forms in all text columns
                 let gm = (cols[5] || '').trim();
                 let english = (cols[6] || '').trim();
                 let standard = (cols[7] || '').trim();
@@ -174,22 +220,13 @@
                     if (english && !english.endsWith('?')) english += '?';
                     if (standard && !standard.endsWith('?')) standard += '?';
                 }
-                return [
-                    person,          // Person (without " Person")
-                    cols[2] || '',   // Pronoun
-                    form,            // Form (Neg Interrogative)
-                    cols[4] || '',   // Tense
-                    gm,              // GM (with ? for interrogatives)
-                    english,         // English (with ? for interrogatives)
-                    standard         // Standard (with ? for interrogatives)
-                ];
-            }).filter(row => row[0]); // Filter out empty rows
+                return [person, cols[2] || '', form, cols[4] || '', gm, english, standard];
+            }).filter(row => row[0]);
         }
 
         // Populate filter dropdowns
         function populateSelect(selectId, options) {
             const select = document.getElementById(selectId);
-            // Clear existing options except "All"
             select.innerHTML = '<option value="">All</option>';
             options.forEach(option => {
                 const opt = document.createElement('option');
@@ -214,7 +251,6 @@
             });
 
             const tbody = document.getElementById('tableBody');
-            // Order: Person, Pronoun, Form, Tense, GM, Seanchló, English, Standard
             tbody.innerHTML = filtered.map(row => `
                 <tr>
                     <td>${row[0]}</td>
@@ -234,7 +270,6 @@
         // Convert modern Irish orthography to Seanchló (dotted consonants for lenition)
         function toSeanclo(text) {
             if (!text) return '';
-
             const lenitionMap = {
                 'bh': 'ḃ', 'Bh': 'Ḃ', 'BH': 'Ḃ',
                 'ch': 'ċ', 'Ch': 'Ċ', 'CH': 'Ċ',
@@ -246,45 +281,55 @@
                 'sh': 'ṡ', 'Sh': 'Ṡ', 'SH': 'Ṡ',
                 'th': 'ṫ', 'Th': 'Ṫ', 'TH': 'Ṫ'
             };
-
             let result = text;
             for (const [modern, seanclo] of Object.entries(lenitionMap)) {
                 result = result.split(modern).join(seanclo);
             }
-
             return result;
         }
 
-        // Load CSV and initialize
-        fetch('bi.csv')
-            .then(response => response.text())
-            .then(text => {
-                data = parseCSV(text);
+        // Load verb data
+        function loadVerb(verb) {
+            currentVerb = verb;
+            buildNav();
+            updateTitle();
 
-                // Populate filters
-                const persons = [...new Set(data.map(row => row[0]))];
-                const pronouns = [...new Set(data.map(row => row[1]))];
-                const forms = [...new Set(data.map(row => row[2]))];
-                const tenses = [...new Set(data.map(row => row[3]))];
+            fetch(`${verb}.csv`)
+                .then(response => response.text())
+                .then(text => {
+                    data = parseCSV(text);
 
-                populateSelect('person', persons);
-                populateSelect('pronoun', pronouns);
-                populateSelect('form', forms);
-                populateSelect('tense', tenses);
+                    const persons = [...new Set(data.map(row => row[0]))];
+                    const pronouns = [...new Set(data.map(row => row[1]))];
+                    const forms = [...new Set(data.map(row => row[2]))];
+                    const tenses = [...new Set(data.map(row => row[3]))];
 
-                // Add event listeners
-                document.getElementById('person').addEventListener('change', renderTable);
-                document.getElementById('pronoun').addEventListener('change', renderTable);
-                document.getElementById('form').addEventListener('change', renderTable);
-                document.getElementById('tense').addEventListener('change', renderTable);
+                    populateSelect('person', persons);
+                    populateSelect('pronoun', pronouns);
+                    populateSelect('form', forms);
+                    populateSelect('tense', tenses);
 
-                // Initial render
-                renderTable();
-            })
-            .catch(err => {
-                document.getElementById('tableBody').innerHTML = '<tr><td colspan="8">Error loading data. Please try again.</td></tr>';
-                console.error('Failed to load CSV:', err);
-            });
+                    renderTable();
+                })
+                .catch(err => {
+                    document.getElementById('tableBody').innerHTML = '<tr><td colspan="8">Error loading data. Please try again.</td></tr>';
+                    console.error('Failed to load CSV:', err);
+                });
+        }
+
+        // Handle hash change
+        window.addEventListener('hashchange', () => {
+            loadVerb(getVerbFromHash());
+        });
+
+        // Add filter event listeners
+        document.getElementById('person').addEventListener('change', renderTable);
+        document.getElementById('pronoun').addEventListener('change', renderTable);
+        document.getElementById('form').addEventListener('change', renderTable);
+        document.getElementById('tense').addEventListener('change', renderTable);
+
+        // Initial load
+        loadVerb(getVerbFromHash());
     </script>
 </body>
 </html>
