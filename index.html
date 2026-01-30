@@ -15,114 +15,269 @@
         }
         * {
             box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background: #f5f5f5;
+            background: #f2f2f7;
+            min-height: 100vh;
         }
-        h1 {
-            color: #2c5530;
-            text-align: center;
-        }
-        nav {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        nav a {
-            margin: 0 5px;
-            text-decoration: none;
-            color: #2c5530;
-        }
-        nav a:hover, nav a.active {
-            font-weight: bold;
-        }
-        .filters {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-bottom: 20px;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .filter-group {
-            display: flex;
-            flex-direction: column;
-            min-width: 180px;
-        }
-        .filter-group label {
-            font-weight: 600;
-            margin-bottom: 5px;
-            color: #333;
-        }
-        .filter-group select {
-            padding: 8px 12px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 14px;
-            background: white;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background: white;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        th {
-            background: #2c5530;
-            color: white;
-            padding: 12px 15px;
-            text-align: left;
-        }
-        td {
-            padding: 10px 15px;
-            border-bottom: 1px solid #eee;
-        }
-        tr:hover {
-            background: #f9f9f9;
-        }
-        tr:last-child td {
-            border-bottom: none;
-        }
-        .irish {
-            color: #2c5530;
-            font-weight: 500;
-        }
-        .seanclo {
-            font-family: 'Gadelica', serif;
-            font-size: 1.15em;
-            color: #1a3d1f;
-        }
-        .count {
-            text-align: center;
-            padding: 10px;
-            color: #666;
-        }
-        @media (max-width: 768px) {
+
+        /* Desktop styles */
+        @media (min-width: 769px) {
+            body {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            .mobile-only { display: none; }
+            .desktop-only { display: block; }
+            h1 { color: #2c5530; text-align: center; margin-bottom: 10px; }
+            nav { text-align: center; margin-bottom: 20px; }
+            nav a { margin: 0 5px; text-decoration: none; color: #2c5530; }
+            nav a:hover, nav a.active { font-weight: bold; }
             .filters {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+                margin-bottom: 20px;
+                padding: 20px;
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .filter-group {
+                display: flex;
                 flex-direction: column;
+                min-width: 180px;
+            }
+            .filter-group label {
+                font-weight: 600;
+                margin-bottom: 5px;
+                color: #333;
+            }
+            .filter-group select {
+                padding: 8px 12px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                font-size: 14px;
+                background: white;
             }
             table {
+                width: 100%;
+                border-collapse: collapse;
+                background: white;
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            th {
+                background: #2c5530;
+                color: white;
+                padding: 12px 15px;
+                text-align: left;
+            }
+            td {
+                padding: 10px 15px;
+                border-bottom: 1px solid #eee;
+            }
+            tr:hover { background: #f9f9f9; }
+            tr:last-child td { border-bottom: none; }
+            .irish { color: #2c5530; font-weight: 500; }
+            .seanclo { font-family: 'Gadelica', serif; font-size: 1.15em; color: #1a3d1f; }
+            .count { text-align: center; padding: 10px; color: #666; }
+            #verbTitle { text-align: center; color: #666; margin-bottom: 20px; }
+        }
+
+        /* Mobile styles - iOS app-like */
+        @media (max-width: 768px) {
+            .desktop-only { display: none !important; }
+            .mobile-only { display: block; }
+
+            /* Verb selector - horizontal scroll */
+            .verb-selector {
+                display: flex;
+                overflow-x: auto;
+                padding: 12px 16px;
+                gap: 12px;
+                background: white;
+                border-bottom: 1px solid #e5e5ea;
+                -webkit-overflow-scrolling: touch;
+            }
+            .verb-selector::-webkit-scrollbar { display: none; }
+            .verb-btn {
+                flex-shrink: 0;
+                padding: 8px 16px;
+                border-radius: 20px;
+                border: none;
+                background: rgba(0,0,0,0.05);
+                color: #333;
+                font-size: 16px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            .verb-btn.active {
+                background: #34c759;
+                color: white;
+                font-weight: 600;
+            }
+
+            /* Title */
+            #verbTitle {
+                text-align: center;
+                padding: 12px 16px;
+                font-size: 20px;
+                color: #333;
+            }
+            #verbTitle .seanclo {
+                font-family: 'Gadelica', serif;
+                font-size: 1.1em;
+            }
+
+            /* Filters */
+            .mobile-filters {
+                padding: 8px 16px 16px;
+            }
+            .filter-row {
+                display: flex;
+                gap: 8px;
+                margin-bottom: 8px;
+            }
+            .filter-item {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                gap: 4px;
+            }
+            .filter-item label {
+                font-size: 14px;
+                color: #8e8e93;
+                white-space: nowrap;
+            }
+            .filter-item select {
+                flex: 1;
+                padding: 6px 8px;
+                border: 1px solid #c7c7cc;
+                border-radius: 8px;
+                font-size: 14px;
+                background: white;
+                color: #007aff;
+            }
+
+            /* List items */
+            .conjugation-list {
+                background: white;
+            }
+            .conj-item {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                padding: 12px 16px;
+                border-bottom: 1px solid #e5e5ea;
+            }
+            .conj-left {
+                flex: 1;
+            }
+            .conj-irish {
+                font-size: 17px;
+                font-weight: 500;
+                color: #333;
+                margin-bottom: 2px;
+            }
+            .conj-seanclo {
+                font-family: 'Gadelica', serif;
+                font-size: 17px;
+                color: #8e8e93;
+            }
+            .conj-right {
+                text-align: right;
+            }
+            .conj-badges {
+                display: flex;
+                gap: 4px;
+                justify-content: flex-end;
+                margin-bottom: 4px;
+            }
+            .badge {
+                font-size: 12px;
+                padding: 2px 8px;
+                border-radius: 4px;
+            }
+            .badge-tense {
+                background: rgba(52, 199, 89, 0.2);
+                color: #34c759;
+            }
+            .badge-form {
+                background: rgba(0, 122, 255, 0.2);
+                color: #007aff;
+            }
+            .conj-english {
+                font-size: 15px;
+                color: #8e8e93;
+            }
+
+            .count {
+                text-align: center;
+                padding: 16px;
+                color: #8e8e93;
                 font-size: 14px;
             }
-            th, td {
-                padding: 8px 10px;
-            }
+
+            /* Hide desktop table on mobile */
+            table { display: none; }
+            .filters { display: none; }
+            h1 { display: none; }
+            nav { display: none; }
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8em;
+            color: #666;
+        }
+        footer a {
+            color: #2c5530;
         }
     </style>
 </head>
 <body>
-    <nav id="verbNav"></nav>
-    <h1>Briathra - Irish Verb Conjugations</h1>
-    <h2 id="verbTitle" style="text-align: center; color: #666;"></h2>
+    <!-- Desktop navigation -->
+    <nav id="verbNav" class="desktop-only"></nav>
+    <h1 class="desktop-only">Briathra - Irish Verb Conjugations</h1>
 
-    <div class="filters">
+    <!-- Mobile verb selector -->
+    <div id="mobileVerbSelector" class="verb-selector mobile-only"></div>
+
+    <h2 id="verbTitle"></h2>
+
+    <!-- Mobile filters -->
+    <div class="mobile-filters mobile-only">
+        <div class="filter-row">
+            <div class="filter-item">
+                <label>Person:</label>
+                <select id="mPerson"></select>
+            </div>
+            <div class="filter-item">
+                <label>Pronoun:</label>
+                <select id="mPronoun"></select>
+            </div>
+        </div>
+        <div class="filter-row">
+            <div class="filter-item">
+                <label>Tense:</label>
+                <select id="mTense"></select>
+            </div>
+            <div class="filter-item">
+                <label>Form:</label>
+                <select id="mForm"></select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Desktop filters -->
+    <div class="filters desktop-only">
         <div class="filter-group">
             <label for="person">Person</label>
             <select id="person">
@@ -149,7 +304,11 @@
         </div>
     </div>
 
-    <table id="verbTable">
+    <!-- Mobile list view -->
+    <div id="conjugationList" class="conjugation-list mobile-only"></div>
+
+    <!-- Desktop table -->
+    <table id="verbTable" class="desktop-only">
         <thead>
             <tr>
                 <th>Person</th>
@@ -167,13 +326,12 @@
     </table>
     <p class="count" id="count"></p>
 
-    <footer style="text-align: center; margin-top: 40px; padding: 20px; font-size: 0.8em; color: #666;">
-        <p>Seanchló font: <a href="https://www.gaelchlo.com/" target="_blank" style="color: #2c5530;">Gadelica</a> by Vincent Morley</p>
+    <footer>
+        <p>Seanchló font: <a href="https://www.gaelchlo.com/" target="_blank">Gadelica</a> by Vincent Morley</p>
         <p>© 2025 Ár dTeanga</p>
     </footer>
 
     <script>
-        // Verb definitions: csv filename -> [Irish name, English meaning]
         const verbs = {
             'bi': ['Bí', 'To Be'],
             'abair': ['Abair', 'To Say'],
@@ -191,21 +349,25 @@
         let data = [];
         let currentVerb = 'bi';
 
-        // Get verb from URL hash or default to 'bi'
         function getVerbFromHash() {
             const hash = window.location.hash.slice(1);
             return verbs[hash] ? hash : 'bi';
         }
 
-        // Build navigation
         function buildNav() {
+            // Desktop nav
             const nav = document.getElementById('verbNav');
             nav.innerHTML = Object.entries(verbs).map(([key, [irish, _]]) =>
                 `<a href="#${key}" class="${key === currentVerb ? 'active' : ''}">${irish}</a>`
             ).join(' | ');
+
+            // Mobile verb selector
+            const mobileNav = document.getElementById('mobileVerbSelector');
+            mobileNav.innerHTML = Object.entries(verbs).map(([key, [irish, _]]) =>
+                `<a href="#${key}" class="verb-btn ${key === currentVerb ? 'active' : ''}">${irish}</a>`
+            ).join('');
         }
 
-        // Update page title
         function updateTitle() {
             const [irish, english] = verbs[currentVerb];
             const seanclo = toSeanclo(irish);
@@ -213,7 +375,6 @@
             document.title = `${irish} - Irish Verb Conjugations`;
         }
 
-        // Parse CSV text into array
         function parseCSV(text) {
             const lines = text.trim().split('\n');
             return lines.slice(1).map(line => {
@@ -232,9 +393,9 @@
             }).filter(row => row[0]);
         }
 
-        // Populate filter dropdowns
         function populateSelect(selectId, options) {
             const select = document.getElementById(selectId);
+            if (!select) return;
             select.innerHTML = '<option value="">All</option>';
             options.forEach(option => {
                 const opt = document.createElement('option');
@@ -244,12 +405,17 @@
             });
         }
 
-        // Filter and render table
+        function getFilterValue(desktopId, mobileId) {
+            const desktop = document.getElementById(desktopId);
+            const mobile = document.getElementById(mobileId);
+            return (desktop && desktop.value) || (mobile && mobile.value) || '';
+        }
+
         function renderTable() {
-            const personFilter = document.getElementById('person').value;
-            const pronounFilter = document.getElementById('pronoun').value;
-            const formFilter = document.getElementById('form').value;
-            const tenseFilter = document.getElementById('tense').value;
+            const personFilter = getFilterValue('person', 'mPerson');
+            const pronounFilter = getFilterValue('pronoun', 'mPronoun');
+            const formFilter = getFilterValue('form', 'mForm');
+            const tenseFilter = getFilterValue('tense', 'mTense');
 
             const filtered = data.filter(row => {
                 return (!personFilter || row[0] === personFilter) &&
@@ -258,6 +424,7 @@
                        (!tenseFilter || row[3] === tenseFilter);
             });
 
+            // Desktop table
             const tbody = document.getElementById('tableBody');
             tbody.innerHTML = filtered.map(row => `
                 <tr>
@@ -272,10 +439,30 @@
                 </tr>
             `).join('');
 
+            // Mobile list
+            const list = document.getElementById('conjugationList');
+            list.innerHTML = filtered.map(row => {
+                const irish = row[4] || row[6]; // GM or Standard
+                const seanclo = toSeanclo(irish);
+                return `
+                <div class="conj-item">
+                    <div class="conj-left">
+                        ${irish ? `<div class="conj-irish">${irish}</div>` : ''}
+                        ${seanclo ? `<div class="conj-seanclo">${seanclo}</div>` : ''}
+                    </div>
+                    <div class="conj-right">
+                        <div class="conj-badges">
+                            <span class="badge badge-tense">${row[3]}</span>
+                            <span class="badge badge-form">${row[2]}</span>
+                        </div>
+                        <div class="conj-english">${row[5]}</div>
+                    </div>
+                </div>
+            `}).join('');
+
             document.getElementById('count').textContent = `Showing ${filtered.length} of ${data.length} entries`;
         }
 
-        // Convert modern Irish orthography to Seanchló (dotted consonants for lenition)
         function toSeanclo(text) {
             if (!text) return '';
             const lenitionMap = {
@@ -296,7 +483,6 @@
             return result;
         }
 
-        // Load verb data
         function loadVerb(verb) {
             currentVerb = verb;
             buildNav();
@@ -307,36 +493,49 @@
                 .then(text => {
                     data = parseCSV(text);
 
+                    // Maintain CSV order for options
                     const persons = [...new Set(data.map(row => row[0]))];
                     const pronouns = [...new Set(data.map(row => row[1]))];
                     const forms = [...new Set(data.map(row => row[2]))];
                     const tenses = [...new Set(data.map(row => row[3]))];
 
+                    // Desktop filters
                     populateSelect('person', persons);
                     populateSelect('pronoun', pronouns);
                     populateSelect('form', forms);
                     populateSelect('tense', tenses);
 
+                    // Mobile filters
+                    populateSelect('mPerson', persons);
+                    populateSelect('mPronoun', pronouns);
+                    populateSelect('mForm', forms);
+                    populateSelect('mTense', tenses);
+
                     renderTable();
                 })
                 .catch(err => {
                     document.getElementById('tableBody').innerHTML = '<tr><td colspan="8">Error loading data. Please try again.</td></tr>';
+                    document.getElementById('conjugationList').innerHTML = '<div class="conj-item">Error loading data. Please try again.</div>';
                     console.error('Failed to load CSV:', err);
                 });
         }
 
-        // Handle hash change
         window.addEventListener('hashchange', () => {
             loadVerb(getVerbFromHash());
         });
 
-        // Add filter event listeners
+        // Desktop filter listeners
         document.getElementById('person').addEventListener('change', renderTable);
         document.getElementById('pronoun').addEventListener('change', renderTable);
         document.getElementById('form').addEventListener('change', renderTable);
         document.getElementById('tense').addEventListener('change', renderTable);
 
-        // Initial load
+        // Mobile filter listeners
+        document.getElementById('mPerson').addEventListener('change', renderTable);
+        document.getElementById('mPronoun').addEventListener('change', renderTable);
+        document.getElementById('mForm').addEventListener('change', renderTable);
+        document.getElementById('mTense').addEventListener('change', renderTable);
+
         loadVerb(getVerbFromHash());
     </script>
 </body>
