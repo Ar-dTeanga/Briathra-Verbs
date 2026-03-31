@@ -260,11 +260,7 @@
         <div class="filter-row">
             <div class="filter-item">
                 <label>Person:</label>
-                <select id="mPerson"></select>
-            </div>
-            <div class="filter-item">
-                <label>Pronoun:</label>
-                <select id="mPronoun"></select>
+                <select id="mPersonPronoun"></select>
             </div>
         </div>
         <div class="filter-row">
@@ -282,14 +278,8 @@
     <!-- Desktop filters -->
     <div class="filters desktop-only">
         <div class="filter-group">
-            <label for="person">Person</label>
-            <select id="person">
-                <option value="">All</option>
-            </select>
-        </div>
-        <div class="filter-group">
-            <label for="pronoun">Pronoun</label>
-            <select id="pronoun">
+            <label for="personPronoun">Person</label>
+            <select id="personPronoun">
                 <option value="">All</option>
             </select>
         </div>
@@ -415,10 +405,17 @@
         }
 
         function renderTable() {
-            const personFilter = getFilterValue('person', 'mPerson');
-            const pronounFilter = getFilterValue('pronoun', 'mPronoun');
+            const personPronounFilter = getFilterValue('personPronoun', 'mPersonPronoun');
             const formFilter = getFilterValue('form', 'mForm');
             const tenseFilter = getFilterValue('tense', 'mTense');
+
+            let personFilter = '';
+            let pronounFilter = '';
+            if (personPronounFilter) {
+                const parts = personPronounFilter.split(' - ');
+                personFilter = parts[0];
+                pronounFilter = parts[1] || '';
+            }
 
             const filtered = data.filter(row => {
                 return (!personFilter || row[0] === personFilter) &&
@@ -497,20 +494,17 @@
                     data = parseCSV(text);
 
                     // Maintain CSV order for options
-                    const persons = [...new Set(data.map(row => row[0]))];
-                    const pronouns = [...new Set(data.map(row => row[1]))];
+                    const personPronouns = [...new Set(data.map(row => `${row[0]} - ${row[1]}`))];
                     const forms = [...new Set(data.map(row => row[2]))];
                     const tenses = [...new Set(data.map(row => row[3]))];
 
                     // Desktop filters
-                    populateSelect('person', persons);
-                    populateSelect('pronoun', pronouns);
+                    populateSelect('personPronoun', personPronouns);
                     populateSelect('form', forms);
                     populateSelect('tense', tenses);
 
                     // Mobile filters
-                    populateSelect('mPerson', persons);
-                    populateSelect('mPronoun', pronouns);
+                    populateSelect('mPersonPronoun', personPronouns);
                     populateSelect('mForm', forms);
                     populateSelect('mTense', tenses);
 
@@ -528,14 +522,12 @@
         });
 
         // Desktop filter listeners
-        document.getElementById('person').addEventListener('change', renderTable);
-        document.getElementById('pronoun').addEventListener('change', renderTable);
+        document.getElementById('personPronoun').addEventListener('change', renderTable);
         document.getElementById('form').addEventListener('change', renderTable);
         document.getElementById('tense').addEventListener('change', renderTable);
 
         // Mobile filter listeners
-        document.getElementById('mPerson').addEventListener('change', renderTable);
-        document.getElementById('mPronoun').addEventListener('change', renderTable);
+        document.getElementById('mPersonPronoun').addEventListener('change', renderTable);
         document.getElementById('mForm').addEventListener('change', renderTable);
         document.getElementById('mTense').addEventListener('change', renderTable);
 
