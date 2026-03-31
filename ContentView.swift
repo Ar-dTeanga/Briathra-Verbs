@@ -5,29 +5,17 @@ struct ContentView: View {
     @State private var conjugations: [Conjugation] = []
     @State private var selectedTense: String = "All"
     @State private var selectedForm: String = "All"
-    @State private var selectedPerson: String = "All"
-    @State private var selectedPronoun: String = "All"
+    @State private var selectedPersonPronoun: String = "All"
 
     // Maintain order from CSV (use first occurrence order)
-    var persons: [String] {
+    var personPronouns: [String] {
         var seen = Set<String>()
         var result = ["All"]
         for conj in conjugations {
-            if !seen.contains(conj.person) {
-                seen.insert(conj.person)
-                result.append(conj.person)
-            }
-        }
-        return result
-    }
-
-    var pronouns: [String] {
-        var seen = Set<String>()
-        var result = ["All"]
-        for conj in conjugations {
-            if !seen.contains(conj.pronoun) {
-                seen.insert(conj.pronoun)
-                result.append(conj.pronoun)
+            let combined = "\(conj.person) - \(conj.pronoun)"
+            if !seen.contains(combined) {
+                seen.insert(combined)
+                result.append(combined)
             }
         }
         return result
@@ -59,10 +47,16 @@ struct ContentView: View {
 
     var filteredConjugations: [Conjugation] {
         conjugations.filter { conj in
+            let personPronounMatch: Bool
+            if selectedPersonPronoun == "All" {
+                personPronounMatch = true
+            } else {
+                let combined = "\(conj.person) - \(conj.pronoun)"
+                personPronounMatch = combined == selectedPersonPronoun
+            }
+            return personPronounMatch &&
             (selectedTense == "All" || conj.tense == selectedTense) &&
-            (selectedForm == "All" || conj.form == selectedForm) &&
-            (selectedPerson == "All" || conj.person == selectedPerson) &&
-            (selectedPronoun == "All" || conj.pronoun == selectedPronoun)
+            (selectedForm == "All" || conj.form == selectedForm)
         }
     }
 
@@ -117,23 +111,9 @@ struct ContentView: View {
                             Text("Person:")
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
-                            Picker("Person", selection: $selectedPerson) {
-                                ForEach(persons, id: \.self) { person in
-                                    Text(person).tag(person)
-                                }
-                            }
-                            .pickerStyle(.menu)
-                        }
-
-                        Spacer()
-
-                        HStack(spacing: 4) {
-                            Text("Pronoun:")
-                                .font(.subheadline)
-                                .foregroundColor(.secondary)
-                            Picker("Pronoun", selection: $selectedPronoun) {
-                                ForEach(pronouns, id: \.self) { pronoun in
-                                    Text(pronoun).tag(pronoun)
+                            Picker("Person", selection: $selectedPersonPronoun) {
+                                ForEach(personPronouns, id: \.self) { pp in
+                                    Text(pp).tag(pp)
                                 }
                             }
                             .pickerStyle(.menu)
@@ -226,10 +206,6 @@ struct ContentView: View {
            let content = try? String(contentsOf: url, encoding: .utf8) {
             conjugations = parseCSV(content)
         }
-        selectedTense = "All"
-        selectedForm = "All"
-        selectedPerson = "All"
-        selectedPronoun = "All"
     }
 }
 
