@@ -1,73 +1,73 @@
-,,,,,GM,To Hear,Standard
-1,First Singular,I,Positive,Present,Cloisim,I hear,Cloisim
-2,First Singular,I,Negative,Present,Ní chloisim,I don't hear,Ní chloisim
-3,First Singular,I,Interrogative,Present,An gcloisim,Do I hear,An gcloisim
-4,First Singular,I,Neg Interrogative,Present,Ná cloisim,Don't I hear,Nach gcloisim
-5,First Singular,I,Positive,Past,Do chualas,I heard,Chuala mé
-6,First Singular,I,Negative,Past,Ní chualas,I didn't hear,Ní chuala mé
-7,First Singular,I,Interrogative,Past,An gcualas,Did I hear,An gcuala mé
-8,First Singular,I,Neg Interrogative,Past,Ná cualas,Didn't I hear,Nach gcuala mé
-9,First Singular,I,Positive,Future,Cloisfead,I will hear,Cloisfidh mé
-10,First Singular,I,Negative,Future,Ní chloisfead,I won't hear,Ní chloisfidh mé
-11,First Singular,I,Interrogative,Future,An gcloisfead,Will I hear,An gcloisfidh mé
-12,First Singular,I,Neg Interrogative,Future,Ná cloisfead,Won't I hear,Nach gcloisfidh mé
-13,Second Singular,You,Positive,Present,Cloisir,You hear,Cloiseann tú
-14,Second Singular,You,Negative,Present,Ní chloisir,You don't hear,Ní chloiseann tú
-15,Second Singular,You,Interrogative,Present,An gcloisir,Do you hear,An gcloiseann tú
-16,Second Singular,You,Neg Interrogative,Present,Ná cloisir,Don't you hear,Nach gcloiseann tú
-17,Second Singular,You,Positive,Past,Do chualais,You heard,Chuala tú
-18,Second Singular,You,Negative,Past,Ní chualais,You didn't hear,Ní chuala tú
-19,Second Singular,You,Interrogative,Past,An gcualais,Did you hear,An gcuala tú
-20,Second Singular,You,Neg Interrogative,Past,Ná cualais,Didn't you hear,Nach gcuala tú
-21,Second Singular,You,Positive,Future,Cloisfir,You will hear,Cloisfidh tú
-22,Second Singular,You,Negative,Future,Ní chloisfir,You won't hear,Ní chloisfidh tú
-23,Second Singular,You,Interrogative,Future,An gcloisfir,Will you hear,An gcloisfidh tú
-24,Second Singular,You,Neg Interrogative,Future,Ná cloisfir,Won't you hear,Nach gcloisfidh tú
-25,Third Singular,He/She/It,Positive,Present,Cloiseann sé,He hears,Cloiseann sé
-26,Third Singular,He/She/It,Negative,Present,Ní chloiseann sé,He doesn't hear,Ní chloiseann sé
-27,Third Singular,He/She/It,Interrogative,Present,An gcloiseann sé,Does he hear,An gcloiseann sé
-28,Third Singular,He/She/It,Neg Interrogative,Present,Ná cloiseann sé,Doesn't he hear,Nach gcloiseann sé
-29,Third Singular,He/She/It,Positive,Past,Do chuala sé,He heard,Chuala sé
-30,Third Singular,He/She/It,Negative,Past,Ní chuala sé,He didn't hear,Ní chuala sé
-31,Third Singular,He/She/It,Interrogative,Past,An gcuala sé,Did he hear,An gcuala sé
-32,Third Singular,He/She/It,Neg Interrogative,Past,Ná cuala sé,Didn't he hear,Nach gcuala sé
-33,Third Singular,He/She/It,Positive,Future,Cloisfidh sé,He will hear,Cloisfidh sé
-34,Third Singular,He/She/It,Negative,Future,Ní chloisfidh sé,He won't hear,Ní chloisfidh sé
-35,Third Singular,He/She/It,Interrogative,Future,An gcloisfidh sé,Will he hear,An gcloisfidh sé
-36,Third Singular,He/She/It,Neg Interrogative,Future,Ná cloisfidh sé,Won't he hear,Nach gcloisfidh sé
-37,First Plural,We,Positive,Present,Cloisimíd,We hear,Cloisimid
-38,First Plural,We,Negative,Present,Ní chloisimíd,We don't hear,Ní chloisimid
-39,First Plural,We,Interrogative,Present,An gcloisimíd,Do we hear,An gcloisimid
-40,First Plural,We,Neg Interrogative,Present,Ná cloisimíd,Don't we hear,Nach gcloisimid
-41,First Plural,We,Positive,Past,Do chualamair,We heard,Chuala muid
-42,First Plural,We,Negative,Past,Ní chualamair,We didn't hear,Ní chuala muid
-43,First Plural,We,Interrogative,Past,An gcualamair,Did we hear,An gcuala muid
-44,First Plural,We,Neg Interrogative,Past,Ná cualamair,Didn't we hear,Nach gcuala muid
-45,First Plural,We,Positive,Future,Cloisfimíd,We will hear,Cloisfimid
-46,First Plural,We,Negative,Future,Ní chloisfimíd,We won't hear,Ní chloisfimid
-47,First Plural,We,Interrogative,Future,An gcloisfimíd,Will we hear,An gcloisfimid
-48,First Plural,We,Neg Interrogative,Future,Ná cloisfimíd,Won't we hear,Nach gcloisfimid
-49,Second Plural,Youse,Positive,Present,Cloiseann sibh,Youse hear,Cloiseann sibh
-50,Second Plural,Youse,Negative,Present,Ní chloiseann sibh,Youse don't hear,Ní chloiseann sibh
-51,Second Plural,Youse,Interrogative,Present,An gcloiseann sibh,Do youse hear,An gcloiseann sibh
-52,Second Plural,Youse,Neg Interrogative,Present,Ná cloiseann sibh,Don't youse hear,Nach gcloiseann sibh
-53,Second Plural,Youse,Positive,Past,Do chualabhair,Youse heard,Chuala sibh
-54,Second Plural,Youse,Negative,Past,Ní chualabhair,Youse didn't hear,Ní chuala sibh
-55,Second Plural,Youse,Interrogative,Past,An gcualabhair,Did youse hear,An gcuala sibh
-56,Second Plural,Youse,Neg Interrogative,Past,Ná cualabhair,Didn't youse hear,Nach gcuala sibh
-57,Second Plural,Youse,Positive,Future,Cloisfidh sibh,Youse will hear,Cloisfidh sibh
-58,Second Plural,Youse,Negative,Future,Ní chloisfidh sibh,Youse won't hear,Ní chloisfidh sibh
-59,Second Plural,Youse,Interrogative,Future,An gcloisfidh sibh,Will youse hear,An gcloisfidh sibh
-60,Second Plural,Youse,Neg Interrogative,Future,Ná cloisfidh sibh,Won't youse hear,Nach gcloisfidh sibh
-61,Third Plural,They,Positive,Present,Cloisid,They hear,Cloiseann siad
-62,Third Plural,They,Negative,Present,Ní chloisid,They don't hear,Ní chloiseann siad
-63,Third Plural,They,Interrogative,Present,An gcloisid,Do they hear,An gcloiseann siad
-64,Third Plural,They,Neg Interrogative,Present,Ná cloisid,Don't they hear,Nach gcloiseann siad
-65,Third Plural,They,Positive,Past,Do chualadar,They heard,Chuala siad
-66,Third Plural,They,Negative,Past,Ní chualadar,They didn't hear,Ní chuala siad
-67,Third Plural,They,Interrogative,Past,An gcualadar,Did they hear,An gcuala siad
-68,Third Plural,They,Neg Interrogative,Past,Ná cualadar,Didn't they hear,Nach gcuala siad
-69,Third Plural,They,Positive,Future,Cloisfid,They will hear,Cloisfidh siad
-70,Third Plural,They,Negative,Future,Ní chloisfid,They won't hear,Ní chloisfidh siad
-71,Third Plural,They,Interrogative,Future,An gcloisfid,Will they hear,An gcloisfidh siad
-72,Third Plural,They,Neg Interrogative,Future,Ná cloisfid,Won't they hear,Nach gcloisfidh siad
+,,,,,GM,GU,GC,To Hear,Standard
+1,First Singular,I,Positive,Present,Cloisim,,,I hear,Cloisim
+2,First Singular,I,Negative,Present,Ní chloisim,,,I don't hear,Ní chloisim
+3,First Singular,I,Interrogative,Present,An gcloisim,,,Do I hear,An gcloisim
+4,First Singular,I,Neg Interrogative,Present,Ná cloisim,,,Don't I hear,Nach gcloisim
+5,First Singular,I,Positive,Past,Do chualas,,,I heard,Chuala mé
+6,First Singular,I,Negative,Past,Ní chualas,,,I didn't hear,Ní chuala mé
+7,First Singular,I,Interrogative,Past,An gcualas,,,Did I hear,An gcuala mé
+8,First Singular,I,Neg Interrogative,Past,Ná cualas,,,Didn't I hear,Nach gcuala mé
+9,First Singular,I,Positive,Future,Cloisfead,,,I will hear,Cloisfidh mé
+10,First Singular,I,Negative,Future,Ní chloisfead,,,I won't hear,Ní chloisfidh mé
+11,First Singular,I,Interrogative,Future,An gcloisfead,,,Will I hear,An gcloisfidh mé
+12,First Singular,I,Neg Interrogative,Future,Ná cloisfead,,,Won't I hear,Nach gcloisfidh mé
+13,Second Singular,You,Positive,Present,Cloisir,,,You hear,Cloiseann tú
+14,Second Singular,You,Negative,Present,Ní chloisir,,,You don't hear,Ní chloiseann tú
+15,Second Singular,You,Interrogative,Present,An gcloisir,,,Do you hear,An gcloiseann tú
+16,Second Singular,You,Neg Interrogative,Present,Ná cloisir,,,Don't you hear,Nach gcloiseann tú
+17,Second Singular,You,Positive,Past,Do chualais,,,You heard,Chuala tú
+18,Second Singular,You,Negative,Past,Ní chualais,,,You didn't hear,Ní chuala tú
+19,Second Singular,You,Interrogative,Past,An gcualais,,,Did you hear,An gcuala tú
+20,Second Singular,You,Neg Interrogative,Past,Ná cualais,,,Didn't you hear,Nach gcuala tú
+21,Second Singular,You,Positive,Future,Cloisfir,,,You will hear,Cloisfidh tú
+22,Second Singular,You,Negative,Future,Ní chloisfir,,,You won't hear,Ní chloisfidh tú
+23,Second Singular,You,Interrogative,Future,An gcloisfir,,,Will you hear,An gcloisfidh tú
+24,Second Singular,You,Neg Interrogative,Future,Ná cloisfir,,,Won't you hear,Nach gcloisfidh tú
+25,Third Singular,He/She/It,Positive,Present,Cloiseann sé,,,He hears,Cloiseann sé
+26,Third Singular,He/She/It,Negative,Present,Ní chloiseann sé,,,He doesn't hear,Ní chloiseann sé
+27,Third Singular,He/She/It,Interrogative,Present,An gcloiseann sé,,,Does he hear,An gcloiseann sé
+28,Third Singular,He/She/It,Neg Interrogative,Present,Ná cloiseann sé,,,Doesn't he hear,Nach gcloiseann sé
+29,Third Singular,He/She/It,Positive,Past,Do chuala sé,,,He heard,Chuala sé
+30,Third Singular,He/She/It,Negative,Past,Ní chuala sé,,,He didn't hear,Ní chuala sé
+31,Third Singular,He/She/It,Interrogative,Past,An gcuala sé,,,Did he hear,An gcuala sé
+32,Third Singular,He/She/It,Neg Interrogative,Past,Ná cuala sé,,,Didn't he hear,Nach gcuala sé
+33,Third Singular,He/She/It,Positive,Future,Cloisfidh sé,,,He will hear,Cloisfidh sé
+34,Third Singular,He/She/It,Negative,Future,Ní chloisfidh sé,,,He won't hear,Ní chloisfidh sé
+35,Third Singular,He/She/It,Interrogative,Future,An gcloisfidh sé,,,Will he hear,An gcloisfidh sé
+36,Third Singular,He/She/It,Neg Interrogative,Future,Ná cloisfidh sé,,,Won't he hear,Nach gcloisfidh sé
+37,First Plural,We,Positive,Present,Cloisimíd,,,We hear,Cloisimid
+38,First Plural,We,Negative,Present,Ní chloisimíd,,,We don't hear,Ní chloisimid
+39,First Plural,We,Interrogative,Present,An gcloisimíd,,,Do we hear,An gcloisimid
+40,First Plural,We,Neg Interrogative,Present,Ná cloisimíd,,,Don't we hear,Nach gcloisimid
+41,First Plural,We,Positive,Past,Do chualamair,,,We heard,Chuala muid
+42,First Plural,We,Negative,Past,Ní chualamair,,,We didn't hear,Ní chuala muid
+43,First Plural,We,Interrogative,Past,An gcualamair,,,Did we hear,An gcuala muid
+44,First Plural,We,Neg Interrogative,Past,Ná cualamair,,,Didn't we hear,Nach gcuala muid
+45,First Plural,We,Positive,Future,Cloisfimíd,,,We will hear,Cloisfimid
+46,First Plural,We,Negative,Future,Ní chloisfimíd,,,We won't hear,Ní chloisfimid
+47,First Plural,We,Interrogative,Future,An gcloisfimíd,,,Will we hear,An gcloisfimid
+48,First Plural,We,Neg Interrogative,Future,Ná cloisfimíd,,,Won't we hear,Nach gcloisfimid
+49,Second Plural,Youse,Positive,Present,Cloiseann sibh,,,Youse hear,Cloiseann sibh
+50,Second Plural,Youse,Negative,Present,Ní chloiseann sibh,,,Youse don't hear,Ní chloiseann sibh
+51,Second Plural,Youse,Interrogative,Present,An gcloiseann sibh,,,Do youse hear,An gcloiseann sibh
+52,Second Plural,Youse,Neg Interrogative,Present,Ná cloiseann sibh,,,Don't youse hear,Nach gcloiseann sibh
+53,Second Plural,Youse,Positive,Past,Do chualabhair,,,Youse heard,Chuala sibh
+54,Second Plural,Youse,Negative,Past,Ní chualabhair,,,Youse didn't hear,Ní chuala sibh
+55,Second Plural,Youse,Interrogative,Past,An gcualabhair,,,Did youse hear,An gcuala sibh
+56,Second Plural,Youse,Neg Interrogative,Past,Ná cualabhair,,,Didn't youse hear,Nach gcuala sibh
+57,Second Plural,Youse,Positive,Future,Cloisfidh sibh,,,Youse will hear,Cloisfidh sibh
+58,Second Plural,Youse,Negative,Future,Ní chloisfidh sibh,,,Youse won't hear,Ní chloisfidh sibh
+59,Second Plural,Youse,Interrogative,Future,An gcloisfidh sibh,,,Will youse hear,An gcloisfidh sibh
+60,Second Plural,Youse,Neg Interrogative,Future,Ná cloisfidh sibh,,,Won't youse hear,Nach gcloisfidh sibh
+61,Third Plural,They,Positive,Present,Cloisid,,,They hear,Cloiseann siad
+62,Third Plural,They,Negative,Present,Ní chloisid,,,They don't hear,Ní chloiseann siad
+63,Third Plural,They,Interrogative,Present,An gcloisid,,,Do they hear,An gcloiseann siad
+64,Third Plural,They,Neg Interrogative,Present,Ná cloisid,,,Don't they hear,Nach gcloiseann siad
+65,Third Plural,They,Positive,Past,Do chualadar,,,They heard,Chuala siad
+66,Third Plural,They,Negative,Past,Ní chualadar,,,They didn't hear,Ní chuala siad
+67,Third Plural,They,Interrogative,Past,An gcualadar,,,Did they hear,An gcuala siad
+68,Third Plural,They,Neg Interrogative,Past,Ná cualadar,,,Didn't they hear,Nach gcuala siad
+69,Third Plural,They,Positive,Future,Cloisfid,,,They will hear,Cloisfidh siad
+70,Third Plural,They,Negative,Future,Ní chloisfid,,,They won't hear,Ní chloisfidh siad
+71,Third Plural,They,Interrogative,Future,An gcloisfid,,,Will they hear,An gcloisfidh siad
+72,Third Plural,They,Neg Interrogative,Future,Ná cloisfid,,,Won't they hear,Nach gcloisfidh siad

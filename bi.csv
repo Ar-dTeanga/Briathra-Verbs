@@ -1,73 +1,73 @@
-,,,,,GM,To Be,Standard
-1,First Singular,I,Positive,Present,Tá mé/Táim/Táimse,I am,Tá mé
-2,First Singular,I,Negative,Present,Níl mé/Nílim,I am not,Níl mé
-3,First Singular,I,Interrogative,Present,An bhfuilim,Am I,An bhfuil mé
-4,First Singular,I,Neg Interrogative,Present,Ná fuilim,Amn't I,Nach bhfuil mé
-5,First Singular,I,Positive,Past,Do bhíos,I was,Bhí mé
-6,First Singular,I,Negative,Past,Ní rabhas,I wasn't,Ní raibh mé
-7,First Singular,I,Interrogative,Past,An rabhas,Was I,An raibh mé
-8,First Singular,I,Neg Interrogative,Past,Ná rabhas,Wasn't I,Nach raibh mé
-9,Second Singular,You,Positive,Present,Táir,You are,Tá tú
-10,Second Singular,You,Negative,Present,Nílir,You aren't,Níl tú
-11,Second Singular,You,Interrogative,Present,An bhfuilir,Are you,An bhfuil tú
-12,Second Singular,You,Neg Interrogative,Present,Ná fuilir,Aren't you,Nach bhfuil tú
-13,Second Singular,You,Positive,Past,Do bhís,You were,Bhí tú
-14,Second Singular,You,Negative,Past,Ní raibhís,You weren't,Ní raibh tú
-15,Second Singular,You,Interrogative,Past,An raibhís,Were you,An raibh tú
-16,Second Singular,You,Neg Interrogative,Past,Ná raibhís,Weren't you,Nach raibh tú
-17,Third Singular,He/She/It,Positive,Present,Tá sé,He is,Tá sé
-18,Third Singular,He/She/It,Negative,Present,Níl sé,He isn't,Níl sé
-19,Third Singular,He/She/It,Interrogative,Present,An bhfuil sé,Is he,An bhfuil sé
-20,Third Singular,He/She/It,Neg Interrogative,Present,Ná fuil sé,Isn't he,Nach bhfuil sé
-21,Third Singular,He/She/It,Positive,Past,Do bhí sé,He was,Bhí sé
-22,Third Singular,He/She/It,Negative,Past,Ní raibh sé,He wasn't,Ní raibh sé
-23,Third Singular,He/She/It,Interrogative,Past,An raibh sé,Was he,An raibh sé
-24,Third Singular,He/She/It,Neg Interrogative,Past,Ná raibh sé,Wasn't he,Nach raibh sé
-25,First Plural,We,Positive,Present,Táimíd,We are,Tá muid
-26,First Plural,We,Negative,Present,Nílimíd,We aren't,Níl muid
-27,First Plural,We,Interrogative,Present,An bhfuilimíd,Are we,An bhfuil muid
-28,First Plural,We,Neg Interrogative,Present,Ná fuilimíd,Aren't we,Nach bhfuil muid
-29,First Plural,We,Positive,Past,Do bhíomair,We were,Bhí muid
-30,First Plural,We,Negative,Past,Ní raibheamair,We weren't,Ní raibh muid
-31,First Plural,We,Interrogative,Past,An raibheamair,Were we,An raibh muid
-32,First Plural,We,Neg Interrogative,Past,Ná raibheamair,Weren't we,Nach raibh muid
-33,Second Plural,Youse,Positive,Present,Tá sibh,Youse are,Tá sibh
-34,Second Plural,Youse,Negative,Present,Níl sibh,Youse aren't,Níl sibh
-35,Second Plural,Youse,Interrogative,Present,An bhfuil sibh,Are youse,An bhfuil sibh
-36,Second Plural,Youse,Neg Interrogative,Present,Ná fuil sibh,Aren't youse,Nach bhfuil sibh
-37,Second Plural,Youse,Positive,Past,Do bhíobhair,Youse were,Bhí sibh
-38,Second Plural,Youse,Negative,Past,Ní raibh sibh,Youse weren't,Ní raibh sibh
-39,Second Plural,Youse,Interrogative,Past,An raibh sibh,Were youse,An raibh sibh
-40,Second Plural,Youse,Neg Interrogative,Past,Ná raibh sibh,Weren't youse,Nach raibh sibh
-41,Third Plural,They,Positive,Present,Táid,They are,Tá siad
-42,Third Plural,They,Negative,Present,Nílid,They aren't,Níl siad
-43,Third Plural,They,Interrogative,Present,An bhfuilid,Are they,An bhfuil siad
-44,Third Plural,They,Neg Interrogative,Present,Ná fuilid,Aren't they,Nach bhfuil siad
-45,Third Plural,They,Positive,Past,Do bhíodar,They were,Bhí siad
-46,Third Plural,They,Negative,Past,Ní rabhadar,They weren't,Ní raibh siad
-47,Third Plural,They,Interrogative,Past,An rabhadar,Were they,An raibh siad
-48,Third Plural,They,Neg Interrogative,Past,Ná rabhadar,Weren't they,Nach raibh siad
-49,First Singular,I,Positive,Future,Bead,I will be,Beidh mé
-50,First Singular,I,Negative,Future,Ní bhead,I won't be,Ní bheidh mé
-51,First Singular,I,Interrogative,Future,An mbead,Will I be,An mbeidh mé
-52,First Singular,I,Neg Interrogative,Future,Ná bead,Won't I be,Nach mbeidh mé
-53,Second Singular,You,Positive,Future,Beir,You will be,Beidh tú
-54,Second Singular,You,Negative,Future,Ní bheir,You won't be,Ní bheidh tú
-55,Second Singular,You,Interrogative,Future,An mbeir,Will you be,An mbeidh tú
-56,Second Singular,You,Neg Interrogative,Future,Ná beir,Won't you be,Nach mbeidh tú
-57,Third Singular,He/She/It,Positive,Future,Beidh sé,He will be,Beidh sé
-58,Third Singular,He/She/It,Negative,Future,Ní bheidh sé,He won't be,Ní bheidh sé
-59,Third Singular,He/She/It,Interrogative,Future,An mbeidh sé,Will he be,An mbeidh sé
-60,Third Singular,He/She/It,Neg Interrogative,Future,Ná beidh sé,Won't he be,Nach mbeidh sé
-61,First Plural,We,Positive,Future,Beimíd,We will be,Beidh muid
-62,First Plural,We,Negative,Future,Ní bheimíd,We won't be,Ní bheidh muid
-63,First Plural,We,Interrogative,Future,An mbeimíd,Will we be,An mbeidh muid
-64,First Plural,We,Neg Interrogative,Future,Ná beimíd,Won't we be,Nach mbeidh muid
-65,Second Plural,Youse,Positive,Future,Beidh sibh,Youse will be,Beidh sibh
-66,Second Plural,Youse,Negative,Future,Ní bheidh sibh,Youse won't be,Ní bheidh sibh
-67,Second Plural,Youse,Interrogative,Future,An mbeidh sibh,Will youse be,An mbeidh sibh
-68,Second Plural,Youse,Neg Interrogative,Future,Ná beidh sibh,Won't youse be,Nach mbeidh sibh
-69,Third Plural,They,Positive,Future,Beid,They will be,Beidh siad
-70,Third Plural,They,Negative,Future,Ní bheid,They won't be,Ní bheidh siad
-71,Third Plural,They,Interrogative,Future,An mbeid,Will they be,An mbeidh siad
-72,Third Plural,They,Neg Interrogative,Future,Ná beid,Won't they be,Nach mbeidh siad
+,,,,,GM,GU,GC,To Be,Standard
+1,First Singular,I,Positive,Present,Tá mé/Táim/Táimse,,,I am,Tá mé
+2,First Singular,I,Negative,Present,Níl mé/Nílim,,,I am not,Níl mé
+3,First Singular,I,Interrogative,Present,An bhfuilim,,,Am I,An bhfuil mé
+4,First Singular,I,Neg Interrogative,Present,Ná fuilim,,,Amn't I,Nach bhfuil mé
+5,First Singular,I,Positive,Past,Do bhíos,,,I was,Bhí mé
+6,First Singular,I,Negative,Past,Ní rabhas,,,I wasn't,Ní raibh mé
+7,First Singular,I,Interrogative,Past,An rabhas,,,Was I,An raibh mé
+8,First Singular,I,Neg Interrogative,Past,Ná rabhas,,,Wasn't I,Nach raibh mé
+9,Second Singular,You,Positive,Present,Táir,,,You are,Tá tú
+10,Second Singular,You,Negative,Present,Nílir,,,You aren't,Níl tú
+11,Second Singular,You,Interrogative,Present,An bhfuilir,,,Are you,An bhfuil tú
+12,Second Singular,You,Neg Interrogative,Present,Ná fuilir,,,Aren't you,Nach bhfuil tú
+13,Second Singular,You,Positive,Past,Do bhís,,,You were,Bhí tú
+14,Second Singular,You,Negative,Past,Ní raibhís,,,You weren't,Ní raibh tú
+15,Second Singular,You,Interrogative,Past,An raibhís,,,Were you,An raibh tú
+16,Second Singular,You,Neg Interrogative,Past,Ná raibhís,,,Weren't you,Nach raibh tú
+17,Third Singular,He/She/It,Positive,Present,Tá sé,,,He is,Tá sé
+18,Third Singular,He/She/It,Negative,Present,Níl sé,,,He isn't,Níl sé
+19,Third Singular,He/She/It,Interrogative,Present,An bhfuil sé,,,Is he,An bhfuil sé
+20,Third Singular,He/She/It,Neg Interrogative,Present,Ná fuil sé,,,Isn't he,Nach bhfuil sé
+21,Third Singular,He/She/It,Positive,Past,Do bhí sé,,,He was,Bhí sé
+22,Third Singular,He/She/It,Negative,Past,Ní raibh sé,,,He wasn't,Ní raibh sé
+23,Third Singular,He/She/It,Interrogative,Past,An raibh sé,,,Was he,An raibh sé
+24,Third Singular,He/She/It,Neg Interrogative,Past,Ná raibh sé,,,Wasn't he,Nach raibh sé
+25,First Plural,We,Positive,Present,Táimíd,,,We are,Tá muid
+26,First Plural,We,Negative,Present,Nílimíd,,,We aren't,Níl muid
+27,First Plural,We,Interrogative,Present,An bhfuilimíd,,,Are we,An bhfuil muid
+28,First Plural,We,Neg Interrogative,Present,Ná fuilimíd,,,Aren't we,Nach bhfuil muid
+29,First Plural,We,Positive,Past,Do bhíomair,,,We were,Bhí muid
+30,First Plural,We,Negative,Past,Ní raibheamair,,,We weren't,Ní raibh muid
+31,First Plural,We,Interrogative,Past,An raibheamair,,,Were we,An raibh muid
+32,First Plural,We,Neg Interrogative,Past,Ná raibheamair,,,Weren't we,Nach raibh muid
+33,Second Plural,Youse,Positive,Present,Tá sibh,,,Youse are,Tá sibh
+34,Second Plural,Youse,Negative,Present,Níl sibh,,,Youse aren't,Níl sibh
+35,Second Plural,Youse,Interrogative,Present,An bhfuil sibh,,,Are youse,An bhfuil sibh
+36,Second Plural,Youse,Neg Interrogative,Present,Ná fuil sibh,,,Aren't youse,Nach bhfuil sibh
+37,Second Plural,Youse,Positive,Past,Do bhíobhair,,,Youse were,Bhí sibh
+38,Second Plural,Youse,Negative,Past,Ní raibh sibh,,,Youse weren't,Ní raibh sibh
+39,Second Plural,Youse,Interrogative,Past,An raibh sibh,,,Were youse,An raibh sibh
+40,Second Plural,Youse,Neg Interrogative,Past,Ná raibh sibh,,,Weren't youse,Nach raibh sibh
+41,Third Plural,They,Positive,Present,Táid,,,They are,Tá siad
+42,Third Plural,They,Negative,Present,Nílid,,,They aren't,Níl siad
+43,Third Plural,They,Interrogative,Present,An bhfuilid,,,Are they,An bhfuil siad
+44,Third Plural,They,Neg Interrogative,Present,Ná fuilid,,,Aren't they,Nach bhfuil siad
+45,Third Plural,They,Positive,Past,Do bhíodar,,,They were,Bhí siad
+46,Third Plural,They,Negative,Past,Ní rabhadar,,,They weren't,Ní raibh siad
+47,Third Plural,They,Interrogative,Past,An rabhadar,,,Were they,An raibh siad
+48,Third Plural,They,Neg Interrogative,Past,Ná rabhadar,,,Weren't they,Nach raibh siad
+49,First Singular,I,Positive,Future,Bead,,,I will be,Beidh mé
+50,First Singular,I,Negative,Future,Ní bhead,,,I won't be,Ní bheidh mé
+51,First Singular,I,Interrogative,Future,An mbead,,,Will I be,An mbeidh mé
+52,First Singular,I,Neg Interrogative,Future,Ná bead,,,Won't I be,Nach mbeidh mé
+53,Second Singular,You,Positive,Future,Beir,,,You will be,Beidh tú
+54,Second Singular,You,Negative,Future,Ní bheir,,,You won't be,Ní bheidh tú
+55,Second Singular,You,Interrogative,Future,An mbeir,,,Will you be,An mbeidh tú
+56,Second Singular,You,Neg Interrogative,Future,Ná beir,,,Won't you be,Nach mbeidh tú
+57,Third Singular,He/She/It,Positive,Future,Beidh sé,,,He will be,Beidh sé
+58,Third Singular,He/She/It,Negative,Future,Ní bheidh sé,,,He won't be,Ní bheidh sé
+59,Third Singular,He/She/It,Interrogative,Future,An mbeidh sé,,,Will he be,An mbeidh sé
+60,Third Singular,He/She/It,Neg Interrogative,Future,Ná beidh sé,,,Won't he be,Nach mbeidh sé
+61,First Plural,We,Positive,Future,Beimíd,,,We will be,Beidh muid
+62,First Plural,We,Negative,Future,Ní bheimíd,,,We won't be,Ní bheidh muid
+63,First Plural,We,Interrogative,Future,An mbeimíd,,,Will we be,An mbeidh muid
+64,First Plural,We,Neg Interrogative,Future,Ná beimíd,,,Won't we be,Nach mbeidh muid
+65,Second Plural,Youse,Positive,Future,Beidh sibh,,,Youse will be,Beidh sibh
+66,Second Plural,Youse,Negative,Future,Ní bheidh sibh,,,Youse won't be,Ní bheidh sibh
+67,Second Plural,Youse,Interrogative,Future,An mbeidh sibh,,,Will youse be,An mbeidh sibh
+68,Second Plural,Youse,Neg Interrogative,Future,Ná beidh sibh,,,Won't youse be,Nach mbeidh sibh
+69,Third Plural,They,Positive,Future,Beid,,,They will be,Beidh siad
+70,Third Plural,They,Negative,Future,Ní bheid,,,They won't be,Ní bheidh siad
+71,Third Plural,They,Interrogative,Future,An mbeid,,,Will they be,An mbeidh siad
+72,Third Plural,They,Neg Interrogative,Future,Ná beid,,,Won't they be,Nach mbeidh siad

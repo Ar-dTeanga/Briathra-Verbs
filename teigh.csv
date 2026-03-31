@@ -1,73 +1,73 @@
-,,,,,GM,To Go,Standard
-1,First Singular,I,Positive,Present,Téim,I go,Téim
-2,First Singular,I,Negative,Present,Ní théim,I don't go,Ní théim
-3,First Singular,I,Interrogative,Present,An dtéim,Do I go,An dtéim
-4,First Singular,I,Neg Interrogative,Present,Ná téim,Don't I go,Nach dtéim
-5,First Singular,I,Positive,Past,Do chuas,I went,Chuaigh mé
-6,First Singular,I,Negative,Past,Ní dheachas,I didn't go,Ní dheachaigh mé
-7,First Singular,I,Interrogative,Past,An ndeachas,Did I go,An ndeachaigh mé
-8,First Singular,I,Neg Interrogative,Past,Ná deachas,Didn't I go,Nach ndeachaigh mé
-9,First Singular,I,Positive,Future,Raghad,I will go,Rachaidh mé
-10,First Singular,I,Negative,Future,Ní raghad,I won't go,Ní rachaidh mé
-11,First Singular,I,Interrogative,Future,An raghad,Will I go,An rachaidh mé
-12,First Singular,I,Neg Interrogative,Future,Ná raghad,Won't I go,Nach rachaidh mé
-13,Second Singular,You,Positive,Present,Téir,You go,Téann tú
-14,Second Singular,You,Negative,Present,Ní théir,You don't go,Ní théann tú
-15,Second Singular,You,Interrogative,Present,An dtéir,Do you go,An dtéann tú
-16,Second Singular,You,Neg Interrogative,Present,Ná téir,Don't you go,Nach dtéann tú
-17,Second Singular,You,Positive,Past,Do chuais,You went,Chuaigh tú
-18,Second Singular,You,Negative,Past,Ní dheachais,You didn't go,Ní dheachaigh tú
-19,Second Singular,You,Interrogative,Past,An ndeachais,Did you go,An ndeachaigh tú
-20,Second Singular,You,Neg Interrogative,Past,Ná deachais,Didn't you go,Nach ndeachaigh tú
-21,Second Singular,You,Positive,Future,Raghair,You will go,Rachaidh tú
-22,Second Singular,You,Negative,Future,Ní raghair,You won't go,Ní rachaidh tú
-23,Second Singular,You,Interrogative,Future,An raghair,Will you go,An rachaidh tú
-24,Second Singular,You,Neg Interrogative,Future,Ná raghair,Won't you go,Nach rachaidh tú
-25,Third Singular,He/She/It,Positive,Present,Téann sé,He goes,Téann sé
-26,Third Singular,He/She/It,Negative,Present,Ní théann sé,He doesn't go,Ní théann sé
-27,Third Singular,He/She/It,Interrogative,Present,An dtéann sé,Does he go,An dtéann sé
-28,Third Singular,He/She/It,Neg Interrogative,Present,Ná téann sé,Doesn't he go,Nach dtéann sé
-29,Third Singular,He/She/It,Positive,Past,Do chuaigh sé,He went,Chuaigh sé
-30,Third Singular,He/She/It,Negative,Past,Ní dheachaigh sé,He didn't go,Ní dheachaigh sé
-31,Third Singular,He/She/It,Interrogative,Past,An ndeachaigh sé,Did he go,An ndeachaigh sé
-32,Third Singular,He/She/It,Neg Interrogative,Past,Ná deachaigh sé,Didn't he go,Nach ndeachaigh sé
-33,Third Singular,He/She/It,Positive,Future,Raghaidh sé,He will go,Rachaidh sé
-34,Third Singular,He/She/It,Negative,Future,Ní raghaidh sé,He won't go,Ní rachaidh sé
-35,Third Singular,He/She/It,Interrogative,Future,An raghaidh sé,Will he go,An rachaidh sé
-36,Third Singular,He/She/It,Neg Interrogative,Future,Ná raghaidh sé,Won't he go,Nach rachaidh sé
-37,First Plural,We,Positive,Present,Téimíd,We go,Téimid
-38,First Plural,We,Negative,Present,Ní théimíd,We don't go,Ní théimid
-39,First Plural,We,Interrogative,Present,An dtéimíd,Do we go,An dtéimid
-40,First Plural,We,Neg Interrogative,Present,Ná téimíd,Don't we go,Nach dtéimid
-41,First Plural,We,Positive,Past,Do chuamair,We went,Chuaigh muid
-42,First Plural,We,Negative,Past,Ní dheachamair,We didn't go,Ní dheachaigh muid
-43,First Plural,We,Interrogative,Past,An ndeachamair,Did we go,An ndeachaigh muid
-44,First Plural,We,Neg Interrogative,Past,Ná deachamair,Didn't we go,Nach ndeachaigh muid
-45,First Plural,We,Positive,Future,Raghaimíd,We will go,Rachaimid
-46,First Plural,We,Negative,Future,Ní raghaimíd,We won't go,Ní rachaimid
-47,First Plural,We,Interrogative,Future,An raghaimíd,Will we go,An rachaimid
-48,First Plural,We,Neg Interrogative,Future,Ná raghaimíd,Won't we go,Nach rachaimid
-49,Second Plural,Youse,Positive,Present,Téann sibh,Youse go,Téann sibh
-50,Second Plural,Youse,Negative,Present,Ní théann sibh,Youse don't go,Ní théann sibh
-51,Second Plural,Youse,Interrogative,Present,An dtéann sibh,Do youse go,An dtéann sibh
-52,Second Plural,Youse,Neg Interrogative,Present,Ná téann sibh,Don't youse go,Nach dtéann sibh
-53,Second Plural,Youse,Positive,Past,Do chuabhair,Youse went,Chuaigh sibh
-54,Second Plural,Youse,Negative,Past,Ní dheachabhair,Youse didn't go,Ní dheachaigh sibh
-55,Second Plural,Youse,Interrogative,Past,An ndeachabhair,Did youse go,An ndeachaigh sibh
-56,Second Plural,Youse,Neg Interrogative,Past,Ná deachabhair,Didn't youse go,Nach ndeachaigh sibh
-57,Second Plural,Youse,Positive,Future,Raghaidh sibh,Youse will go,Rachaidh sibh
-58,Second Plural,Youse,Negative,Future,Ní raghaidh sibh,Youse won't go,Ní rachaidh sibh
-59,Second Plural,Youse,Interrogative,Future,An raghaidh sibh,Will youse go,An rachaidh sibh
-60,Second Plural,Youse,Neg Interrogative,Future,Ná raghaidh sibh,Won't youse go,Nach rachaidh sibh
-61,Third Plural,They,Positive,Present,Téid,They go,Téann siad
-62,Third Plural,They,Negative,Present,Ní théid,They don't go,Ní théann siad
-63,Third Plural,They,Interrogative,Present,An dtéid,Do they go,An dtéann siad
-64,Third Plural,They,Neg Interrogative,Present,Ná téid,Don't they go,Nach dtéann siad
-65,Third Plural,They,Positive,Past,Do chuadar,They went,Chuaigh siad
-66,Third Plural,They,Negative,Past,Ní dheachadar,They didn't go,Ní dheachaigh siad
-67,Third Plural,They,Interrogative,Past,An ndeachadar,Did they go,An ndeachaigh siad
-68,Third Plural,They,Neg Interrogative,Past,Ná deachadar,Didn't they go,Nach ndeachaigh siad
-69,Third Plural,They,Positive,Future,Raghaid,They will go,Rachaidh siad
-70,Third Plural,They,Negative,Future,Ní raghaid,They won't go,Ní rachaidh siad
-71,Third Plural,They,Interrogative,Future,An raghaid,Will they go,An rachaidh siad
-72,Third Plural,They,Neg Interrogative,Future,Ná raghaid,Won't they go,Nach rachaidh siad
+,,,,,GM,GU,GC,To Go,Standard
+1,First Singular,I,Positive,Present,Téim,,,I go,Téim
+2,First Singular,I,Negative,Present,Ní théim,,,I don't go,Ní théim
+3,First Singular,I,Interrogative,Present,An dtéim,,,Do I go,An dtéim
+4,First Singular,I,Neg Interrogative,Present,Ná téim,,,Don't I go,Nach dtéim
+5,First Singular,I,Positive,Past,Do chuas,,,I went,Chuaigh mé
+6,First Singular,I,Negative,Past,Ní dheachas,,,I didn't go,Ní dheachaigh mé
+7,First Singular,I,Interrogative,Past,An ndeachas,,,Did I go,An ndeachaigh mé
+8,First Singular,I,Neg Interrogative,Past,Ná deachas,,,Didn't I go,Nach ndeachaigh mé
+9,First Singular,I,Positive,Future,Raghad,,,I will go,Rachaidh mé
+10,First Singular,I,Negative,Future,Ní raghad,,,I won't go,Ní rachaidh mé
+11,First Singular,I,Interrogative,Future,An raghad,,,Will I go,An rachaidh mé
+12,First Singular,I,Neg Interrogative,Future,Ná raghad,,,Won't I go,Nach rachaidh mé
+13,Second Singular,You,Positive,Present,Téir,,,You go,Téann tú
+14,Second Singular,You,Negative,Present,Ní théir,,,You don't go,Ní théann tú
+15,Second Singular,You,Interrogative,Present,An dtéir,,,Do you go,An dtéann tú
+16,Second Singular,You,Neg Interrogative,Present,Ná téir,,,Don't you go,Nach dtéann tú
+17,Second Singular,You,Positive,Past,Do chuais,,,You went,Chuaigh tú
+18,Second Singular,You,Negative,Past,Ní dheachais,,,You didn't go,Ní dheachaigh tú
+19,Second Singular,You,Interrogative,Past,An ndeachais,,,Did you go,An ndeachaigh tú
+20,Second Singular,You,Neg Interrogative,Past,Ná deachais,,,Didn't you go,Nach ndeachaigh tú
+21,Second Singular,You,Positive,Future,Raghair,,,You will go,Rachaidh tú
+22,Second Singular,You,Negative,Future,Ní raghair,,,You won't go,Ní rachaidh tú
+23,Second Singular,You,Interrogative,Future,An raghair,,,Will you go,An rachaidh tú
+24,Second Singular,You,Neg Interrogative,Future,Ná raghair,,,Won't you go,Nach rachaidh tú
+25,Third Singular,He/She/It,Positive,Present,Téann sé,,,He goes,Téann sé
+26,Third Singular,He/She/It,Negative,Present,Ní théann sé,,,He doesn't go,Ní théann sé
+27,Third Singular,He/She/It,Interrogative,Present,An dtéann sé,,,Does he go,An dtéann sé
+28,Third Singular,He/She/It,Neg Interrogative,Present,Ná téann sé,,,Doesn't he go,Nach dtéann sé
+29,Third Singular,He/She/It,Positive,Past,Do chuaigh sé,,,He went,Chuaigh sé
+30,Third Singular,He/She/It,Negative,Past,Ní dheachaigh sé,,,He didn't go,Ní dheachaigh sé
+31,Third Singular,He/She/It,Interrogative,Past,An ndeachaigh sé,,,Did he go,An ndeachaigh sé
+32,Third Singular,He/She/It,Neg Interrogative,Past,Ná deachaigh sé,,,Didn't he go,Nach ndeachaigh sé
+33,Third Singular,He/She/It,Positive,Future,Raghaidh sé,,,He will go,Rachaidh sé
+34,Third Singular,He/She/It,Negative,Future,Ní raghaidh sé,,,He won't go,Ní rachaidh sé
+35,Third Singular,He/She/It,Interrogative,Future,An raghaidh sé,,,Will he go,An rachaidh sé
+36,Third Singular,He/She/It,Neg Interrogative,Future,Ná raghaidh sé,,,Won't he go,Nach rachaidh sé
+37,First Plural,We,Positive,Present,Téimíd,,,We go,Téimid
+38,First Plural,We,Negative,Present,Ní théimíd,,,We don't go,Ní théimid
+39,First Plural,We,Interrogative,Present,An dtéimíd,,,Do we go,An dtéimid
+40,First Plural,We,Neg Interrogative,Present,Ná téimíd,,,Don't we go,Nach dtéimid
+41,First Plural,We,Positive,Past,Do chuamair,,,We went,Chuaigh muid
+42,First Plural,We,Negative,Past,Ní dheachamair,,,We didn't go,Ní dheachaigh muid
+43,First Plural,We,Interrogative,Past,An ndeachamair,,,Did we go,An ndeachaigh muid
+44,First Plural,We,Neg Interrogative,Past,Ná deachamair,,,Didn't we go,Nach ndeachaigh muid
+45,First Plural,We,Positive,Future,Raghaimíd,,,We will go,Rachaimid
+46,First Plural,We,Negative,Future,Ní raghaimíd,,,We won't go,Ní rachaimid
+47,First Plural,We,Interrogative,Future,An raghaimíd,,,Will we go,An rachaimid
+48,First Plural,We,Neg Interrogative,Future,Ná raghaimíd,,,Won't we go,Nach rachaimid
+49,Second Plural,Youse,Positive,Present,Téann sibh,,,Youse go,Téann sibh
+50,Second Plural,Youse,Negative,Present,Ní théann sibh,,,Youse don't go,Ní théann sibh
+51,Second Plural,Youse,Interrogative,Present,An dtéann sibh,,,Do youse go,An dtéann sibh
+52,Second Plural,Youse,Neg Interrogative,Present,Ná téann sibh,,,Don't youse go,Nach dtéann sibh
+53,Second Plural,Youse,Positive,Past,Do chuabhair,,,Youse went,Chuaigh sibh
+54,Second Plural,Youse,Negative,Past,Ní dheachabhair,,,Youse didn't go,Ní dheachaigh sibh
+55,Second Plural,Youse,Interrogative,Past,An ndeachabhair,,,Did youse go,An ndeachaigh sibh
+56,Second Plural,Youse,Neg Interrogative,Past,Ná deachabhair,,,Didn't youse go,Nach ndeachaigh sibh
+57,Second Plural,Youse,Positive,Future,Raghaidh sibh,,,Youse will go,Rachaidh sibh
+58,Second Plural,Youse,Negative,Future,Ní raghaidh sibh,,,Youse won't go,Ní rachaidh sibh
+59,Second Plural,Youse,Interrogative,Future,An raghaidh sibh,,,Will youse go,An rachaidh sibh
+60,Second Plural,Youse,Neg Interrogative,Future,Ná raghaidh sibh,,,Won't youse go,Nach rachaidh sibh
+61,Third Plural,They,Positive,Present,Téid,,,They go,Téann siad
+62,Third Plural,They,Negative,Present,Ní théid,,,They don't go,Ní théann siad
+63,Third Plural,They,Interrogative,Present,An dtéid,,,Do they go,An dtéann siad
+64,Third Plural,They,Neg Interrogative,Present,Ná téid,,,Don't they go,Nach dtéann siad
+65,Third Plural,They,Positive,Past,Do chuadar,,,They went,Chuaigh siad
+66,Third Plural,They,Negative,Past,Ní dheachadar,,,They didn't go,Ní dheachaigh siad
+67,Third Plural,They,Interrogative,Past,An ndeachadar,,,Did they go,An ndeachaigh siad
+68,Third Plural,They,Neg Interrogative,Past,Ná deachadar,,,Didn't they go,Nach ndeachaigh siad
+69,Third Plural,They,Positive,Future,Raghaid,,,They will go,Rachaidh siad
+70,Third Plural,They,Negative,Future,Ní raghaid,,,They won't go,Ní rachaidh siad
+71,Third Plural,They,Interrogative,Future,An raghaid,,,Will they go,An rachaidh siad
+72,Third Plural,They,Neg Interrogative,Future,Ná raghaid,,,Won't they go,Nach rachaidh siad

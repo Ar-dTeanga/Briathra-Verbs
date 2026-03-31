@@ -1,73 +1,73 @@
-,,,,,GM,To Eat,Standard
-1,First Singular,I,Positive,Present,Ithim,I eat,Ithim
-2,First Singular,I,Negative,Present,Ní ithim,I don't eat,Ní ithim
-3,First Singular,I,Interrogative,Present,An n-ithim,Do I eat,An n-ithim
-4,First Singular,I,Neg Interrogative,Present,Ná ithim,Don't I eat,Nach n-ithim
-5,First Singular,I,Positive,Past,D'itheas,I ate,D'ith mé
-6,First Singular,I,Negative,Past,Ní itheas,I didn't eat,Ní ith mé
-7,First Singular,I,Interrogative,Past,An n-itheas,Did I eat,An n-ith mé
-8,First Singular,I,Neg Interrogative,Past,Ná itheas,Didn't I eat,Nach n-ith mé
-9,First Singular,I,Positive,Future,Íosfad,I will eat,Íosfaidh mé
-10,First Singular,I,Negative,Future,Ní íosfad,I won't eat,Ní íosfaidh mé
-11,First Singular,I,Interrogative,Future,An n-íosfad,Will I eat,An n-íosfaidh mé
-12,First Singular,I,Neg Interrogative,Future,Ná íosfad,Won't I eat,Nach n-íosfaidh mé
-13,Second Singular,You,Positive,Present,Ithir,You eat,Itheann tú
-14,Second Singular,You,Negative,Present,Ní ithir,You don't eat,Ní itheann tú
-15,Second Singular,You,Interrogative,Present,An n-ithir,Do you eat,An n-itheann tú
-16,Second Singular,You,Neg Interrogative,Present,Ná ithir,Don't you eat,Nach n-itheann tú
-17,Second Singular,You,Positive,Past,D'itheais,You ate,D'ith tú
-18,Second Singular,You,Negative,Past,Ní itheais,You didn't eat,Ní ith tú
-19,Second Singular,You,Interrogative,Past,An n-itheais,Did you eat,An n-ith tú
-20,Second Singular,You,Neg Interrogative,Past,Ná itheais,Didn't you eat,Nach n-ith tú
-21,Second Singular,You,Positive,Future,Íosfair,You will eat,Íosfaidh tú
-22,Second Singular,You,Negative,Future,Ní íosfair,You won't eat,Ní íosfaidh tú
-23,Second Singular,You,Interrogative,Future,An n-íosfair,Will you eat,An n-íosfaidh tú
-24,Second Singular,You,Neg Interrogative,Future,Ná íosfair,Won't you eat,Nach n-íosfaidh tú
-25,Third Singular,He/She/It,Positive,Present,Itheann sé,He eats,Itheann sé
-26,Third Singular,He/She/It,Negative,Present,Ní itheann sé,He doesn't eat,Ní itheann sé
-27,Third Singular,He/She/It,Interrogative,Present,An n-itheann sé,Does he eat,An n-itheann sé
-28,Third Singular,He/She/It,Neg Interrogative,Present,Ná itheann sé,Doesn't he eat,Nach n-itheann sé
-29,Third Singular,He/She/It,Positive,Past,D'ith sé,He ate,D'ith sé
-30,Third Singular,He/She/It,Negative,Past,Ní ith sé,He didn't eat,Ní ith sé
-31,Third Singular,He/She/It,Interrogative,Past,An n-ith sé,Did he eat,An n-ith sé
-32,Third Singular,He/She/It,Neg Interrogative,Past,Ná ith sé,Didn't he eat,Nach n-ith sé
-33,Third Singular,He/She/It,Positive,Future,Íosfaidh sé,He will eat,Íosfaidh sé
-34,Third Singular,He/She/It,Negative,Future,Ní íosfaidh sé,He won't eat,Ní íosfaidh sé
-35,Third Singular,He/She/It,Interrogative,Future,An n-íosfaidh sé,Will he eat,An n-íosfaidh sé
-36,Third Singular,He/She/It,Neg Interrogative,Future,Ná íosfaidh sé,Won't he eat,Nach n-íosfaidh sé
-37,First Plural,We,Positive,Present,Ithimíd,We eat,Ithimid
-38,First Plural,We,Negative,Present,Ní ithimíd,We don't eat,Ní ithimid
-39,First Plural,We,Interrogative,Present,An n-ithimíd,Do we eat,An n-ithimid
-40,First Plural,We,Neg Interrogative,Present,Ná ithimíd,Don't we eat,Nach n-ithimid
-41,First Plural,We,Positive,Past,D'itheamair,We ate,D'ith muid
-42,First Plural,We,Negative,Past,Ní itheamair,We didn't eat,Ní ith muid
-43,First Plural,We,Interrogative,Past,An n-itheamair,Did we eat,An n-ith muid
-44,First Plural,We,Neg Interrogative,Past,Ná itheamair,Didn't we eat,Nach n-ith muid
-45,First Plural,We,Positive,Future,Íosfaimíd,We will eat,Íosfaimid
-46,First Plural,We,Negative,Future,Ní íosfaimíd,We won't eat,Ní íosfaimid
-47,First Plural,We,Interrogative,Future,An n-íosfaimíd,Will we eat,An n-íosfaimid
-48,First Plural,We,Neg Interrogative,Future,Ná íosfaimíd,Won't we eat,Nach n-íosfaimid
-49,Second Plural,Youse,Positive,Present,Itheann sibh,Youse eat,Itheann sibh
-50,Second Plural,Youse,Negative,Present,Ní itheann sibh,Youse don't eat,Ní itheann sibh
-51,Second Plural,Youse,Interrogative,Present,An n-itheann sibh,Do youse eat,An n-itheann sibh
-52,Second Plural,Youse,Neg Interrogative,Present,Ná itheann sibh,Don't youse eat,Nach n-itheann sibh
-53,Second Plural,Youse,Positive,Past,D'itheabhair,Youse ate,D'ith sibh
-54,Second Plural,Youse,Negative,Past,Ní itheabhair,Youse didn't eat,Ní ith sibh
-55,Second Plural,Youse,Interrogative,Past,An n-itheabhair,Did youse eat,An n-ith sibh
-56,Second Plural,Youse,Neg Interrogative,Past,Ná itheabhair,Didn't youse eat,Nach n-ith sibh
-57,Second Plural,Youse,Positive,Future,Íosfaidh sibh,Youse will eat,Íosfaidh sibh
-58,Second Plural,Youse,Negative,Future,Ní íosfaidh sibh,Youse won't eat,Ní íosfaidh sibh
-59,Second Plural,Youse,Interrogative,Future,An n-íosfaidh sibh,Will youse eat,An n-íosfaidh sibh
-60,Second Plural,Youse,Neg Interrogative,Future,Ná íosfaidh sibh,Won't youse eat,Nach n-íosfaidh sibh
-61,Third Plural,They,Positive,Present,Ithid,They eat,Itheann siad
-62,Third Plural,They,Negative,Present,Ní ithid,They don't eat,Ní itheann siad
-63,Third Plural,They,Interrogative,Present,An n-ithid,Do they eat,An n-itheann siad
-64,Third Plural,They,Neg Interrogative,Present,Ná ithid,Don't they eat,Nach n-itheann siad
-65,Third Plural,They,Positive,Past,D'itheadar,They ate,D'ith siad
-66,Third Plural,They,Negative,Past,Ní itheadar,They didn't eat,Ní ith siad
-67,Third Plural,They,Interrogative,Past,An n-itheadar,Did they eat,An n-ith siad
-68,Third Plural,They,Neg Interrogative,Past,Ná itheadar,Didn't they eat,Nach n-ith siad
-69,Third Plural,They,Positive,Future,Íosfaid,They will eat,Íosfaidh siad
-70,Third Plural,They,Negative,Future,Ní íosfaid,They won't eat,Ní íosfaidh siad
-71,Third Plural,They,Interrogative,Future,An n-íosfaid,Will they eat,An n-íosfaidh siad
-72,Third Plural,They,Neg Interrogative,Future,Ná íosfaid,Won't they eat,Nach n-íosfaidh siad
+,,,,,GM,GU,GC,To Eat,Standard
+1,First Singular,I,Positive,Present,Ithim,,,I eat,Ithim
+2,First Singular,I,Negative,Present,Ní ithim,,,I don't eat,Ní ithim
+3,First Singular,I,Interrogative,Present,An n-ithim,,,Do I eat,An n-ithim
+4,First Singular,I,Neg Interrogative,Present,Ná ithim,,,Don't I eat,Nach n-ithim
+5,First Singular,I,Positive,Past,D'itheas,,,I ate,D'ith mé
+6,First Singular,I,Negative,Past,Ní itheas,,,I didn't eat,Ní ith mé
+7,First Singular,I,Interrogative,Past,An n-itheas,,,Did I eat,An n-ith mé
+8,First Singular,I,Neg Interrogative,Past,Ná itheas,,,Didn't I eat,Nach n-ith mé
+9,First Singular,I,Positive,Future,Íosfad,,,I will eat,Íosfaidh mé
+10,First Singular,I,Negative,Future,Ní íosfad,,,I won't eat,Ní íosfaidh mé
+11,First Singular,I,Interrogative,Future,An n-íosfad,,,Will I eat,An n-íosfaidh mé
+12,First Singular,I,Neg Interrogative,Future,Ná íosfad,,,Won't I eat,Nach n-íosfaidh mé
+13,Second Singular,You,Positive,Present,Ithir,,,You eat,Itheann tú
+14,Second Singular,You,Negative,Present,Ní ithir,,,You don't eat,Ní itheann tú
+15,Second Singular,You,Interrogative,Present,An n-ithir,,,Do you eat,An n-itheann tú
+16,Second Singular,You,Neg Interrogative,Present,Ná ithir,,,Don't you eat,Nach n-itheann tú
+17,Second Singular,You,Positive,Past,D'itheais,,,You ate,D'ith tú
+18,Second Singular,You,Negative,Past,Ní itheais,,,You didn't eat,Ní ith tú
+19,Second Singular,You,Interrogative,Past,An n-itheais,,,Did you eat,An n-ith tú
+20,Second Singular,You,Neg Interrogative,Past,Ná itheais,,,Didn't you eat,Nach n-ith tú
+21,Second Singular,You,Positive,Future,Íosfair,,,You will eat,Íosfaidh tú
+22,Second Singular,You,Negative,Future,Ní íosfair,,,You won't eat,Ní íosfaidh tú
+23,Second Singular,You,Interrogative,Future,An n-íosfair,,,Will you eat,An n-íosfaidh tú
+24,Second Singular,You,Neg Interrogative,Future,Ná íosfair,,,Won't you eat,Nach n-íosfaidh tú
+25,Third Singular,He/She/It,Positive,Present,Itheann sé,,,He eats,Itheann sé
+26,Third Singular,He/She/It,Negative,Present,Ní itheann sé,,,He doesn't eat,Ní itheann sé
+27,Third Singular,He/She/It,Interrogative,Present,An n-itheann sé,,,Does he eat,An n-itheann sé
+28,Third Singular,He/She/It,Neg Interrogative,Present,Ná itheann sé,,,Doesn't he eat,Nach n-itheann sé
+29,Third Singular,He/She/It,Positive,Past,D'ith sé,,,He ate,D'ith sé
+30,Third Singular,He/She/It,Negative,Past,Ní ith sé,,,He didn't eat,Ní ith sé
+31,Third Singular,He/She/It,Interrogative,Past,An n-ith sé,,,Did he eat,An n-ith sé
+32,Third Singular,He/She/It,Neg Interrogative,Past,Ná ith sé,,,Didn't he eat,Nach n-ith sé
+33,Third Singular,He/She/It,Positive,Future,Íosfaidh sé,,,He will eat,Íosfaidh sé
+34,Third Singular,He/She/It,Negative,Future,Ní íosfaidh sé,,,He won't eat,Ní íosfaidh sé
+35,Third Singular,He/She/It,Interrogative,Future,An n-íosfaidh sé,,,Will he eat,An n-íosfaidh sé
+36,Third Singular,He/She/It,Neg Interrogative,Future,Ná íosfaidh sé,,,Won't he eat,Nach n-íosfaidh sé
+37,First Plural,We,Positive,Present,Ithimíd,,,We eat,Ithimid
+38,First Plural,We,Negative,Present,Ní ithimíd,,,We don't eat,Ní ithimid
+39,First Plural,We,Interrogative,Present,An n-ithimíd,,,Do we eat,An n-ithimid
+40,First Plural,We,Neg Interrogative,Present,Ná ithimíd,,,Don't we eat,Nach n-ithimid
+41,First Plural,We,Positive,Past,D'itheamair,,,We ate,D'ith muid
+42,First Plural,We,Negative,Past,Ní itheamair,,,We didn't eat,Ní ith muid
+43,First Plural,We,Interrogative,Past,An n-itheamair,,,Did we eat,An n-ith muid
+44,First Plural,We,Neg Interrogative,Past,Ná itheamair,,,Didn't we eat,Nach n-ith muid
+45,First Plural,We,Positive,Future,Íosfaimíd,,,We will eat,Íosfaimid
+46,First Plural,We,Negative,Future,Ní íosfaimíd,,,We won't eat,Ní íosfaimid
+47,First Plural,We,Interrogative,Future,An n-íosfaimíd,,,Will we eat,An n-íosfaimid
+48,First Plural,We,Neg Interrogative,Future,Ná íosfaimíd,,,Won't we eat,Nach n-íosfaimid
+49,Second Plural,Youse,Positive,Present,Itheann sibh,,,Youse eat,Itheann sibh
+50,Second Plural,Youse,Negative,Present,Ní itheann sibh,,,Youse don't eat,Ní itheann sibh
+51,Second Plural,Youse,Interrogative,Present,An n-itheann sibh,,,Do youse eat,An n-itheann sibh
+52,Second Plural,Youse,Neg Interrogative,Present,Ná itheann sibh,,,Don't youse eat,Nach n-itheann sibh
+53,Second Plural,Youse,Positive,Past,D'itheabhair,,,Youse ate,D'ith sibh
+54,Second Plural,Youse,Negative,Past,Ní itheabhair,,,Youse didn't eat,Ní ith sibh
+55,Second Plural,Youse,Interrogative,Past,An n-itheabhair,,,Did youse eat,An n-ith sibh
+56,Second Plural,Youse,Neg Interrogative,Past,Ná itheabhair,,,Didn't youse eat,Nach n-ith sibh
+57,Second Plural,Youse,Positive,Future,Íosfaidh sibh,,,Youse will eat,Íosfaidh sibh
+58,Second Plural,Youse,Negative,Future,Ní íosfaidh sibh,,,Youse won't eat,Ní íosfaidh sibh
+59,Second Plural,Youse,Interrogative,Future,An n-íosfaidh sibh,,,Will youse eat,An n-íosfaidh sibh
+60,Second Plural,Youse,Neg Interrogative,Future,Ná íosfaidh sibh,,,Won't youse eat,Nach n-íosfaidh sibh
+61,Third Plural,They,Positive,Present,Ithid,,,They eat,Itheann siad
+62,Third Plural,They,Negative,Present,Ní ithid,,,They don't eat,Ní itheann siad
+63,Third Plural,They,Interrogative,Present,An n-ithid,,,Do they eat,An n-itheann siad
+64,Third Plural,They,Neg Interrogative,Present,Ná ithid,,,Don't they eat,Nach n-itheann siad
+65,Third Plural,They,Positive,Past,D'itheadar,,,They ate,D'ith siad
+66,Third Plural,They,Negative,Past,Ní itheadar,,,They didn't eat,Ní ith siad
+67,Third Plural,They,Interrogative,Past,An n-itheadar,,,Did they eat,An n-ith siad
+68,Third Plural,They,Neg Interrogative,Past,Ná itheadar,,,Didn't they eat,Nach n-ith siad
+69,Third Plural,They,Positive,Future,Íosfaid,,,They will eat,Íosfaidh siad
+70,Third Plural,They,Negative,Future,Ní íosfaid,,,They won't eat,Ní íosfaidh siad
+71,Third Plural,They,Interrogative,Future,An n-íosfaid,,,Will they eat,An n-íosfaidh siad
+72,Third Plural,They,Neg Interrogative,Future,Ná íosfaid,,,Won't they eat,Nach n-íosfaidh siad

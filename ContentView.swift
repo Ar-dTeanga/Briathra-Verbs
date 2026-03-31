@@ -4,30 +4,18 @@ struct ContentView: View {
     @State private var selectedVerb: Verb = Verb.allVerbs[0]
     @State private var conjugations: [Conjugation] = []
     @State private var selectedTense: String = "All"
-    @State private var selectedForm: String = "All"
-    @State private var selectedPersonPronoun: String = "All"
+    @State private var selectedForm: FormFilter = .all
+    @State private var selectedPronoun: String = "All"
+    @State private var selectedDialect: Dialect = .gm
 
     // Maintain order from CSV (use first occurrence order)
-    var personPronouns: [String] {
+    var pronouns: [String] {
         var seen = Set<String>()
         var result = ["All"]
         for conj in conjugations {
-            let combined = "\(conj.person) - \(conj.pronoun)"
-            if !seen.contains(combined) {
-                seen.insert(combined)
-                result.append(combined)
-            }
-        }
-        return result
-    }
-
-    var forms: [String] {
-        var seen = Set<String>()
-        var result = ["All"]
-        for conj in conjugations {
-            if !seen.contains(conj.form) {
-                seen.insert(conj.form)
-                result.append(conj.form)
+            if !seen.contains(conj.pronoun) {
+                seen.insert(conj.pronoun)
+                result.append(conj.pronoun)
             }
         }
         return result
@@ -47,16 +35,9 @@ struct ContentView: View {
 
     var filteredConjugations: [Conjugation] {
         conjugations.filter { conj in
-            let personPronounMatch: Bool
-            if selectedPersonPronoun == "All" {
-                personPronounMatch = true
-            } else {
-                let combined = "\(conj.person) - \(conj.pronoun)"
-                personPronounMatch = combined == selectedPersonPronoun
-            }
-            return personPronounMatch &&
+            (selectedPronoun == "All" || conj.pronoun == selectedPronoun) &&
             (selectedTense == "All" || conj.tense == selectedTense) &&
-            (selectedForm == "All" || conj.form == selectedForm)
+            selectedForm.matches(conj.form)
         }
     }
 
@@ -106,21 +87,35 @@ struct ContentView: View {
 
                 // Filters
                 VStack(spacing: 8) {
-                    HStack {
+                    HStack(spacing: 0) {
                         HStack(spacing: 4) {
                             Text("Person:")
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
-                            Picker("Person", selection: $selectedPersonPronoun) {
-                                ForEach(personPronouns, id: \.self) { pp in
-                                    Text(pp).tag(pp)
+                            Picker("Person", selection: $selectedPronoun) {
+                                ForEach(pronouns, id: \.self) { pronoun in
+                                    Text(pronoun).tag(pronoun)
                                 }
                             }
                             .pickerStyle(.menu)
                         }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+
+                        HStack(spacing: 4) {
+                            Text("Dialect:")
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                            Picker("Dialect", selection: $selectedDialect) {
+                                ForEach(Dialect.allCases) { dialect in
+                                    Text(dialect.rawValue).tag(dialect)
+                                }
+                            }
+                            .pickerStyle(.menu)
+                        }
+                        .frame(maxWidth: .infinity, alignment: .trailing)
                     }
 
-                    HStack {
+                    HStack(spacing: 0) {
                         HStack(spacing: 4) {
                             Text("Tense:")
                                 .font(.subheadline)
@@ -132,20 +127,20 @@ struct ContentView: View {
                             }
                             .pickerStyle(.menu)
                         }
-
-                        Spacer()
+                        .frame(maxWidth: .infinity, alignment: .leading)
 
                         HStack(spacing: 4) {
                             Text("Form:")
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
                             Picker("Form", selection: $selectedForm) {
-                                ForEach(forms, id: \.self) { form in
-                                    Text(form).tag(form)
+                                ForEach(FormFilter.allCases) { form in
+                                    Text(form.rawValue).tag(form)
                                 }
                             }
                             .pickerStyle(.menu)
                         }
+                        .frame(maxWidth: .infinity, alignment: .trailing)
                     }
                 }
                 .padding(.horizontal)
@@ -156,11 +151,11 @@ struct ContentView: View {
                     HStack(alignment: .top, spacing: 12) {
                         // Left side: Irish
                         VStack(alignment: .leading, spacing: 4) {
-                            if !conj.displayIrish.isEmpty {
-                                Text(conj.displayIrish)
+                            if !conj.displayIrish(selectedDialect).isEmpty {
+                                Text(conj.displayIrish(selectedDialect))
                                     .font(.body)
                                     .fontWeight(.medium)
-                                Text(conj.displaySeanclo)
+                                Text(conj.displaySeanclo(selectedDialect))
                                     .font(.custom("Gadelica", size: 17))
                                     .foregroundColor(.secondary)
                             }
@@ -177,7 +172,7 @@ struct ContentView: View {
                                     .padding(.vertical, 2)
                                     .background(Color.green.opacity(0.2))
                                     .cornerRadius(4)
-                                Text(conj.form)
+                                Text(conj.shortForm)
                                     .font(.caption)
                                     .padding(.horizontal, 8)
                                     .padding(.vertical, 2)

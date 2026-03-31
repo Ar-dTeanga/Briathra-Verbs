@@ -1,73 +1,73 @@
-,,,,,GM,To Come,Standard
-1,First Singular,I,Positive,Present,Tagaim,I come,Tagaim
-2,First Singular,I,Negative,Present,Ní thagaim,I don't come,Ní thagaim
-3,First Singular,I,Interrogative,Present,An dtagaim,Do I come,An dtagaim
-4,First Singular,I,Neg Interrogative,Present,Ná tagaim,Don't I come,Nach dtagaim
-5,First Singular,I,Positive,Past,Do thánas,I came,Tháinig mé
-6,First Singular,I,Negative,Past,Ní thánas,I didn't come,Ní tháinig mé
-7,First Singular,I,Interrogative,Past,An dtánas,Did I come,An dtáinig mé
-8,First Singular,I,Neg Interrogative,Past,Ná tánas,Didn't I come,Nach dtáinig mé
-9,First Singular,I,Positive,Future,Tiocfad,I will come,Tiocfaidh mé
-10,First Singular,I,Negative,Future,Ní thiocfad,I won't come,Ní thiocfaidh mé
-11,First Singular,I,Interrogative,Future,An dtiocfad,Will I come,An dtiocfaidh mé
-12,First Singular,I,Neg Interrogative,Future,Ná tiocfad,Won't I come,Nach dtiocfaidh mé
-13,Second Singular,You,Positive,Present,Tagair,You come,Tagann tú
-14,Second Singular,You,Negative,Present,Ní thagair,You don't come,Ní thagann tú
-15,Second Singular,You,Interrogative,Present,An dtagair,Do you come,An dtagann tú
-16,Second Singular,You,Neg Interrogative,Present,Ná tagair,Don't you come,Nach dtagann tú
-17,Second Singular,You,Positive,Past,Do thánais,You came,Tháinig tú
-18,Second Singular,You,Negative,Past,Ní thánais,You didn't come,Ní tháinig tú
-19,Second Singular,You,Interrogative,Past,An dtánais,Did you come,An dtáinig tú
-20,Second Singular,You,Neg Interrogative,Past,Ná tánais,Didn't you come,Nach dtáinig tú
-21,Second Singular,You,Positive,Future,Tiocfair,You will come,Tiocfaidh tú
-22,Second Singular,You,Negative,Future,Ní thiocfair,You won't come,Ní thiocfaidh tú
-23,Second Singular,You,Interrogative,Future,An dtiocfair,Will you come,An dtiocfaidh tú
-24,Second Singular,You,Neg Interrogative,Future,Ná tiocfair,Won't you come,Nach dtiocfaidh tú
-25,Third Singular,He/She/It,Positive,Present,Tagann sé,He comes,Tagann sé
-26,Third Singular,He/She/It,Negative,Present,Ní thagann sé,He doesn't come,Ní thagann sé
-27,Third Singular,He/She/It,Interrogative,Present,An dtagann sé,Does he come,An dtagann sé
-28,Third Singular,He/She/It,Neg Interrogative,Present,Ná tagann sé,Doesn't he come,Nach dtagann sé
-29,Third Singular,He/She/It,Positive,Past,Do tháinig sé,He came,Tháinig sé
-30,Third Singular,He/She/It,Negative,Past,Ní tháinig sé,He didn't come,Ní tháinig sé
-31,Third Singular,He/She/It,Interrogative,Past,An dtáinig sé,Did he come,An dtáinig sé
-32,Third Singular,He/She/It,Neg Interrogative,Past,Ná táinig sé,Didn't he come,Nach dtáinig sé
-33,Third Singular,He/She/It,Positive,Future,Tiocfaidh sé,He will come,Tiocfaidh sé
-34,Third Singular,He/She/It,Negative,Future,Ní thiocfaidh sé,He won't come,Ní thiocfaidh sé
-35,Third Singular,He/She/It,Interrogative,Future,An dtiocfaidh sé,Will he come,An dtiocfaidh sé
-36,Third Singular,He/She/It,Neg Interrogative,Future,Ná tiocfaidh sé,Won't he come,Nach dtiocfaidh sé
-37,First Plural,We,Positive,Present,Tagaimíd,We come,Tagaimid
-38,First Plural,We,Negative,Present,Ní thagaimíd,We don't come,Ní thagaimid
-39,First Plural,We,Interrogative,Present,An dtagaimíd,Do we come,An dtagaimid
-40,First Plural,We,Neg Interrogative,Present,Ná tagaimíd,Don't we come,Nach dtagaimid
-41,First Plural,We,Positive,Past,Do thánamair,We came,Tháinig muid
-42,First Plural,We,Negative,Past,Ní thánamair,We didn't come,Ní tháinig muid
-43,First Plural,We,Interrogative,Past,An dtánamair,Did we come,An dtáinig muid
-44,First Plural,We,Neg Interrogative,Past,Ná tánamair,Didn't we come,Nach dtáinig muid
-45,First Plural,We,Positive,Future,Tiocfaimíd,We will come,Tiocfaimid
-46,First Plural,We,Negative,Future,Ní thiocfaimíd,We won't come,Ní thiocfaimid
-47,First Plural,We,Interrogative,Future,An dtiocfaimíd,Will we come,An dtiocfaimid
-48,First Plural,We,Neg Interrogative,Future,Ná tiocfaimíd,Won't we come,Nach dtiocfaimid
-49,Second Plural,Youse,Positive,Present,Tagann sibh,Youse come,Tagann sibh
-50,Second Plural,Youse,Negative,Present,Ní thagann sibh,Youse don't come,Ní thagann sibh
-51,Second Plural,Youse,Interrogative,Present,An dtagann sibh,Do youse come,An dtagann sibh
-52,Second Plural,Youse,Neg Interrogative,Present,Ná tagann sibh,Don't youse come,Nach dtagann sibh
-53,Second Plural,Youse,Positive,Past,Do thánabhair,Youse came,Tháinig sibh
-54,Second Plural,Youse,Negative,Past,Ní thánabhair,Youse didn't come,Ní tháinig sibh
-55,Second Plural,Youse,Interrogative,Past,An dtánabhair,Did youse come,An dtáinig sibh
-56,Second Plural,Youse,Neg Interrogative,Past,Ná tánabhair,Didn't youse come,Nach dtáinig sibh
-57,Second Plural,Youse,Positive,Future,Tiocfaidh sibh,Youse will come,Tiocfaidh sibh
-58,Second Plural,Youse,Negative,Future,Ní thiocfaidh sibh,Youse won't come,Ní thiocfaidh sibh
-59,Second Plural,Youse,Interrogative,Future,An dtiocfaidh sibh,Will youse come,An dtiocfaidh sibh
-60,Second Plural,Youse,Neg Interrogative,Future,Ná tiocfaidh sibh,Won't youse come,Nach dtiocfaidh sibh
-61,Third Plural,They,Positive,Present,Tagaid,They come,Tagann siad
-62,Third Plural,They,Negative,Present,Ní thagaid,They don't come,Ní thagann siad
-63,Third Plural,They,Interrogative,Present,An dtagaid,Do they come,An dtagann siad
-64,Third Plural,They,Neg Interrogative,Present,Ná tagaid,Don't they come,Nach dtagann siad
-65,Third Plural,They,Positive,Past,Do thánadar,They came,Tháinig siad
-66,Third Plural,They,Negative,Past,Ní thánadar,They didn't come,Ní tháinig siad
-67,Third Plural,They,Interrogative,Past,An dtánadar,Did they come,An dtáinig siad
-68,Third Plural,They,Neg Interrogative,Past,Ná tánadar,Didn't they come,Nach dtáinig siad
-69,Third Plural,They,Positive,Future,Tiocfaid,They will come,Tiocfaidh siad
-70,Third Plural,They,Negative,Future,Ní thiocfaid,They won't come,Ní thiocfaidh siad
-71,Third Plural,They,Interrogative,Future,An dtiocfaid,Will they come,An dtiocfaidh siad
-72,Third Plural,They,Neg Interrogative,Future,Ná tiocfaid,Won't they come,Nach dtiocfaidh siad
+,,,,,GM,GU,GC,To Come,Standard
+1,First Singular,I,Positive,Present,Tagaim,,,I come,Tagaim
+2,First Singular,I,Negative,Present,Ní thagaim,,,I don't come,Ní thagaim
+3,First Singular,I,Interrogative,Present,An dtagaim,,,Do I come,An dtagaim
+4,First Singular,I,Neg Interrogative,Present,Ná tagaim,,,Don't I come,Nach dtagaim
+5,First Singular,I,Positive,Past,Do thánas,,,I came,Tháinig mé
+6,First Singular,I,Negative,Past,Ní thánas,,,I didn't come,Ní tháinig mé
+7,First Singular,I,Interrogative,Past,An dtánas,,,Did I come,An dtáinig mé
+8,First Singular,I,Neg Interrogative,Past,Ná tánas,,,Didn't I come,Nach dtáinig mé
+9,First Singular,I,Positive,Future,Tiocfad,,,I will come,Tiocfaidh mé
+10,First Singular,I,Negative,Future,Ní thiocfad,,,I won't come,Ní thiocfaidh mé
+11,First Singular,I,Interrogative,Future,An dtiocfad,,,Will I come,An dtiocfaidh mé
+12,First Singular,I,Neg Interrogative,Future,Ná tiocfad,,,Won't I come,Nach dtiocfaidh mé
+13,Second Singular,You,Positive,Present,Tagair,,,You come,Tagann tú
+14,Second Singular,You,Negative,Present,Ní thagair,,,You don't come,Ní thagann tú
+15,Second Singular,You,Interrogative,Present,An dtagair,,,Do you come,An dtagann tú
+16,Second Singular,You,Neg Interrogative,Present,Ná tagair,,,Don't you come,Nach dtagann tú
+17,Second Singular,You,Positive,Past,Do thánais,,,You came,Tháinig tú
+18,Second Singular,You,Negative,Past,Ní thánais,,,You didn't come,Ní tháinig tú
+19,Second Singular,You,Interrogative,Past,An dtánais,,,Did you come,An dtáinig tú
+20,Second Singular,You,Neg Interrogative,Past,Ná tánais,,,Didn't you come,Nach dtáinig tú
+21,Second Singular,You,Positive,Future,Tiocfair,,,You will come,Tiocfaidh tú
+22,Second Singular,You,Negative,Future,Ní thiocfair,,,You won't come,Ní thiocfaidh tú
+23,Second Singular,You,Interrogative,Future,An dtiocfair,,,Will you come,An dtiocfaidh tú
+24,Second Singular,You,Neg Interrogative,Future,Ná tiocfair,,,Won't you come,Nach dtiocfaidh tú
+25,Third Singular,He/She/It,Positive,Present,Tagann sé,,,He comes,Tagann sé
+26,Third Singular,He/She/It,Negative,Present,Ní thagann sé,,,He doesn't come,Ní thagann sé
+27,Third Singular,He/She/It,Interrogative,Present,An dtagann sé,,,Does he come,An dtagann sé
+28,Third Singular,He/She/It,Neg Interrogative,Present,Ná tagann sé,,,Doesn't he come,Nach dtagann sé
+29,Third Singular,He/She/It,Positive,Past,Do tháinig sé,,,He came,Tháinig sé
+30,Third Singular,He/She/It,Negative,Past,Ní tháinig sé,,,He didn't come,Ní tháinig sé
+31,Third Singular,He/She/It,Interrogative,Past,An dtáinig sé,,,Did he come,An dtáinig sé
+32,Third Singular,He/She/It,Neg Interrogative,Past,Ná táinig sé,,,Didn't he come,Nach dtáinig sé
+33,Third Singular,He/She/It,Positive,Future,Tiocfaidh sé,,,He will come,Tiocfaidh sé
+34,Third Singular,He/She/It,Negative,Future,Ní thiocfaidh sé,,,He won't come,Ní thiocfaidh sé
+35,Third Singular,He/She/It,Interrogative,Future,An dtiocfaidh sé,,,Will he come,An dtiocfaidh sé
+36,Third Singular,He/She/It,Neg Interrogative,Future,Ná tiocfaidh sé,,,Won't he come,Nach dtiocfaidh sé
+37,First Plural,We,Positive,Present,Tagaimíd,,,We come,Tagaimid
+38,First Plural,We,Negative,Present,Ní thagaimíd,,,We don't come,Ní thagaimid
+39,First Plural,We,Interrogative,Present,An dtagaimíd,,,Do we come,An dtagaimid
+40,First Plural,We,Neg Interrogative,Present,Ná tagaimíd,,,Don't we come,Nach dtagaimid
+41,First Plural,We,Positive,Past,Do thánamair,,,We came,Tháinig muid
+42,First Plural,We,Negative,Past,Ní thánamair,,,We didn't come,Ní tháinig muid
+43,First Plural,We,Interrogative,Past,An dtánamair,,,Did we come,An dtáinig muid
+44,First Plural,We,Neg Interrogative,Past,Ná tánamair,,,Didn't we come,Nach dtáinig muid
+45,First Plural,We,Positive,Future,Tiocfaimíd,,,We will come,Tiocfaimid
+46,First Plural,We,Negative,Future,Ní thiocfaimíd,,,We won't come,Ní thiocfaimid
+47,First Plural,We,Interrogative,Future,An dtiocfaimíd,,,Will we come,An dtiocfaimid
+48,First Plural,We,Neg Interrogative,Future,Ná tiocfaimíd,,,Won't we come,Nach dtiocfaimid
+49,Second Plural,Youse,Positive,Present,Tagann sibh,,,Youse come,Tagann sibh
+50,Second Plural,Youse,Negative,Present,Ní thagann sibh,,,Youse don't come,Ní thagann sibh
+51,Second Plural,Youse,Interrogative,Present,An dtagann sibh,,,Do youse come,An dtagann sibh
+52,Second Plural,Youse,Neg Interrogative,Present,Ná tagann sibh,,,Don't youse come,Nach dtagann sibh
+53,Second Plural,Youse,Positive,Past,Do thánabhair,,,Youse came,Tháinig sibh
+54,Second Plural,Youse,Negative,Past,Ní thánabhair,,,Youse didn't come,Ní tháinig sibh
+55,Second Plural,Youse,Interrogative,Past,An dtánabhair,,,Did youse come,An dtáinig sibh
+56,Second Plural,Youse,Neg Interrogative,Past,Ná tánabhair,,,Didn't youse come,Nach dtáinig sibh
+57,Second Plural,Youse,Positive,Future,Tiocfaidh sibh,,,Youse will come,Tiocfaidh sibh
+58,Second Plural,Youse,Negative,Future,Ní thiocfaidh sibh,,,Youse won't come,Ní thiocfaidh sibh
+59,Second Plural,Youse,Interrogative,Future,An dtiocfaidh sibh,,,Will youse come,An dtiocfaidh sibh
+60,Second Plural,Youse,Neg Interrogative,Future,Ná tiocfaidh sibh,,,Won't youse come,Nach dtiocfaidh sibh
+61,Third Plural,They,Positive,Present,Tagaid,,,They come,Tagann siad
+62,Third Plural,They,Negative,Present,Ní thagaid,,,They don't come,Ní thagann siad
+63,Third Plural,They,Interrogative,Present,An dtagaid,,,Do they come,An dtagann siad
+64,Third Plural,They,Neg Interrogative,Present,Ná tagaid,,,Don't they come,Nach dtagann siad
+65,Third Plural,They,Positive,Past,Do thánadar,,,They came,Tháinig siad
+66,Third Plural,They,Negative,Past,Ní thánadar,,,They didn't come,Ní tháinig siad
+67,Third Plural,They,Interrogative,Past,An dtánadar,,,Did they come,An dtáinig siad
+68,Third Plural,They,Neg Interrogative,Past,Ná tánadar,,,Didn't they come,Nach dtáinig siad
+69,Third Plural,They,Positive,Future,Tiocfaid,,,They will come,Tiocfaidh siad
+70,Third Plural,They,Negative,Future,Ní thiocfaid,,,They won't come,Ní thiocfaidh siad
+71,Third Plural,They,Interrogative,Future,An dtiocfaid,,,Will they come,An dtiocfaidh siad
+72,Third Plural,They,Neg Interrogative,Future,Ná tiocfaid,,,Won't they come,Nach dtiocfaidh siad

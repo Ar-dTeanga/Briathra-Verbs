@@ -1,73 +1,73 @@
-,,,,,GM,To Catch,Standard
-1,First Singular,I,Positive,Present,Beirim,I catch,Beirim
-2,First Singular,I,Negative,Present,Ní bheirim,I don't catch,Ní bheirim
-3,First Singular,I,Interrogative,Present,An mbeirim,Do I catch,An mbeirim
-4,First Singular,I,Neg Interrogative,Present,Ná beirim,Don't I catch,Nach mbeirim
-5,First Singular,I,Positive,Past,Do rugas,I caught,Rug mé
-6,First Singular,I,Negative,Past,Ní rugas,I didn't catch,Ní rug mé
-7,First Singular,I,Interrogative,Past,An rugas,Did I catch,An rug mé
-8,First Singular,I,Neg Interrogative,Past,Ná rugas,Didn't I catch,Nach rug mé
-9,First Singular,I,Positive,Future,Béarfad,I will catch,Béarfaidh mé
-10,First Singular,I,Negative,Future,Ní bhéarfad,I won't catch,Ní bhéarfaidh mé
-11,First Singular,I,Interrogative,Future,An mbéarfad,Will I catch,An mbéarfaidh mé
-12,First Singular,I,Neg Interrogative,Future,Ná béarfad,Won't I catch,Nach mbéarfaidh mé
-13,Second Singular,You,Positive,Present,Beirir,You catch,Beireann tú
-14,Second Singular,You,Negative,Present,Ní bheirir,You don't catch,Ní bheireann tú
-15,Second Singular,You,Interrogative,Present,An mbeirir,Do you catch,An mbeireann tú
-16,Second Singular,You,Neg Interrogative,Present,Ná beirir,Don't you catch,Nach mbeireann tú
-17,Second Singular,You,Positive,Past,Do rugais,You caught,Rug tú
-18,Second Singular,You,Negative,Past,Ní rugais,You didn't catch,Ní rug tú
-19,Second Singular,You,Interrogative,Past,An rugais,Did you catch,An rug tú
-20,Second Singular,You,Neg Interrogative,Past,Ná rugais,Didn't you catch,Nach rug tú
-21,Second Singular,You,Positive,Future,Béarfair,You will catch,Béarfaidh tú
-22,Second Singular,You,Negative,Future,Ní bhéarfair,You won't catch,Ní bhéarfaidh tú
-23,Second Singular,You,Interrogative,Future,An mbéarfair,Will you catch,An mbéarfaidh tú
-24,Second Singular,You,Neg Interrogative,Future,Ná béarfair,Won't you catch,Nach mbéarfaidh tú
-25,Third Singular,He/She/It,Positive,Present,Beireann sé,He catches,Beireann sé
-26,Third Singular,He/She/It,Negative,Present,Ní bheireann sé,He doesn't catch,Ní bheireann sé
-27,Third Singular,He/She/It,Interrogative,Present,An mbeireann sé,Does he catch,An mbeireann sé
-28,Third Singular,He/She/It,Neg Interrogative,Present,Ná beireann sé,Doesn't he catch,Nach mbeireann sé
-29,Third Singular,He/She/It,Positive,Past,Do rug sé,He caught,Rug sé
-30,Third Singular,He/She/It,Negative,Past,Ní rug sé,He didn't catch,Ní rug sé
-31,Third Singular,He/She/It,Interrogative,Past,An rug sé,Did he catch,An rug sé
-32,Third Singular,He/She/It,Neg Interrogative,Past,Ná rug sé,Didn't he catch,Nach rug sé
-33,Third Singular,He/She/It,Positive,Future,Béarfaidh sé,He will catch,Béarfaidh sé
-34,Third Singular,He/She/It,Negative,Future,Ní bhéarfaidh sé,He won't catch,Ní bhéarfaidh sé
-35,Third Singular,He/She/It,Interrogative,Future,An mbéarfaidh sé,Will he catch,An mbéarfaidh sé
-36,Third Singular,He/She/It,Neg Interrogative,Future,Ná béarfaidh sé,Won't he catch,Nach mbéarfaidh sé
-37,First Plural,We,Positive,Present,Beirimíd,We catch,Beirimid
-38,First Plural,We,Negative,Present,Ní bheirimíd,We don't catch,Ní bheirimid
-39,First Plural,We,Interrogative,Present,An mbeirimíd,Do we catch,An mbeirimid
-40,First Plural,We,Neg Interrogative,Present,Ná beirimíd,Don't we catch,Nach mbeirimid
-41,First Plural,We,Positive,Past,Do rugamair,We caught,Rug muid
-42,First Plural,We,Negative,Past,Ní rugamair,We didn't catch,Ní rug muid
-43,First Plural,We,Interrogative,Past,An rugamair,Did we catch,An rug muid
-44,First Plural,We,Neg Interrogative,Past,Ná rugamair,Didn't we catch,Nach rug muid
-45,First Plural,We,Positive,Future,Béarfaimíd,We will catch,Béarfaimid
-46,First Plural,We,Negative,Future,Ní bhéarfaimíd,We won't catch,Ní bhéarfaimid
-47,First Plural,We,Interrogative,Future,An mbéarfaimíd,Will we catch,An mbéarfaimid
-48,First Plural,We,Neg Interrogative,Future,Ná béarfaimíd,Won't we catch,Nach mbéarfaimid
-49,Second Plural,Youse,Positive,Present,Beireann sibh,Youse catch,Beireann sibh
-50,Second Plural,Youse,Negative,Present,Ní bheireann sibh,Youse don't catch,Ní bheireann sibh
-51,Second Plural,Youse,Interrogative,Present,An mbeireann sibh,Do youse catch,An mbeireann sibh
-52,Second Plural,Youse,Neg Interrogative,Present,Ná beireann sibh,Don't youse catch,Nach mbeireann sibh
-53,Second Plural,Youse,Positive,Past,Do rugabhair,Youse caught,Rug sibh
-54,Second Plural,Youse,Negative,Past,Ní rugabhair,Youse didn't catch,Ní rug sibh
-55,Second Plural,Youse,Interrogative,Past,An rugabhair,Did youse catch,An rug sibh
-56,Second Plural,Youse,Neg Interrogative,Past,Ná rugabhair,Didn't youse catch,Nach rug sibh
-57,Second Plural,Youse,Positive,Future,Béarfaidh sibh,Youse will catch,Béarfaidh sibh
-58,Second Plural,Youse,Negative,Future,Ní bhéarfaidh sibh,Youse won't catch,Ní bhéarfaidh sibh
-59,Second Plural,Youse,Interrogative,Future,An mbéarfaidh sibh,Will youse catch,An mbéarfaidh sibh
-60,Second Plural,Youse,Neg Interrogative,Future,Ná béarfaidh sibh,Won't youse catch,Nach mbéarfaidh sibh
-61,Third Plural,They,Positive,Present,Beirid,They catch,Beireann siad
-62,Third Plural,They,Negative,Present,Ní bheirid,They don't catch,Ní bheireann siad
-63,Third Plural,They,Interrogative,Present,An mbeirid,Do they catch,An mbeireann siad
-64,Third Plural,They,Neg Interrogative,Present,Ná beirid,Don't they catch,Nach mbeireann siad
-65,Third Plural,They,Positive,Past,Do rugadar,They caught,Rug siad
-66,Third Plural,They,Negative,Past,Ní rugadar,They didn't catch,Ní rug siad
-67,Third Plural,They,Interrogative,Past,An rugadar,Did they catch,An rug siad
-68,Third Plural,They,Neg Interrogative,Past,Ná rugadar,Didn't they catch,Nach rug siad
-69,Third Plural,They,Positive,Future,Béarfaid,They will catch,Béarfaidh siad
-70,Third Plural,They,Negative,Future,Ní bhéarfaid,They won't catch,Ní bhéarfaidh siad
-71,Third Plural,They,Interrogative,Future,An mbéarfaid,Will they catch,An mbéarfaidh siad
-72,Third Plural,They,Neg Interrogative,Future,Ná béarfaid,Won't they catch,Nach mbéarfaidh siad
+,,,,,GM,GU,GC,To Catch,Standard
+1,First Singular,I,Positive,Present,Beirim,,,I catch,Beirim
+2,First Singular,I,Negative,Present,Ní bheirim,,,I don't catch,Ní bheirim
+3,First Singular,I,Interrogative,Present,An mbeirim,,,Do I catch,An mbeirim
+4,First Singular,I,Neg Interrogative,Present,Ná beirim,,,Don't I catch,Nach mbeirim
+5,First Singular,I,Positive,Past,Do rugas,,,I caught,Rug mé
+6,First Singular,I,Negative,Past,Ní rugas,,,I didn't catch,Ní rug mé
+7,First Singular,I,Interrogative,Past,An rugas,,,Did I catch,An rug mé
+8,First Singular,I,Neg Interrogative,Past,Ná rugas,,,Didn't I catch,Nach rug mé
+9,First Singular,I,Positive,Future,Béarfad,,,I will catch,Béarfaidh mé
+10,First Singular,I,Negative,Future,Ní bhéarfad,,,I won't catch,Ní bhéarfaidh mé
+11,First Singular,I,Interrogative,Future,An mbéarfad,,,Will I catch,An mbéarfaidh mé
+12,First Singular,I,Neg Interrogative,Future,Ná béarfad,,,Won't I catch,Nach mbéarfaidh mé
+13,Second Singular,You,Positive,Present,Beirir,,,You catch,Beireann tú
+14,Second Singular,You,Negative,Present,Ní bheirir,,,You don't catch,Ní bheireann tú
+15,Second Singular,You,Interrogative,Present,An mbeirir,,,Do you catch,An mbeireann tú
+16,Second Singular,You,Neg Interrogative,Present,Ná beirir,,,Don't you catch,Nach mbeireann tú
+17,Second Singular,You,Positive,Past,Do rugais,,,You caught,Rug tú
+18,Second Singular,You,Negative,Past,Ní rugais,,,You didn't catch,Ní rug tú
+19,Second Singular,You,Interrogative,Past,An rugais,,,Did you catch,An rug tú
+20,Second Singular,You,Neg Interrogative,Past,Ná rugais,,,Didn't you catch,Nach rug tú
+21,Second Singular,You,Positive,Future,Béarfair,,,You will catch,Béarfaidh tú
+22,Second Singular,You,Negative,Future,Ní bhéarfair,,,You won't catch,Ní bhéarfaidh tú
+23,Second Singular,You,Interrogative,Future,An mbéarfair,,,Will you catch,An mbéarfaidh tú
+24,Second Singular,You,Neg Interrogative,Future,Ná béarfair,,,Won't you catch,Nach mbéarfaidh tú
+25,Third Singular,He/She/It,Positive,Present,Beireann sé,,,He catches,Beireann sé
+26,Third Singular,He/She/It,Negative,Present,Ní bheireann sé,,,He doesn't catch,Ní bheireann sé
+27,Third Singular,He/She/It,Interrogative,Present,An mbeireann sé,,,Does he catch,An mbeireann sé
+28,Third Singular,He/She/It,Neg Interrogative,Present,Ná beireann sé,,,Doesn't he catch,Nach mbeireann sé
+29,Third Singular,He/She/It,Positive,Past,Do rug sé,,,He caught,Rug sé
+30,Third Singular,He/She/It,Negative,Past,Ní rug sé,,,He didn't catch,Ní rug sé
+31,Third Singular,He/She/It,Interrogative,Past,An rug sé,,,Did he catch,An rug sé
+32,Third Singular,He/She/It,Neg Interrogative,Past,Ná rug sé,,,Didn't he catch,Nach rug sé
+33,Third Singular,He/She/It,Positive,Future,Béarfaidh sé,,,He will catch,Béarfaidh sé
+34,Third Singular,He/She/It,Negative,Future,Ní bhéarfaidh sé,,,He won't catch,Ní bhéarfaidh sé
+35,Third Singular,He/She/It,Interrogative,Future,An mbéarfaidh sé,,,Will he catch,An mbéarfaidh sé
+36,Third Singular,He/She/It,Neg Interrogative,Future,Ná béarfaidh sé,,,Won't he catch,Nach mbéarfaidh sé
+37,First Plural,We,Positive,Present,Beirimíd,,,We catch,Beirimid
+38,First Plural,We,Negative,Present,Ní bheirimíd,,,We don't catch,Ní bheirimid
+39,First Plural,We,Interrogative,Present,An mbeirimíd,,,Do we catch,An mbeirimid
+40,First Plural,We,Neg Interrogative,Present,Ná beirimíd,,,Don't we catch,Nach mbeirimid
+41,First Plural,We,Positive,Past,Do rugamair,,,We caught,Rug muid
+42,First Plural,We,Negative,Past,Ní rugamair,,,We didn't catch,Ní rug muid
+43,First Plural,We,Interrogative,Past,An rugamair,,,Did we catch,An rug muid
+44,First Plural,We,Neg Interrogative,Past,Ná rugamair,,,Didn't we catch,Nach rug muid
+45,First Plural,We,Positive,Future,Béarfaimíd,,,We will catch,Béarfaimid
+46,First Plural,We,Negative,Future,Ní bhéarfaimíd,,,We won't catch,Ní bhéarfaimid
+47,First Plural,We,Interrogative,Future,An mbéarfaimíd,,,Will we catch,An mbéarfaimid
+48,First Plural,We,Neg Interrogative,Future,Ná béarfaimíd,,,Won't we catch,Nach mbéarfaimid
+49,Second Plural,Youse,Positive,Present,Beireann sibh,,,Youse catch,Beireann sibh
+50,Second Plural,Youse,Negative,Present,Ní bheireann sibh,,,Youse don't catch,Ní bheireann sibh
+51,Second Plural,Youse,Interrogative,Present,An mbeireann sibh,,,Do youse catch,An mbeireann sibh
+52,Second Plural,Youse,Neg Interrogative,Present,Ná beireann sibh,,,Don't youse catch,Nach mbeireann sibh
+53,Second Plural,Youse,Positive,Past,Do rugabhair,,,Youse caught,Rug sibh
+54,Second Plural,Youse,Negative,Past,Ní rugabhair,,,Youse didn't catch,Ní rug sibh
+55,Second Plural,Youse,Interrogative,Past,An rugabhair,,,Did youse catch,An rug sibh
+56,Second Plural,Youse,Neg Interrogative,Past,Ná rugabhair,,,Didn't youse catch,Nach rug sibh
+57,Second Plural,Youse,Positive,Future,Béarfaidh sibh,,,Youse will catch,Béarfaidh sibh
+58,Second Plural,Youse,Negative,Future,Ní bhéarfaidh sibh,,,Youse won't catch,Ní bhéarfaidh sibh
+59,Second Plural,Youse,Interrogative,Future,An mbéarfaidh sibh,,,Will youse catch,An mbéarfaidh sibh
+60,Second Plural,Youse,Neg Interrogative,Future,Ná béarfaidh sibh,,,Won't youse catch,Nach mbéarfaidh sibh
+61,Third Plural,They,Positive,Present,Beirid,,,They catch,Beireann siad
+62,Third Plural,They,Negative,Present,Ní bheirid,,,They don't catch,Ní bheireann siad
+63,Third Plural,They,Interrogative,Present,An mbeirid,,,Do they catch,An mbeireann siad
+64,Third Plural,They,Neg Interrogative,Present,Ná beirid,,,Don't they catch,Nach mbeireann siad
+65,Third Plural,They,Positive,Past,Do rugadar,,,They caught,Rug siad
+66,Third Plural,They,Negative,Past,Ní rugadar,,,They didn't catch,Ní rug siad
+67,Third Plural,They,Interrogative,Past,An rugadar,,,Did they catch,An rug siad
+68,Third Plural,They,Neg Interrogative,Past,Ná rugadar,,,Didn't they catch,Nach rug siad
+69,Third Plural,They,Positive,Future,Béarfaid,,,They will catch,Béarfaidh siad
+70,Third Plural,They,Negative,Future,Ní bhéarfaid,,,They won't catch,Ní bhéarfaidh siad
+71,Third Plural,They,Interrogative,Future,An mbéarfaid,,,Will they catch,An mbéarfaidh siad
+72,Third Plural,They,Neg Interrogative,Future,Ná béarfaid,,,Won't they catch,Nach mbéarfaidh siad

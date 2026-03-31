@@ -262,6 +262,15 @@
                 <label>Person:</label>
                 <select id="mPersonPronoun"></select>
             </div>
+            <div class="filter-item">
+                <label>Dialect:</label>
+                <select id="mDialect">
+                    <option value="GM" selected>GM</option>
+                    <option value="GC">GC</option>
+                    <option value="GU">GU</option>
+                    <option value="Standard">Standard</option>
+                </select>
+            </div>
         </div>
         <div class="filter-row">
             <div class="filter-item">
@@ -295,6 +304,15 @@
                 <option value="">All</option>
             </select>
         </div>
+        <div class="filter-group">
+            <label for="dialect">Dialect</label>
+            <select id="dialect">
+                <option value="GM" selected>GM</option>
+                <option value="GC">GC</option>
+                <option value="GU">GU</option>
+                <option value="Standard">Standard</option>
+            </select>
+        </div>
     </div>
 
     <!-- Mobile list view -->
@@ -308,7 +326,7 @@
                 <th>Pronoun</th>
                 <th>Form</th>
                 <th>Tense</th>
-                <th>Gaeilge Mumhan (GM)</th>
+                <th id="dialectHeader">Gaeilge Mumhan</th>
                 <th>Seanchló</th>
                 <th>English</th>
                 <th>Standard</th>
@@ -341,6 +359,8 @@
 
         let data = [];
         let currentVerb = 'bi';
+        // Dialect column indices: GM=4, GU=5, GC=6, Standard=8
+        const dialectMap = { 'GM': 4, 'GU': 5, 'GC': 6, 'Standard': 8 };
 
         function getVerbFromHash() {
             const hash = window.location.hash.slice(1);
@@ -368,6 +388,7 @@
             document.title = `${irish} - Irish Verb Conjugations`;
         }
 
+        // CSV columns: index,Person,Pronoun,Form,Tense,GM,GU,GC,English,Standard
         function parseCSV(text) {
             const lines = text.trim().split('\n');
             return lines.slice(1).map(line => {
@@ -375,14 +396,19 @@
                 let person = (cols[1] || '').trim();
                 let form = (cols[3] || '').trim();
                 let gm = (cols[5] || '').trim();
-                let english = (cols[6] || '').trim();
-                let standard = (cols[7] || '').trim();
+                let gu = (cols[6] || '').trim();
+                let gc = (cols[7] || '').trim();
+                let english = (cols[8] || '').trim();
+                let standard = (cols[9] || '').trim();
                 if (form === 'Interrogative' || form === 'Neg Interrogative') {
                     if (gm && !gm.endsWith('?')) gm += '?';
+                    if (gu && !gu.endsWith('?')) gu += '?';
+                    if (gc && !gc.endsWith('?')) gc += '?';
                     if (english && !english.endsWith('?')) english += '?';
                     if (standard && !standard.endsWith('?')) standard += '?';
                 }
-                return [person, cols[2] || '', form, cols[4] || '', gm, english, standard];
+                // [0:person, 1:pronoun, 2:form, 3:tense, 4:gm, 5:gu, 6:gc, 7:english, 8:standard]
+                return [person, cols[2] || '', form, cols[4] || '', gm, gu, gc, english, standard];
             }).filter(row => row[0]);
         }
 
@@ -412,6 +438,12 @@
             const personPronounFilter = getFilterValue('personPronoun', 'mPersonPronoun');
             const formFilter = getFilterValue('form', 'mForm');
             const tenseFilter = getFilterValue('tense', 'mTense');
+            const dialectName = getFilterValue('dialect', 'mDialect') || 'Mumhan';
+            const dialectIdx = dialectMap[dialectName];
+
+            // Update table header
+            const headerNames = { 'GM': 'Gaeilge Mumhan', 'GU': 'Gaeilge Uladh', 'GC': 'Gaeilge Chonnacht', 'Standard': 'Standard' };
+            document.getElementById('dialectHeader').textContent = headerNames[dialectName];
 
             let personFilter = '';
             let pronounFilter = '';
@@ -430,23 +462,25 @@
 
             // Desktop table
             const tbody = document.getElementById('tableBody');
-            tbody.innerHTML = filtered.map(row => `
+            tbody.innerHTML = filtered.map(row => {
+                const irish = row[dialectIdx] || row[8]; // Selected dialect or Standard
+                return `
                 <tr>
                     <td>${row[0]}</td>
                     <td>${row[1]}</td>
                     <td>${row[2]}</td>
                     <td>${row[3]}</td>
-                    <td class="irish">${row[4]}</td>
-                    <td class="irish seanclo">${toSeanclo(row[4])}</td>
-                    <td>${row[5]}</td>
-                    <td class="irish">${row[6]}</td>
+                    <td class="irish">${irish}</td>
+                    <td class="irish seanclo">${toSeanclo(irish)}</td>
+                    <td>${row[7]}</td>
+                    <td class="irish">${row[8]}</td>
                 </tr>
-            `).join('');
+            `}).join('');
 
             // Mobile list
             const list = document.getElementById('conjugationList');
             list.innerHTML = filtered.map(row => {
-                const irish = row[4] || row[6]; // GM or Standard
+                const irish = row[dialectIdx] || row[8]; // Selected dialect or Standard
                 const seanclo = toSeanclo(irish);
                 return `
                 <div class="conj-item">
@@ -459,7 +493,7 @@
                             <span class="badge badge-tense">${row[3]}</span>
                             <span class="badge badge-form">${row[2]}</span>
                         </div>
-                        <div class="conj-english">${row[5]}</div>
+                        <div class="conj-english">${row[7]}</div>
                     </div>
                 </div>
             `}).join('');
@@ -529,11 +563,13 @@
         document.getElementById('personPronoun').addEventListener('change', renderTable);
         document.getElementById('form').addEventListener('change', renderTable);
         document.getElementById('tense').addEventListener('change', renderTable);
+        document.getElementById('dialect').addEventListener('change', renderTable);
 
         // Mobile filter listeners
         document.getElementById('mPersonPronoun').addEventListener('change', renderTable);
         document.getElementById('mForm').addEventListener('change', renderTable);
         document.getElementById('mTense').addEventListener('change', renderTable);
+        document.getElementById('mDialect').addEventListener('change', renderTable);
 
         loadVerb(getVerbFromHash());
     </script>

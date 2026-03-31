@@ -1,73 +1,73 @@
-,,,,,GM,To Give,Standard
-1,First Singular,I,Positive,Present,Tugaim,I give,Tugaim
-2,First Singular,I,Negative,Present,Ní thugaim,I don't give,Ní thugaim
-3,First Singular,I,Interrogative,Present,An dtugaim,Do I give,An dtugaim
-4,First Singular,I,Neg Interrogative,Present,Ná tugaim,Don't I give,Nach dtugaim
-5,First Singular,I,Positive,Past,Do thugas,I gave,Thug mé
-6,First Singular,I,Negative,Past,Ní thugas,I didn't give,Ní thug mé
-7,First Singular,I,Interrogative,Past,An dtugas,Did I give,An dtug mé
-8,First Singular,I,Neg Interrogative,Past,Ná tugas,Didn't I give,Nach dtug mé
-9,First Singular,I,Positive,Future,Tabharfad,I will give,Tabharfaidh mé
-10,First Singular,I,Negative,Future,Ní thabharfad,I won't give,Ní thabharfaidh mé
-11,First Singular,I,Interrogative,Future,An dtabharfad,Will I give,An dtabharfaidh mé
-12,First Singular,I,Neg Interrogative,Future,Ná tabharfad,Won't I give,Nach dtabharfaidh mé
-13,Second Singular,You,Positive,Present,Tugair,You give,Tugann tú
-14,Second Singular,You,Negative,Present,Ní thugair,You don't give,Ní thugann tú
-15,Second Singular,You,Interrogative,Present,An dtugair,Do you give,An dtugann tú
-16,Second Singular,You,Neg Interrogative,Present,Ná tugair,Don't you give,Nach dtugann tú
-17,Second Singular,You,Positive,Past,Do thugais,You gave,Thug tú
-18,Second Singular,You,Negative,Past,Ní thugais,You didn't give,Ní thug tú
-19,Second Singular,You,Interrogative,Past,An dtugais,Did you give,An dtug tú
-20,Second Singular,You,Neg Interrogative,Past,Ná tugais,Didn't you give,Nach dtug tú
-21,Second Singular,You,Positive,Future,Tabharfair,You will give,Tabharfaidh tú
-22,Second Singular,You,Negative,Future,Ní thabharfair,You won't give,Ní thabharfaidh tú
-23,Second Singular,You,Interrogative,Future,An dtabharfair,Will you give,An dtabharfaidh tú
-24,Second Singular,You,Neg Interrogative,Future,Ná tabharfair,Won't you give,Nach dtabharfaidh tú
-25,Third Singular,He/She/It,Positive,Present,Tugann sé,He gives,Tugann sé
-26,Third Singular,He/She/It,Negative,Present,Ní thugann sé,He doesn't give,Ní thugann sé
-27,Third Singular,He/She/It,Interrogative,Present,An dtugann sé,Does he give,An dtugann sé
-28,Third Singular,He/She/It,Neg Interrogative,Present,Ná tugann sé,Doesn't he give,Nach dtugann sé
-29,Third Singular,He/She/It,Positive,Past,Do thug sé,He gave,Thug sé
-30,Third Singular,He/She/It,Negative,Past,Ní thug sé,He didn't give,Ní thug sé
-31,Third Singular,He/She/It,Interrogative,Past,An dtug sé,Did he give,An dtug sé
-32,Third Singular,He/She/It,Neg Interrogative,Past,Ná tug sé,Didn't he give,Nach dtug sé
-33,Third Singular,He/She/It,Positive,Future,Tabharfaidh sé,He will give,Tabharfaidh sé
-34,Third Singular,He/She/It,Negative,Future,Ní thabharfaidh sé,He won't give,Ní thabharfaidh sé
-35,Third Singular,He/She/It,Interrogative,Future,An dtabharfaidh sé,Will he give,An dtabharfaidh sé
-36,Third Singular,He/She/It,Neg Interrogative,Future,Ná tabharfaidh sé,Won't he give,Nach dtabharfaidh sé
-37,First Plural,We,Positive,Present,Tugaimíd,We give,Tugaimid
-38,First Plural,We,Negative,Present,Ní thugaimíd,We don't give,Ní thugaimid
-39,First Plural,We,Interrogative,Present,An dtugaimíd,Do we give,An dtugaimid
-40,First Plural,We,Neg Interrogative,Present,Ná tugaimíd,Don't we give,Nach dtugaimid
-41,First Plural,We,Positive,Past,Do thugamair,We gave,Thug muid
-42,First Plural,We,Negative,Past,Ní thugamair,We didn't give,Ní thug muid
-43,First Plural,We,Interrogative,Past,An dtugamair,Did we give,An dtug muid
-44,First Plural,We,Neg Interrogative,Past,Ná tugamair,Didn't we give,Nach dtug muid
-45,First Plural,We,Positive,Future,Tabharfaimíd,We will give,Tabharfaimid
-46,First Plural,We,Negative,Future,Ní thabharfaimíd,We won't give,Ní thabharfaimid
-47,First Plural,We,Interrogative,Future,An dtabharfaimíd,Will we give,An dtabharfaimid
-48,First Plural,We,Neg Interrogative,Future,Ná tabharfaimíd,Won't we give,Nach dtabharfaimid
-49,Second Plural,Youse,Positive,Present,Tugann sibh,Youse give,Tugann sibh
-50,Second Plural,Youse,Negative,Present,Ní thugann sibh,Youse don't give,Ní thugann sibh
-51,Second Plural,Youse,Interrogative,Present,An dtugann sibh,Do youse give,An dtugann sibh
-52,Second Plural,Youse,Neg Interrogative,Present,Ná tugann sibh,Don't youse give,Nach dtugann sibh
-53,Second Plural,Youse,Positive,Past,Do thugabhair,Youse gave,Thug sibh
-54,Second Plural,Youse,Negative,Past,Ní thugabhair,Youse didn't give,Ní thug sibh
-55,Second Plural,Youse,Interrogative,Past,An dtugabhair,Did youse give,An dtug sibh
-56,Second Plural,Youse,Neg Interrogative,Past,Ná tugabhair,Didn't youse give,Nach dtug sibh
-57,Second Plural,Youse,Positive,Future,Tabharfaidh sibh,Youse will give,Tabharfaidh sibh
-58,Second Plural,Youse,Negative,Future,Ní thabharfaidh sibh,Youse won't give,Ní thabharfaidh sibh
-59,Second Plural,Youse,Interrogative,Future,An dtabharfaidh sibh,Will youse give,An dtabharfaidh sibh
-60,Second Plural,Youse,Neg Interrogative,Future,Ná tabharfaidh sibh,Won't youse give,Nach dtabharfaidh sibh
-61,Third Plural,They,Positive,Present,Tugaid,They give,Tugann siad
-62,Third Plural,They,Negative,Present,Ní thugaid,They don't give,Ní thugann siad
-63,Third Plural,They,Interrogative,Present,An dtugaid,Do they give,An dtugann siad
-64,Third Plural,They,Neg Interrogative,Present,Ná tugaid,Don't they give,Nach dtugann siad
-65,Third Plural,They,Positive,Past,Do thugadar,They gave,Thug siad
-66,Third Plural,They,Negative,Past,Ní thugadar,They didn't give,Ní thug siad
-67,Third Plural,They,Interrogative,Past,An dtugadar,Did they give,An dtug siad
-68,Third Plural,They,Neg Interrogative,Past,Ná tugadar,Didn't they give,Nach dtug siad
-69,Third Plural,They,Positive,Future,Tabharfaid,They will give,Tabharfaidh siad
-70,Third Plural,They,Negative,Future,Ní thabharfaid,They won't give,Ní thabharfaidh siad
-71,Third Plural,They,Interrogative,Future,An dtabharfaid,Will they give,An dtabharfaidh siad
-72,Third Plural,They,Neg Interrogative,Future,Ná tabharfaid,Won't they give,Nach dtabharfaidh siad
+,,,,,GM,GU,GC,To Give,Standard
+1,First Singular,I,Positive,Present,Tugaim,,,I give,Tugaim
+2,First Singular,I,Negative,Present,Ní thugaim,,,I don't give,Ní thugaim
+3,First Singular,I,Interrogative,Present,An dtugaim,,,Do I give,An dtugaim
+4,First Singular,I,Neg Interrogative,Present,Ná tugaim,,,Don't I give,Nach dtugaim
+5,First Singular,I,Positive,Past,Do thugas,,,I gave,Thug mé
+6,First Singular,I,Negative,Past,Ní thugas,,,I didn't give,Ní thug mé
+7,First Singular,I,Interrogative,Past,An dtugas,,,Did I give,An dtug mé
+8,First Singular,I,Neg Interrogative,Past,Ná tugas,,,Didn't I give,Nach dtug mé
+9,First Singular,I,Positive,Future,Tabharfad,,,I will give,Tabharfaidh mé
+10,First Singular,I,Negative,Future,Ní thabharfad,,,I won't give,Ní thabharfaidh mé
+11,First Singular,I,Interrogative,Future,An dtabharfad,,,Will I give,An dtabharfaidh mé
+12,First Singular,I,Neg Interrogative,Future,Ná tabharfad,,,Won't I give,Nach dtabharfaidh mé
+13,Second Singular,You,Positive,Present,Tugair,,,You give,Tugann tú
+14,Second Singular,You,Negative,Present,Ní thugair,,,You don't give,Ní thugann tú
+15,Second Singular,You,Interrogative,Present,An dtugair,,,Do you give,An dtugann tú
+16,Second Singular,You,Neg Interrogative,Present,Ná tugair,,,Don't you give,Nach dtugann tú
+17,Second Singular,You,Positive,Past,Do thugais,,,You gave,Thug tú
+18,Second Singular,You,Negative,Past,Ní thugais,,,You didn't give,Ní thug tú
+19,Second Singular,You,Interrogative,Past,An dtugais,,,Did you give,An dtug tú
+20,Second Singular,You,Neg Interrogative,Past,Ná tugais,,,Didn't you give,Nach dtug tú
+21,Second Singular,You,Positive,Future,Tabharfair,,,You will give,Tabharfaidh tú
+22,Second Singular,You,Negative,Future,Ní thabharfair,,,You won't give,Ní thabharfaidh tú
+23,Second Singular,You,Interrogative,Future,An dtabharfair,,,Will you give,An dtabharfaidh tú
+24,Second Singular,You,Neg Interrogative,Future,Ná tabharfair,,,Won't you give,Nach dtabharfaidh tú
+25,Third Singular,He/She/It,Positive,Present,Tugann sé,,,He gives,Tugann sé
+26,Third Singular,He/She/It,Negative,Present,Ní thugann sé,,,He doesn't give,Ní thugann sé
+27,Third Singular,He/She/It,Interrogative,Present,An dtugann sé,,,Does he give,An dtugann sé
+28,Third Singular,He/She/It,Neg Interrogative,Present,Ná tugann sé,,,Doesn't he give,Nach dtugann sé
+29,Third Singular,He/She/It,Positive,Past,Do thug sé,,,He gave,Thug sé
+30,Third Singular,He/She/It,Negative,Past,Ní thug sé,,,He didn't give,Ní thug sé
+31,Third Singular,He/She/It,Interrogative,Past,An dtug sé,,,Did he give,An dtug sé
+32,Third Singular,He/She/It,Neg Interrogative,Past,Ná tug sé,,,Didn't he give,Nach dtug sé
+33,Third Singular,He/She/It,Positive,Future,Tabharfaidh sé,,,He will give,Tabharfaidh sé
+34,Third Singular,He/She/It,Negative,Future,Ní thabharfaidh sé,,,He won't give,Ní thabharfaidh sé
+35,Third Singular,He/She/It,Interrogative,Future,An dtabharfaidh sé,,,Will he give,An dtabharfaidh sé
+36,Third Singular,He/She/It,Neg Interrogative,Future,Ná tabharfaidh sé,,,Won't he give,Nach dtabharfaidh sé
+37,First Plural,We,Positive,Present,Tugaimíd,,,We give,Tugaimid
+38,First Plural,We,Negative,Present,Ní thugaimíd,,,We don't give,Ní thugaimid
+39,First Plural,We,Interrogative,Present,An dtugaimíd,,,Do we give,An dtugaimid
+40,First Plural,We,Neg Interrogative,Present,Ná tugaimíd,,,Don't we give,Nach dtugaimid
+41,First Plural,We,Positive,Past,Do thugamair,,,We gave,Thug muid
+42,First Plural,We,Negative,Past,Ní thugamair,,,We didn't give,Ní thug muid
+43,First Plural,We,Interrogative,Past,An dtugamair,,,Did we give,An dtug muid
+44,First Plural,We,Neg Interrogative,Past,Ná tugamair,,,Didn't we give,Nach dtug muid
+45,First Plural,We,Positive,Future,Tabharfaimíd,,,We will give,Tabharfaimid
+46,First Plural,We,Negative,Future,Ní thabharfaimíd,,,We won't give,Ní thabharfaimid
+47,First Plural,We,Interrogative,Future,An dtabharfaimíd,,,Will we give,An dtabharfaimid
+48,First Plural,We,Neg Interrogative,Future,Ná tabharfaimíd,,,Won't we give,Nach dtabharfaimid
+49,Second Plural,Youse,Positive,Present,Tugann sibh,,,Youse give,Tugann sibh
+50,Second Plural,Youse,Negative,Present,Ní thugann sibh,,,Youse don't give,Ní thugann sibh
+51,Second Plural,Youse,Interrogative,Present,An dtugann sibh,,,Do youse give,An dtugann sibh
+52,Second Plural,Youse,Neg Interrogative,Present,Ná tugann sibh,,,Don't youse give,Nach dtugann sibh
+53,Second Plural,Youse,Positive,Past,Do thugabhair,,,Youse gave,Thug sibh
+54,Second Plural,Youse,Negative,Past,Ní thugabhair,,,Youse didn't give,Ní thug sibh
+55,Second Plural,Youse,Interrogative,Past,An dtugabhair,,,Did youse give,An dtug sibh
+56,Second Plural,Youse,Neg Interrogative,Past,Ná tugabhair,,,Didn't youse give,Nach dtug sibh
+57,Second Plural,Youse,Positive,Future,Tabharfaidh sibh,,,Youse will give,Tabharfaidh sibh
+58,Second Plural,Youse,Negative,Future,Ní thabharfaidh sibh,,,Youse won't give,Ní thabharfaidh sibh
+59,Second Plural,Youse,Interrogative,Future,An dtabharfaidh sibh,,,Will youse give,An dtabharfaidh sibh
+60,Second Plural,Youse,Neg Interrogative,Future,Ná tabharfaidh sibh,,,Won't youse give,Nach dtabharfaidh sibh
+61,Third Plural,They,Positive,Present,Tugaid,,,They give,Tugann siad
+62,Third Plural,They,Negative,Present,Ní thugaid,,,They don't give,Ní thugann siad
+63,Third Plural,They,Interrogative,Present,An dtugaid,,,Do they give,An dtugann siad
+64,Third Plural,They,Neg Interrogative,Present,Ná tugaid,,,Don't they give,Nach dtugann siad
+65,Third Plural,They,Positive,Past,Do thugadar,,,They gave,Thug siad
+66,Third Plural,They,Negative,Past,Ní thugadar,,,They didn't give,Ní thug siad
+67,Third Plural,They,Interrogative,Past,An dtugadar,,,Did they give,An dtug siad
+68,Third Plural,They,Neg Interrogative,Past,Ná tugadar,,,Didn't they give,Nach dtug siad
+69,Third Plural,They,Positive,Future,Tabharfaid,,,They will give,Tabharfaidh siad
+70,Third Plural,They,Negative,Future,Ní thabharfaid,,,They won't give,Ní thabharfaidh siad
+71,Third Plural,They,Interrogative,Future,An dtabharfaid,,,Will they give,An dtabharfaidh siad
+72,Third Plural,They,Neg Interrogative,Future,Ná tabharfaid,,,Won't they give,Nach dtabharfaidh siad

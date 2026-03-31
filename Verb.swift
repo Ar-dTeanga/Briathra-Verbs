@@ -21,6 +21,35 @@ struct Verb: Identifiable, Hashable {
     ]
 }
 
+enum Dialect: String, CaseIterable, Identifiable {
+    case gm = "GM"
+    case gc = "GC"
+    case gu = "GU"
+    case standard = "Standard"
+
+    var id: String { rawValue }
+}
+
+enum FormFilter: String, CaseIterable, Identifiable {
+    case all = "All"
+    case positive = "Positive"
+    case negative = "Negative"
+    case interrogative = "Interr"
+    case negInterrogative = "Neg Interr"
+
+    var id: String { rawValue }
+
+    func matches(_ form: String) -> Bool {
+        switch self {
+        case .all: return true
+        case .positive: return form == "Positive"
+        case .negative: return form == "Negative"
+        case .interrogative: return form == "Interrogative"
+        case .negInterrogative: return form == "Neg Interrogative"
+        }
+    }
+}
+
 struct Conjugation: Identifiable {
     let id = UUID()
     let person: String
@@ -28,19 +57,35 @@ struct Conjugation: Identifiable {
     let form: String
     let tense: String
     let gmForm: String
+    let guForm: String
+    let gcForm: String
     let english: String
     let standard: String
 
-    var seanclo: String {
-        toSeanclo(gmForm)
+    func dialectForm(_ dialect: Dialect) -> String {
+        switch dialect {
+        case .gm: return gmForm
+        case .gu: return guForm
+        case .gc: return gcForm
+        case .standard: return standard
+        }
     }
 
-    var displayIrish: String {
-        gmForm.isEmpty ? standard : gmForm
+    func displayIrish(_ dialect: Dialect) -> String {
+        let form = dialectForm(dialect)
+        return form.isEmpty ? standard : form
     }
 
-    var displaySeanclo: String {
-        toSeanclo(displayIrish)
+    func displaySeanclo(_ dialect: Dialect) -> String {
+        toSeanclo(displayIrish(dialect))
+    }
+
+    var shortForm: String {
+        switch form {
+        case "Interrogative": return "Interr"
+        case "Neg Interrogative": return "Neg Interr"
+        default: return form
+        }
     }
 }
 
@@ -75,15 +120,17 @@ func parseCSV(_ content: String) -> [Conjugation] {
         if index == 0 { continue }
 
         let columns = parseCSVLine(line)
-        guard columns.count >= 7 else { continue }
+        guard columns.count >= 9 else { continue }
 
         let person = columns[1]
         let pronoun = columns[2]
         let form = columns[3]
         let tense = columns[4]
         let gmForm = columns[5]
-        let english = columns[6]
-        let standard = columns.count > 7 ? columns[7] : ""
+        let guForm = columns[6]
+        let gcForm = columns[7]
+        let english = columns[8]
+        let standard = columns.count > 9 ? columns[9] : ""
 
         // Skip empty rows
         guard !person.isEmpty else { continue }
@@ -94,6 +141,8 @@ func parseCSV(_ content: String) -> [Conjugation] {
             form: form,
             tense: tense,
             gmForm: gmForm,
+            guForm: guForm,
+            gcForm: gcForm,
             english: english,
             standard: standard
         ))

@@ -1,73 +1,73 @@
-,,,,,GM,To Do,Standard
-1,First Singular,I,Positive,Present,Déanaim,I do,Déanaim
-2,First Singular,I,Negative,Present,Ní dhéanaim,I don't do,Ní dhéanaim
-3,First Singular,I,Interrogative,Present,An ndéanaim,Do I do,An ndéanaim
-4,First Singular,I,Neg Interrogative,Present,Ná déanaim,Don't I do,Nach ndéanaim
-5,First Singular,I,Positive,Past,Do dheineas,I did,Rinne mé
-6,First Singular,I,Negative,Past,Ní dhearnas,I didn't do,Ní dhearna mé
-7,First Singular,I,Interrogative,Past,An ndearnas,Did I do,An ndearna mé
-8,First Singular,I,Neg Interrogative,Past,Ná dearnas,Didn't I do,Nach ndearna mé
-9,First Singular,I,Positive,Future,Déanfad,I will do,Déanfaidh mé
-10,First Singular,I,Negative,Future,Ní dhéanfad,I won't do,Ní dhéanfaidh mé
-11,First Singular,I,Interrogative,Future,An ndéanfad,Will I do,An ndéanfaidh mé
-12,First Singular,I,Neg Interrogative,Future,Ná déanfad,Won't I do,Nach ndéanfaidh mé
-13,Second Singular,You,Positive,Present,Déanair,You do,Déanann tú
-14,Second Singular,You,Negative,Present,Ní dhéanair,You don't do,Ní dhéanann tú
-15,Second Singular,You,Interrogative,Present,An ndéanair,Do you do,An ndéanann tú
-16,Second Singular,You,Neg Interrogative,Present,Ná déanair,Don't you do,Nach ndéanann tú
-17,Second Singular,You,Positive,Past,Do dheineais,You did,Rinne tú
-18,Second Singular,You,Negative,Past,Ní dhearnais,You didn't do,Ní dhearna tú
-19,Second Singular,You,Interrogative,Past,An ndearnais,Did you do,An ndearna tú
-20,Second Singular,You,Neg Interrogative,Past,Ná dearnais,Didn't you do,Nach ndearna tú
-21,Second Singular,You,Positive,Future,Déanfair,You will do,Déanfaidh tú
-22,Second Singular,You,Negative,Future,Ní dhéanfair,You won't do,Ní dhéanfaidh tú
-23,Second Singular,You,Interrogative,Future,An ndéanfair,Will you do,An ndéanfaidh tú
-24,Second Singular,You,Neg Interrogative,Future,Ná déanfair,Won't you do,Nach ndéanfaidh tú
-25,Third Singular,He/She/It,Positive,Present,Déanann sé,He does,Déanann sé
-26,Third Singular,He/She/It,Negative,Present,Ní dhéanann sé,He doesn't do,Ní dhéanann sé
-27,Third Singular,He/She/It,Interrogative,Present,An ndéanann sé,Does he do,An ndéanann sé
-28,Third Singular,He/She/It,Neg Interrogative,Present,Ná déanann sé,Doesn't he do,Nach ndéanann sé
-29,Third Singular,He/She/It,Positive,Past,Do dhein sé,He did,Rinne sé
-30,Third Singular,He/She/It,Negative,Past,Ní dhearna sé,He didn't do,Ní dhearna sé
-31,Third Singular,He/She/It,Interrogative,Past,An ndearna sé,Did he do,An ndearna sé
-32,Third Singular,He/She/It,Neg Interrogative,Past,Ná dearna sé,Didn't he do,Nach ndearna sé
-33,Third Singular,He/She/It,Positive,Future,Déanfaidh sé,He will do,Déanfaidh sé
-34,Third Singular,He/She/It,Negative,Future,Ní dhéanfaidh sé,He won't do,Ní dhéanfaidh sé
-35,Third Singular,He/She/It,Interrogative,Future,An ndéanfaidh sé,Will he do,An ndéanfaidh sé
-36,Third Singular,He/She/It,Neg Interrogative,Future,Ná déanfaidh sé,Won't he do,Nach ndéanfaidh sé
-37,First Plural,We,Positive,Present,Déanaimíd,We do,Déanaimid
-38,First Plural,We,Negative,Present,Ní dhéanaimíd,We don't do,Ní dhéanaimid
-39,First Plural,We,Interrogative,Present,An ndéanaimíd,Do we do,An ndéanaimid
-40,First Plural,We,Neg Interrogative,Present,Ná déanaimíd,Don't we do,Nach ndéanaimid
-41,First Plural,We,Positive,Past,Do dheineamair,We did,Rinne muid
-42,First Plural,We,Negative,Past,Ní dhearnamair,We didn't do,Ní dhearna muid
-43,First Plural,We,Interrogative,Past,An ndearnamair,Did we do,An ndearna muid
-44,First Plural,We,Neg Interrogative,Past,Ná dearnamair,Didn't we do,Nach ndearna muid
-45,First Plural,We,Positive,Future,Déanfaimíd,We will do,Déanfaimid
-46,First Plural,We,Negative,Future,Ní dhéanfaimíd,We won't do,Ní dhéanfaimid
-47,First Plural,We,Interrogative,Future,An ndéanfaimíd,Will we do,An ndéanfaimid
-48,First Plural,We,Neg Interrogative,Future,Ná déanfaimíd,Won't we do,Nach ndéanfaimid
-49,Second Plural,Youse,Positive,Present,Déanann sibh,Youse do,Déanann sibh
-50,Second Plural,Youse,Negative,Present,Ní dhéanann sibh,Youse don't do,Ní dhéanann sibh
-51,Second Plural,Youse,Interrogative,Present,An ndéanann sibh,Do youse do,An ndéanann sibh
-52,Second Plural,Youse,Neg Interrogative,Present,Ná déanann sibh,Don't youse do,Nach ndéanann sibh
-53,Second Plural,Youse,Positive,Past,Do dheineabhair,Youse did,Rinne sibh
-54,Second Plural,Youse,Negative,Past,Ní dhearnabhair,Youse didn't do,Ní dhearna sibh
-55,Second Plural,Youse,Interrogative,Past,An ndearnabhair,Did youse do,An ndearna sibh
-56,Second Plural,Youse,Neg Interrogative,Past,Ná dearnabhair,Didn't youse do,Nach ndearna sibh
-57,Second Plural,Youse,Positive,Future,Déanfaidh sibh,Youse will do,Déanfaidh sibh
-58,Second Plural,Youse,Negative,Future,Ní dhéanfaidh sibh,Youse won't do,Ní dhéanfaidh sibh
-59,Second Plural,Youse,Interrogative,Future,An ndéanfaidh sibh,Will youse do,An ndéanfaidh sibh
-60,Second Plural,Youse,Neg Interrogative,Future,Ná déanfaidh sibh,Won't youse do,Nach ndéanfaidh sibh
-61,Third Plural,They,Positive,Present,Déanaid,They do,Déanann siad
-62,Third Plural,They,Negative,Present,Ní dhéanaid,They don't do,Ní dhéanann siad
-63,Third Plural,They,Interrogative,Present,An ndéanaid,Do they do,An ndéanann siad
-64,Third Plural,They,Neg Interrogative,Present,Ná déanaid,Don't they do,Nach ndéanann siad
-65,Third Plural,They,Positive,Past,Do dheineadar,They did,Rinne siad
-66,Third Plural,They,Negative,Past,Ní dhearnadar,They didn't do,Ní dhearna siad
-67,Third Plural,They,Interrogative,Past,An ndearnadar,Did they do,An ndearna siad
-68,Third Plural,They,Neg Interrogative,Past,Ná dearnadar,Didn't they do,Nach ndearna siad
-69,Third Plural,They,Positive,Future,Déanfaid,They will do,Déanfaidh siad
-70,Third Plural,They,Negative,Future,Ní dhéanfaid,They won't do,Ní dhéanfaidh siad
-71,Third Plural,They,Interrogative,Future,An ndéanfaid,Will they do,An ndéanfaidh siad
-72,Third Plural,They,Neg Interrogative,Future,Ná déanfaid,Won't they do,Nach ndéanfaidh siad
+,,,,,GM,GU,GC,To Do,Standard
+1,First Singular,I,Positive,Present,Déanaim,,,I do,Déanaim
+2,First Singular,I,Negative,Present,Ní dhéanaim,,,I don't do,Ní dhéanaim
+3,First Singular,I,Interrogative,Present,An ndéanaim,,,Do I do,An ndéanaim
+4,First Singular,I,Neg Interrogative,Present,Ná déanaim,,,Don't I do,Nach ndéanaim
+5,First Singular,I,Positive,Past,Do dheineas,,,I did,Rinne mé
+6,First Singular,I,Negative,Past,Ní dhearnas,,,I didn't do,Ní dhearna mé
+7,First Singular,I,Interrogative,Past,An ndearnas,,,Did I do,An ndearna mé
+8,First Singular,I,Neg Interrogative,Past,Ná dearnas,,,Didn't I do,Nach ndearna mé
+9,First Singular,I,Positive,Future,Déanfad,,,I will do,Déanfaidh mé
+10,First Singular,I,Negative,Future,Ní dhéanfad,,,I won't do,Ní dhéanfaidh mé
+11,First Singular,I,Interrogative,Future,An ndéanfad,,,Will I do,An ndéanfaidh mé
+12,First Singular,I,Neg Interrogative,Future,Ná déanfad,,,Won't I do,Nach ndéanfaidh mé
+13,Second Singular,You,Positive,Present,Déanair,,,You do,Déanann tú
+14,Second Singular,You,Negative,Present,Ní dhéanair,,,You don't do,Ní dhéanann tú
+15,Second Singular,You,Interrogative,Present,An ndéanair,,,Do you do,An ndéanann tú
+16,Second Singular,You,Neg Interrogative,Present,Ná déanair,,,Don't you do,Nach ndéanann tú
+17,Second Singular,You,Positive,Past,Do dheineais,,,You did,Rinne tú
+18,Second Singular,You,Negative,Past,Ní dhearnais,,,You didn't do,Ní dhearna tú
+19,Second Singular,You,Interrogative,Past,An ndearnais,,,Did you do,An ndearna tú
+20,Second Singular,You,Neg Interrogative,Past,Ná dearnais,,,Didn't you do,Nach ndearna tú
+21,Second Singular,You,Positive,Future,Déanfair,,,You will do,Déanfaidh tú
+22,Second Singular,You,Negative,Future,Ní dhéanfair,,,You won't do,Ní dhéanfaidh tú
+23,Second Singular,You,Interrogative,Future,An ndéanfair,,,Will you do,An ndéanfaidh tú
+24,Second Singular,You,Neg Interrogative,Future,Ná déanfair,,,Won't you do,Nach ndéanfaidh tú
+25,Third Singular,He/She/It,Positive,Present,Déanann sé,,,He does,Déanann sé
+26,Third Singular,He/She/It,Negative,Present,Ní dhéanann sé,,,He doesn't do,Ní dhéanann sé
+27,Third Singular,He/She/It,Interrogative,Present,An ndéanann sé,,,Does he do,An ndéanann sé
+28,Third Singular,He/She/It,Neg Interrogative,Present,Ná déanann sé,,,Doesn't he do,Nach ndéanann sé
+29,Third Singular,He/She/It,Positive,Past,Do dhein sé,,,He did,Rinne sé
+30,Third Singular,He/She/It,Negative,Past,Ní dhearna sé,,,He didn't do,Ní dhearna sé
+31,Third Singular,He/She/It,Interrogative,Past,An ndearna sé,,,Did he do,An ndearna sé
+32,Third Singular,He/She/It,Neg Interrogative,Past,Ná dearna sé,,,Didn't he do,Nach ndearna sé
+33,Third Singular,He/She/It,Positive,Future,Déanfaidh sé,,,He will do,Déanfaidh sé
+34,Third Singular,He/She/It,Negative,Future,Ní dhéanfaidh sé,,,He won't do,Ní dhéanfaidh sé
+35,Third Singular,He/She/It,Interrogative,Future,An ndéanfaidh sé,,,Will he do,An ndéanfaidh sé
+36,Third Singular,He/She/It,Neg Interrogative,Future,Ná déanfaidh sé,,,Won't he do,Nach ndéanfaidh sé
+37,First Plural,We,Positive,Present,Déanaimíd,,,We do,Déanaimid
+38,First Plural,We,Negative,Present,Ní dhéanaimíd,,,We don't do,Ní dhéanaimid
+39,First Plural,We,Interrogative,Present,An ndéanaimíd,,,Do we do,An ndéanaimid
+40,First Plural,We,Neg Interrogative,Present,Ná déanaimíd,,,Don't we do,Nach ndéanaimid
+41,First Plural,We,Positive,Past,Do dheineamair,,,We did,Rinne muid
+42,First Plural,We,Negative,Past,Ní dhearnamair,,,We didn't do,Ní dhearna muid
+43,First Plural,We,Interrogative,Past,An ndearnamair,,,Did we do,An ndearna muid
+44,First Plural,We,Neg Interrogative,Past,Ná dearnamair,,,Didn't we do,Nach ndearna muid
+45,First Plural,We,Positive,Future,Déanfaimíd,,,We will do,Déanfaimid
+46,First Plural,We,Negative,Future,Ní dhéanfaimíd,,,We won't do,Ní dhéanfaimid
+47,First Plural,We,Interrogative,Future,An ndéanfaimíd,,,Will we do,An ndéanfaimid
+48,First Plural,We,Neg Interrogative,Future,Ná déanfaimíd,,,Won't we do,Nach ndéanfaimid
+49,Second Plural,Youse,Positive,Present,Déanann sibh,,,Youse do,Déanann sibh
+50,Second Plural,Youse,Negative,Present,Ní dhéanann sibh,,,Youse don't do,Ní dhéanann sibh
+51,Second Plural,Youse,Interrogative,Present,An ndéanann sibh,,,Do youse do,An ndéanann sibh
+52,Second Plural,Youse,Neg Interrogative,Present,Ná déanann sibh,,,Don't youse do,Nach ndéanann sibh
+53,Second Plural,Youse,Positive,Past,Do dheineabhair,,,Youse did,Rinne sibh
+54,Second Plural,Youse,Negative,Past,Ní dhearnabhair,,,Youse didn't do,Ní dhearna sibh
+55,Second Plural,Youse,Interrogative,Past,An ndearnabhair,,,Did youse do,An ndearna sibh
+56,Second Plural,Youse,Neg Interrogative,Past,Ná dearnabhair,,,Didn't youse do,Nach ndearna sibh
+57,Second Plural,Youse,Positive,Future,Déanfaidh sibh,,,Youse will do,Déanfaidh sibh
+58,Second Plural,Youse,Negative,Future,Ní dhéanfaidh sibh,,,Youse won't do,Ní dhéanfaidh sibh
+59,Second Plural,Youse,Interrogative,Future,An ndéanfaidh sibh,,,Will youse do,An ndéanfaidh sibh
+60,Second Plural,Youse,Neg Interrogative,Future,Ná déanfaidh sibh,,,Won't youse do,Nach ndéanfaidh sibh
+61,Third Plural,They,Positive,Present,Déanaid,,,They do,Déanann siad
+62,Third Plural,They,Negative,Present,Ní dhéanaid,,,They don't do,Ní dhéanann siad
+63,Third Plural,They,Interrogative,Present,An ndéanaid,,,Do they do,An ndéanann siad
+64,Third Plural,They,Neg Interrogative,Present,Ná déanaid,,,Don't they do,Nach ndéanann siad
+65,Third Plural,They,Positive,Past,Do dheineadar,,,They did,Rinne siad
+66,Third Plural,They,Negative,Past,Ní dhearnadar,,,They didn't do,Ní dhearna siad
+67,Third Plural,They,Interrogative,Past,An ndearnadar,,,Did they do,An ndearna siad
+68,Third Plural,They,Neg Interrogative,Past,Ná dearnadar,,,Didn't they do,Nach ndearna siad
+69,Third Plural,They,Positive,Future,Déanfaid,,,They will do,Déanfaidh siad
+70,Third Plural,They,Negative,Future,Ní dhéanfaid,,,They won't do,Ní dhéanfaidh siad
+71,Third Plural,They,Interrogative,Future,An ndéanfaid,,,Will they do,An ndéanfaidh siad
+72,Third Plural,They,Neg Interrogative,Future,Ná déanfaid,,,Won't they do,Nach ndéanfaidh siad

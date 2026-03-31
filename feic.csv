@@ -1,73 +1,73 @@
-,,,,,GM,To See,Standard
-1,First Singular,I,Positive,Present,Feicim,I see,Feicim
-2,First Singular,I,Negative,Present,Ní fheicim,I don't see,Ní fheicim
-3,First Singular,I,Interrogative,Present,An bhfeicim,Do I see,An bhfeicim
-4,First Singular,I,Neg Interrogative,Present,Ná feicim,Don't I see,Nach bhfeicim
-5,First Singular,I,Positive,Past,Do chonacos,I saw,Chonaic mé
-6,First Singular,I,Negative,Past,Ní fhacas,I didn't see,Ní fhaca mé
-7,First Singular,I,Interrogative,Past,An bhfacas,Did I see,An bhfaca mé
-8,First Singular,I,Neg Interrogative,Past,Ná facas,Didn't I see,Nach bhfaca mé
-9,First Singular,I,Positive,Future,Chífead,I will see,Feicfidh mé
-10,First Singular,I,Negative,Future,Ní fheicfead,I won't see,Ní fheicfidh mé
-11,First Singular,I,Interrogative,Future,An bhfeicfead,Will I see,An bhfeicfidh mé
-12,First Singular,I,Neg Interrogative,Future,Ná feicfead,Won't I see,Nach bhfeicfidh mé
-13,Second Singular,You,Positive,Present,Feicir,You see,Feiceann tú
-14,Second Singular,You,Negative,Present,Ní fheicir,You don't see,Ní fheiceann tú
-15,Second Singular,You,Interrogative,Present,An bhfeicir,Do you see,An bhfeiceann tú
-16,Second Singular,You,Neg Interrogative,Present,Ná feicir,Don't you see,Nach bhfeiceann tú
-17,Second Singular,You,Positive,Past,Do chonacais,You saw,Chonaic tú
-18,Second Singular,You,Negative,Past,Ní fhacais,You didn't see,Ní fhaca tú
-19,Second Singular,You,Interrogative,Past,An bhfacais,Did you see,An bhfaca tú
-20,Second Singular,You,Neg Interrogative,Past,Ná facais,Didn't you see,Nach bhfaca tú
-21,Second Singular,You,Positive,Future,Chífir,You will see,Feicfidh tú
-22,Second Singular,You,Negative,Future,Ní fheicfir,You won't see,Ní fheicfidh tú
-23,Second Singular,You,Interrogative,Future,An bhfeicfir,Will you see,An bhfeicfidh tú
-24,Second Singular,You,Neg Interrogative,Future,Ná feicfir,Won't you see,Nach bhfeicfidh tú
-25,Third Singular,He/She/It,Positive,Present,Feiceann sé,He sees,Feiceann sé
-26,Third Singular,He/She/It,Negative,Present,Ní fheiceann sé,He doesn't see,Ní fheiceann sé
-27,Third Singular,He/She/It,Interrogative,Present,An bhfeiceann sé,Does he see,An bhfeiceann sé
-28,Third Singular,He/She/It,Neg Interrogative,Present,Ná feiceann sé,Doesn't he see,Nach bhfeiceann sé
-29,Third Singular,He/She/It,Positive,Past,Do chonaic sé,He saw,Chonaic sé
-30,Third Singular,He/She/It,Negative,Past,Ní fhaca sé,He didn't see,Ní fhaca sé
-31,Third Singular,He/She/It,Interrogative,Past,An bhfaca sé,Did he see,An bhfaca sé
-32,Third Singular,He/She/It,Neg Interrogative,Past,Ná faca sé,Didn't he see,Nach bhfaca sé
-33,Third Singular,He/She/It,Positive,Future,Chífidh sé,He will see,Feicfidh sé
-34,Third Singular,He/She/It,Negative,Future,Ní fheicfidh sé,He won't see,Ní fheicfidh sé
-35,Third Singular,He/She/It,Interrogative,Future,An bhfeicfidh sé,Will he see,An bhfeicfidh sé
-36,Third Singular,He/She/It,Neg Interrogative,Future,Ná feicfidh sé,Won't he see,Nach bhfeicfidh sé
-37,First Plural,We,Positive,Present,Feicimíd,We see,Feicimid
-38,First Plural,We,Negative,Present,Ní fheicimíd,We don't see,Ní fheicimid
-39,First Plural,We,Interrogative,Present,An bhfeicimíd,Do we see,An bhfeicimid
-40,First Plural,We,Neg Interrogative,Present,Ná feicimíd,Don't we see,Nach bhfeicimid
-41,First Plural,We,Positive,Past,Do chonacamair,We saw,Chonaic muid
-42,First Plural,We,Negative,Past,Ní fhacamair,We didn't see,Ní fhaca muid
-43,First Plural,We,Interrogative,Past,An bhfacamair,Did we see,An bhfaca muid
-44,First Plural,We,Neg Interrogative,Past,Ná facamair,Didn't we see,Nach bhfaca muid
-45,First Plural,We,Positive,Future,Chífimíd,We will see,Feicfimid
-46,First Plural,We,Negative,Future,Ní fheicfimíd,We won't see,Ní fheicfimid
-47,First Plural,We,Interrogative,Future,An bhfeicfimíd,Will we see,An bhfeicfimid
-48,First Plural,We,Neg Interrogative,Future,Ná feicfimíd,Won't we see,Nach bhfeicfimid
-49,Second Plural,Youse,Positive,Present,Feiceann sibh,Youse see,Feiceann sibh
-50,Second Plural,Youse,Negative,Present,Ní fheiceann sibh,Youse don't see,Ní fheiceann sibh
-51,Second Plural,Youse,Interrogative,Present,An bhfeiceann sibh,Do youse see,An bhfeiceann sibh
-52,Second Plural,Youse,Neg Interrogative,Present,Ná feiceann sibh,Don't youse see,Nach bhfeiceann sibh
-53,Second Plural,Youse,Positive,Past,Do chonacabhair,Youse saw,Chonaic sibh
-54,Second Plural,Youse,Negative,Past,Ní fhacabhair,Youse didn't see,Ní fhaca sibh
-55,Second Plural,Youse,Interrogative,Past,An bhfacabhair,Did youse see,An bhfaca sibh
-56,Second Plural,Youse,Neg Interrogative,Past,Ná facabhair,Didn't youse see,Nach bhfaca sibh
-57,Second Plural,Youse,Positive,Future,Chífidh sibh,Youse will see,Feicfidh sibh
-58,Second Plural,Youse,Negative,Future,Ní fheicfidh sibh,Youse won't see,Ní fheicfidh sibh
-59,Second Plural,Youse,Interrogative,Future,An bhfeicfidh sibh,Will youse see,An bhfeicfidh sibh
-60,Second Plural,Youse,Neg Interrogative,Future,Ná feicfidh sibh,Won't youse see,Nach bhfeicfidh sibh
-61,Third Plural,They,Positive,Present,Feicid,They see,Feiceann siad
-62,Third Plural,They,Negative,Present,Ní fheicid,They don't see,Ní fheiceann siad
-63,Third Plural,They,Interrogative,Present,An bhfeicid,Do they see,An bhfeiceann siad
-64,Third Plural,They,Neg Interrogative,Present,Ná feicid,Don't they see,Nach bhfeiceann siad
-65,Third Plural,They,Positive,Past,Do chonacadar,They saw,Chonaic siad
-66,Third Plural,They,Negative,Past,Ní fhacadar,They didn't see,Ní fhaca siad
-67,Third Plural,They,Interrogative,Past,An bhfacadar,Did they see,An bhfaca siad
-68,Third Plural,They,Neg Interrogative,Past,Ná facadar,Didn't they see,Nach bhfaca siad
-69,Third Plural,They,Positive,Future,Chífid,They will see,Feicfidh siad
-70,Third Plural,They,Negative,Future,Ní fheicfid,They won't see,Ní fheicfidh siad
-71,Third Plural,They,Interrogative,Future,An bhfeicfid,Will they see,An bhfeicfidh siad
-72,Third Plural,They,Neg Interrogative,Future,Ná feicfid,Won't they see,Nach bhfeicfidh siad
+,,,,,GM,GU,GC,To See,Standard
+1,First Singular,I,Positive,Present,Feicim,,,I see,Feicim
+2,First Singular,I,Negative,Present,Ní fheicim,,,I don't see,Ní fheicim
+3,First Singular,I,Interrogative,Present,An bhfeicim,,,Do I see,An bhfeicim
+4,First Singular,I,Neg Interrogative,Present,Ná feicim,,,Don't I see,Nach bhfeicim
+5,First Singular,I,Positive,Past,Do chonacos,,,I saw,Chonaic mé
+6,First Singular,I,Negative,Past,Ní fhacas,,,I didn't see,Ní fhaca mé
+7,First Singular,I,Interrogative,Past,An bhfacas,,,Did I see,An bhfaca mé
+8,First Singular,I,Neg Interrogative,Past,Ná facas,,,Didn't I see,Nach bhfaca mé
+9,First Singular,I,Positive,Future,Chífead,,,I will see,Feicfidh mé
+10,First Singular,I,Negative,Future,Ní fheicfead,,,I won't see,Ní fheicfidh mé
+11,First Singular,I,Interrogative,Future,An bhfeicfead,,,Will I see,An bhfeicfidh mé
+12,First Singular,I,Neg Interrogative,Future,Ná feicfead,,,Won't I see,Nach bhfeicfidh mé
+13,Second Singular,You,Positive,Present,Feicir,,,You see,Feiceann tú
+14,Second Singular,You,Negative,Present,Ní fheicir,,,You don't see,Ní fheiceann tú
+15,Second Singular,You,Interrogative,Present,An bhfeicir,,,Do you see,An bhfeiceann tú
+16,Second Singular,You,Neg Interrogative,Present,Ná feicir,,,Don't you see,Nach bhfeiceann tú
+17,Second Singular,You,Positive,Past,Do chonacais,,,You saw,Chonaic tú
+18,Second Singular,You,Negative,Past,Ní fhacais,,,You didn't see,Ní fhaca tú
+19,Second Singular,You,Interrogative,Past,An bhfacais,,,Did you see,An bhfaca tú
+20,Second Singular,You,Neg Interrogative,Past,Ná facais,,,Didn't you see,Nach bhfaca tú
+21,Second Singular,You,Positive,Future,Chífir,,,You will see,Feicfidh tú
+22,Second Singular,You,Negative,Future,Ní fheicfir,,,You won't see,Ní fheicfidh tú
+23,Second Singular,You,Interrogative,Future,An bhfeicfir,,,Will you see,An bhfeicfidh tú
+24,Second Singular,You,Neg Interrogative,Future,Ná feicfir,,,Won't you see,Nach bhfeicfidh tú
+25,Third Singular,He/She/It,Positive,Present,Feiceann sé,,,He sees,Feiceann sé
+26,Third Singular,He/She/It,Negative,Present,Ní fheiceann sé,,,He doesn't see,Ní fheiceann sé
+27,Third Singular,He/She/It,Interrogative,Present,An bhfeiceann sé,,,Does he see,An bhfeiceann sé
+28,Third Singular,He/She/It,Neg Interrogative,Present,Ná feiceann sé,,,Doesn't he see,Nach bhfeiceann sé
+29,Third Singular,He/She/It,Positive,Past,Do chonaic sé,,,He saw,Chonaic sé
+30,Third Singular,He/She/It,Negative,Past,Ní fhaca sé,,,He didn't see,Ní fhaca sé
+31,Third Singular,He/She/It,Interrogative,Past,An bhfaca sé,,,Did he see,An bhfaca sé
+32,Third Singular,He/She/It,Neg Interrogative,Past,Ná faca sé,,,Didn't he see,Nach bhfaca sé
+33,Third Singular,He/She/It,Positive,Future,Chífidh sé,,,He will see,Feicfidh sé
+34,Third Singular,He/She/It,Negative,Future,Ní fheicfidh sé,,,He won't see,Ní fheicfidh sé
+35,Third Singular,He/She/It,Interrogative,Future,An bhfeicfidh sé,,,Will he see,An bhfeicfidh sé
+36,Third Singular,He/She/It,Neg Interrogative,Future,Ná feicfidh sé,,,Won't he see,Nach bhfeicfidh sé
+37,First Plural,We,Positive,Present,Feicimíd,,,We see,Feicimid
+38,First Plural,We,Negative,Present,Ní fheicimíd,,,We don't see,Ní fheicimid
+39,First Plural,We,Interrogative,Present,An bhfeicimíd,,,Do we see,An bhfeicimid
+40,First Plural,We,Neg Interrogative,Present,Ná feicimíd,,,Don't we see,Nach bhfeicimid
+41,First Plural,We,Positive,Past,Do chonacamair,,,We saw,Chonaic muid
+42,First Plural,We,Negative,Past,Ní fhacamair,,,We didn't see,Ní fhaca muid
+43,First Plural,We,Interrogative,Past,An bhfacamair,,,Did we see,An bhfaca muid
+44,First Plural,We,Neg Interrogative,Past,Ná facamair,,,Didn't we see,Nach bhfaca muid
+45,First Plural,We,Positive,Future,Chífimíd,,,We will see,Feicfimid
+46,First Plural,We,Negative,Future,Ní fheicfimíd,,,We won't see,Ní fheicfimid
+47,First Plural,We,Interrogative,Future,An bhfeicfimíd,,,Will we see,An bhfeicfimid
+48,First Plural,We,Neg Interrogative,Future,Ná feicfimíd,,,Won't we see,Nach bhfeicfimid
+49,Second Plural,Youse,Positive,Present,Feiceann sibh,,,Youse see,Feiceann sibh
+50,Second Plural,Youse,Negative,Present,Ní fheiceann sibh,,,Youse don't see,Ní fheiceann sibh
+51,Second Plural,Youse,Interrogative,Present,An bhfeiceann sibh,,,Do youse see,An bhfeiceann sibh
+52,Second Plural,Youse,Neg Interrogative,Present,Ná feiceann sibh,,,Don't youse see,Nach bhfeiceann sibh
+53,Second Plural,Youse,Positive,Past,Do chonacabhair,,,Youse saw,Chonaic sibh
+54,Second Plural,Youse,Negative,Past,Ní fhacabhair,,,Youse didn't see,Ní fhaca sibh
+55,Second Plural,Youse,Interrogative,Past,An bhfacabhair,,,Did youse see,An bhfaca sibh
+56,Second Plural,Youse,Neg Interrogative,Past,Ná facabhair,,,Didn't youse see,Nach bhfaca sibh
+57,Second Plural,Youse,Positive,Future,Chífidh sibh,,,Youse will see,Feicfidh sibh
+58,Second Plural,Youse,Negative,Future,Ní fheicfidh sibh,,,Youse won't see,Ní fheicfidh sibh
+59,Second Plural,Youse,Interrogative,Future,An bhfeicfidh sibh,,,Will youse see,An bhfeicfidh sibh
+60,Second Plural,Youse,Neg Interrogative,Future,Ná feicfidh sibh,,,Won't youse see,Nach bhfeicfidh sibh
+61,Third Plural,They,Positive,Present,Feicid,,,They see,Feiceann siad
+62,Third Plural,They,Negative,Present,Ní fheicid,,,They don't see,Ní fheiceann siad
+63,Third Plural,They,Interrogative,Present,An bhfeicid,,,Do they see,An bhfeiceann siad
+64,Third Plural,They,Neg Interrogative,Present,Ná feicid,,,Don't they see,Nach bhfeiceann siad
+65,Third Plural,They,Positive,Past,Do chonacadar,,,They saw,Chonaic siad
+66,Third Plural,They,Negative,Past,Ní fhacadar,,,They didn't see,Ní fhaca siad
+67,Third Plural,They,Interrogative,Past,An bhfacadar,,,Did they see,An bhfaca siad
+68,Third Plural,They,Neg Interrogative,Past,Ná facadar,,,Didn't they see,Nach bhfaca siad
+69,Third Plural,They,Positive,Future,Chífid,,,They will see,Feicfidh siad
+70,Third Plural,They,Negative,Future,Ní fheicfid,,,They won't see,Ní fheicfidh siad
+71,Third Plural,They,Interrogative,Future,An bhfeicfid,,,Will they see,An bhfeicfidh siad
+72,Third Plural,They,Neg Interrogative,Future,Ná feicfid,,,Won't they see,Nach bhfeicfidh siad
