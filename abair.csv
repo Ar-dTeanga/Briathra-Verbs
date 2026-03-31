@@ -1,73 +1,73 @@
 ,,,,,GM,To Say,Standard
-1,First Singular,I,Positive,Present,,,
-2,First Singular,I,Negative,Present,,,
-3,First Singular,I,Interrogative,Present,,,
-4,First Singular,I,Neg Interrogative,Present,,,
-5,First Singular,I,Positive,Past,,,
-6,First Singular,I,Negative,Past,,,
-7,First Singular,I,Interrogative,Past,,,
-8,First Singular,I,Neg Interrogative,Past,,,
-9,First Singular,I,Positive,Future,,,
-10,First Singular,I,Negative,Future,,,
-11,First Singular,I,Interrogative,Future,,,
-12,First Singular,I,Neg Interrogative,Future,,,
-13,Second Singular,You,Positive,Present,,,
-14,Second Singular,You,Negative,Present,,,
-15,Second Singular,You,Interrogative,Present,,,
-16,Second Singular,You,Neg Interrogative,Present,,,
-17,Second Singular,You,Positive,Past,,,
-18,Second Singular,You,Negative,Past,,,
-19,Second Singular,You,Interrogative,Past,,,
-20,Second Singular,You,Neg Interrogative,Past,,,
-21,Second Singular,You,Positive,Future,,,
-22,Second Singular,You,Negative,Future,,,
-23,Second Singular,You,Interrogative,Future,,,
-24,Second Singular,You,Neg Interrogative,Future,,,
-25,Third Singular,He/She/It,Positive,Present,,,
-26,Third Singular,He/She/It,Negative,Present,,,
-27,Third Singular,He/She/It,Interrogative,Present,,,
-28,Third Singular,He/She/It,Neg Interrogative,Present,,,
-29,Third Singular,He/She/It,Positive,Past,,,
-30,Third Singular,He/She/It,Negative,Past,,,
-31,Third Singular,He/She/It,Interrogative,Past,,,
-32,Third Singular,He/She/It,Neg Interrogative,Past,,,
-33,Third Singular,He/She/It,Positive,Future,,,
-34,Third Singular,He/She/It,Negative,Future,,,
-35,Third Singular,He/She/It,Interrogative,Future,,,
-36,Third Singular,He/She/It,Neg Interrogative,Future,,,
-37,First Plural,We,Positive,Present,,,
-38,First Plural,We,Negative,Present,,,
-39,First Plural,We,Interrogative,Present,,,
-40,First Plural,We,Neg Interrogative,Present,,,
-41,First Plural,We,Positive,Past,,,
-42,First Plural,We,Negative,Past,,,
-43,First Plural,We,Interrogative,Past,,,
-44,First Plural,We,Neg Interrogative,Past,,,
-45,First Plural,We,Positive,Future,,,
-46,First Plural,We,Negative,Future,,,
-47,First Plural,We,Interrogative,Future,,,
-48,First Plural,We,Neg Interrogative,Future,,,
-49,Second Plural,Youse,Positive,Present,,,
-50,Second Plural,Youse,Negative,Present,,,
-51,Second Plural,Youse,Interrogative,Present,,,
-52,Second Plural,Youse,Neg Interrogative,Present,,,
-53,Second Plural,Youse,Positive,Past,,,
-54,Second Plural,Youse,Negative,Past,,,
-55,Second Plural,Youse,Interrogative,Past,,,
-56,Second Plural,Youse,Neg Interrogative,Past,,,
-57,Second Plural,Youse,Positive,Future,,,
-58,Second Plural,Youse,Negative,Future,,,
-59,Second Plural,Youse,Interrogative,Future,,,
-60,Second Plural,Youse,Neg Interrogative,Future,,,
-61,Third Plural,They,Positive,Present,,,
-62,Third Plural,They,Negative,Present,,,
-63,Third Plural,They,Interrogative,Present,,,
-64,Third Plural,They,Neg Interrogative,Present,,,
-65,Third Plural,They,Positive,Past,,,
-66,Third Plural,They,Negative,Past,,,
-67,Third Plural,They,Interrogative,Past,,,
-68,Third Plural,They,Neg Interrogative,Past,,,
-69,Third Plural,They,Positive,Future,,,
-70,Third Plural,They,Negative,Future,,,
-71,Third Plural,They,Interrogative,Future,,,
-72,Third Plural,They,Neg Interrogative,Future,,,
+1,First Singular,I,Positive,Present,Deirim,I say,Deirim
+2,First Singular,I,Negative,Present,Ní deirim,I don't say,Ní deirim
+3,First Singular,I,Interrogative,Present,An ndeirim,Do I say,An ndeirim
+4,First Singular,I,Neg Interrogative,Present,Ná deirim,Don't I say,Nach ndeirim
+5,First Singular,I,Positive,Past,Dúras,I said,Dúirt mé
+6,First Singular,I,Negative,Past,Ní dúras,I didn't say,Ní dúirt mé
+7,First Singular,I,Interrogative,Past,An ndúras,Did I say,An ndúirt mé
+8,First Singular,I,Neg Interrogative,Past,Ná dúras,Didn't I say,Nach ndúirt mé
+9,First Singular,I,Positive,Future,Déarfad,I will say,Déarfaidh mé
+10,First Singular,I,Negative,Future,Ní déarfad,I won't say,Ní déarfaidh mé
+11,First Singular,I,Interrogative,Future,An ndéarfad,Will I say,An ndéarfaidh mé
+12,First Singular,I,Neg Interrogative,Future,Ná déarfad,Won't I say,Nach ndéarfaidh mé
+13,Second Singular,You,Positive,Present,Deirir,You say,Deir tú
+14,Second Singular,You,Negative,Present,Ní deirir,You don't say,Ní deir tú
+15,Second Singular,You,Interrogative,Present,An ndeirir,Do you say,An ndeir tú
+16,Second Singular,You,Neg Interrogative,Present,Ná deirir,Don't you say,Nach ndeir tú
+17,Second Singular,You,Positive,Past,Dúrais,You said,Dúirt tú
+18,Second Singular,You,Negative,Past,Ní dúrais,You didn't say,Ní dúirt tú
+19,Second Singular,You,Interrogative,Past,An ndúrais,Did you say,An ndúirt tú
+20,Second Singular,You,Neg Interrogative,Past,Ná dúrais,Didn't you say,Nach ndúirt tú
+21,Second Singular,You,Positive,Future,Déarfair,You will say,Déarfaidh tú
+22,Second Singular,You,Negative,Future,Ní déarfair,You won't say,Ní déarfaidh tú
+23,Second Singular,You,Interrogative,Future,An ndéarfair,Will you say,An ndéarfaidh tú
+24,Second Singular,You,Neg Interrogative,Future,Ná déarfair,Won't you say,Nach ndéarfaidh tú
+25,Third Singular,He/She/It,Positive,Present,Deireann sé,He says,Deir sé
+26,Third Singular,He/She/It,Negative,Present,Ní dheireann sé,He doesn't say,Ní deir sé
+27,Third Singular,He/She/It,Interrogative,Present,An ndeireann sé,Does he say,An ndeir sé
+28,Third Singular,He/She/It,Neg Interrogative,Present,Ná deireann sé,Doesn't he say,Nach ndeir sé
+29,Third Singular,He/She/It,Positive,Past,Dúirt sé,He said,Dúirt sé
+30,Third Singular,He/She/It,Negative,Past,Ní dúirt sé,He didn't say,Ní dúirt sé
+31,Third Singular,He/She/It,Interrogative,Past,An ndúirt sé,Did he say,An ndúirt sé
+32,Third Singular,He/She/It,Neg Interrogative,Past,Ná dúirt sé,Didn't he say,Nach ndúirt sé
+33,Third Singular,He/She/It,Positive,Future,Déarfaidh sé,He will say,Déarfaidh sé
+34,Third Singular,He/She/It,Negative,Future,Ní dhéarfaidh sé,He won't say,Ní déarfaidh sé
+35,Third Singular,He/She/It,Interrogative,Future,An ndéarfaidh sé,Will he say,An ndéarfaidh sé
+36,Third Singular,He/She/It,Neg Interrogative,Future,Ná déarfaidh sé,Won't he say,Nach ndéarfaidh sé
+37,First Plural,We,Positive,Present,Deirimíd,We say,Deirimid
+38,First Plural,We,Negative,Present,Ní dheirimíd,We don't say,Ní deirimid
+39,First Plural,We,Interrogative,Present,An ndeirimíd,Do we say,An ndeirimid
+40,First Plural,We,Neg Interrogative,Present,Ná deirimíd,Don't we say,Nach ndeirimid
+41,First Plural,We,Positive,Past,Dúramair,We said,Dúirt muid
+42,First Plural,We,Negative,Past,Ní dúramair,We didn't say,Ní dúirt muid
+43,First Plural,We,Interrogative,Past,An ndúramair,Did we say,An ndúirt muid
+44,First Plural,We,Neg Interrogative,Past,Ná dúramair,Didn't we say,Nach ndúirt muid
+45,First Plural,We,Positive,Future,Déarfaimíd,We will say,Déarfaimid
+46,First Plural,We,Negative,Future,Ní dhéarfaimíd,We won't say,Ní déarfaimid
+47,First Plural,We,Interrogative,Future,An ndéarfaimíd,Will we say,An ndéarfaimid
+48,First Plural,We,Neg Interrogative,Future,Ná déarfaimíd,Won't we say,Nach ndéarfaimid
+49,Second Plural,Youse,Positive,Present,Deireann sibh,Youse say,Deir sibh
+50,Second Plural,Youse,Negative,Present,Ní dheireann sibh,Youse don't say,Ní deir sibh
+51,Second Plural,Youse,Interrogative,Present,An ndeireann sibh,Do youse say,An ndeir sibh
+52,Second Plural,Youse,Neg Interrogative,Present,Ná deireann sibh,Don't youse say,Nach ndeir sibh
+53,Second Plural,Youse,Positive,Past,Dúrabhair,Youse said,Dúirt sibh
+54,Second Plural,Youse,Negative,Past,Ní dúrabhair,Youse didn't say,Ní dúirt sibh
+55,Second Plural,Youse,Interrogative,Past,An ndúrabhair,Did youse say,An ndúirt sibh
+56,Second Plural,Youse,Neg Interrogative,Past,Ná dúrabhair,Didn't youse say,Nach ndúirt sibh
+57,Second Plural,Youse,Positive,Future,Déarfaidh sibh,Youse will say,Déarfaidh sibh
+58,Second Plural,Youse,Negative,Future,Ní dhéarfaidh sibh,Youse won't say,Ní déarfaidh sibh
+59,Second Plural,Youse,Interrogative,Future,An ndéarfaidh sibh,Will youse say,An ndéarfaidh sibh
+60,Second Plural,Youse,Neg Interrogative,Future,Ná déarfaidh sibh,Won't youse say,Nach ndéarfaidh sibh
+61,Third Plural,They,Positive,Present,Deirid,They say,Deir siad
+62,Third Plural,They,Negative,Present,Ní dheirid,They don't say,Ní deir siad
+63,Third Plural,They,Interrogative,Present,An ndeirid,Do they say,An ndeir siad
+64,Third Plural,They,Neg Interrogative,Present,Ná deirid,Don't they say,Nach ndeir siad
+65,Third Plural,They,Positive,Past,Dúradar,They said,Dúirt siad
+66,Third Plural,They,Negative,Past,Ní dúradar,They didn't say,Ní dúirt siad
+67,Third Plural,They,Interrogative,Past,An ndúradar,Did they say,An ndúirt siad
+68,Third Plural,They,Neg Interrogative,Past,Ná dúradar,Didn't they say,Nach ndúirt siad
+69,Third Plural,They,Positive,Future,Déarfaid,They will say,Déarfaidh siad
+70,Third Plural,They,Negative,Future,Ní dhéarfaid,They won't say,Ní déarfaidh siad
+71,Third Plural,They,Interrogative,Future,An ndéarfaid,Will they say,An ndéarfaidh siad
+72,Third Plural,They,Neg Interrogative,Future,Ná déarfaid,Won't they say,Nach ndéarfaidh siad

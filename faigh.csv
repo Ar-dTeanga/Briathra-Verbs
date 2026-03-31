@@ -1,73 +1,73 @@
 ,,,,,GM,To Get,Standard
-1,First Singular,I,Positive,Present,,,
-2,First Singular,I,Negative,Present,,,
-3,First Singular,I,Interrogative,Present,,,
-4,First Singular,I,Neg Interrogative,Present,,,
-5,First Singular,I,Positive,Past,,,
-6,First Singular,I,Negative,Past,,,
-7,First Singular,I,Interrogative,Past,,,
-8,First Singular,I,Neg Interrogative,Past,,,
-9,First Singular,I,Positive,Future,,,
-10,First Singular,I,Negative,Future,,,
-11,First Singular,I,Interrogative,Future,,,
-12,First Singular,I,Neg Interrogative,Future,,,
-13,Second Singular,You,Positive,Present,,,
-14,Second Singular,You,Negative,Present,,,
-15,Second Singular,You,Interrogative,Present,,,
-16,Second Singular,You,Neg Interrogative,Present,,,
-17,Second Singular,You,Positive,Past,,,
-18,Second Singular,You,Negative,Past,,,
-19,Second Singular,You,Interrogative,Past,,,
-20,Second Singular,You,Neg Interrogative,Past,,,
-21,Second Singular,You,Positive,Future,,,
-22,Second Singular,You,Negative,Future,,,
-23,Second Singular,You,Interrogative,Future,,,
-24,Second Singular,You,Neg Interrogative,Future,,,
-25,Third Singular,He/She/It,Positive,Present,,,
-26,Third Singular,He/She/It,Negative,Present,,,
-27,Third Singular,He/She/It,Interrogative,Present,,,
-28,Third Singular,He/She/It,Neg Interrogative,Present,,,
-29,Third Singular,He/She/It,Positive,Past,,,
-30,Third Singular,He/She/It,Negative,Past,,,
-31,Third Singular,He/She/It,Interrogative,Past,,,
-32,Third Singular,He/She/It,Neg Interrogative,Past,,,
-33,Third Singular,He/She/It,Positive,Future,,,
-34,Third Singular,He/She/It,Negative,Future,,,
-35,Third Singular,He/She/It,Interrogative,Future,,,
-36,Third Singular,He/She/It,Neg Interrogative,Future,,,
-37,First Plural,We,Positive,Present,,,
-38,First Plural,We,Negative,Present,,,
-39,First Plural,We,Interrogative,Present,,,
-40,First Plural,We,Neg Interrogative,Present,,,
-41,First Plural,We,Positive,Past,,,
-42,First Plural,We,Negative,Past,,,
-43,First Plural,We,Interrogative,Past,,,
-44,First Plural,We,Neg Interrogative,Past,,,
-45,First Plural,We,Positive,Future,,,
-46,First Plural,We,Negative,Future,,,
-47,First Plural,We,Interrogative,Future,,,
-48,First Plural,We,Neg Interrogative,Future,,,
-49,Second Plural,Youse,Positive,Present,,,
-50,Second Plural,Youse,Negative,Present,,,
-51,Second Plural,Youse,Interrogative,Present,,,
-52,Second Plural,Youse,Neg Interrogative,Present,,,
-53,Second Plural,Youse,Positive,Past,,,
-54,Second Plural,Youse,Negative,Past,,,
-55,Second Plural,Youse,Interrogative,Past,,,
-56,Second Plural,Youse,Neg Interrogative,Past,,,
-57,Second Plural,Youse,Positive,Future,,,
-58,Second Plural,Youse,Negative,Future,,,
-59,Second Plural,Youse,Interrogative,Future,,,
-60,Second Plural,Youse,Neg Interrogative,Future,,,
-61,Third Plural,They,Positive,Present,,,
-62,Third Plural,They,Negative,Present,,,
-63,Third Plural,They,Interrogative,Present,,,
-64,Third Plural,They,Neg Interrogative,Present,,,
-65,Third Plural,They,Positive,Past,,,
-66,Third Plural,They,Negative,Past,,,
-67,Third Plural,They,Interrogative,Past,,,
-68,Third Plural,They,Neg Interrogative,Past,,,
-69,Third Plural,They,Positive,Future,,,
-70,Third Plural,They,Negative,Future,,,
-71,Third Plural,They,Interrogative,Future,,,
-72,Third Plural,They,Neg Interrogative,Future,,,
+1,First Singular,I,Positive,Present,Faighim,I get,Faighim
+2,First Singular,I,Negative,Present,Ní fhaighim,I don't get,Ní fhaighim
+3,First Singular,I,Interrogative,Present,An bhfaighim,Do I get,An bhfaighim
+4,First Singular,I,Neg Interrogative,Present,Ná faighim,Don't I get,Nach bhfaighim
+5,First Singular,I,Positive,Past,Fuaireas,I got,Fuair mé
+6,First Singular,I,Negative,Past,Ní bhfuaireas,I didn't get,Ní bhfuair mé
+7,First Singular,I,Interrogative,Past,An bhfuaireas,Did I get,An bhfuair mé
+8,First Singular,I,Neg Interrogative,Past,Ná fuaireas,Didn't I get,Nach bhfuair mé
+9,First Singular,I,Positive,Future,Gheobhad,I will get,Gheobhaidh mé
+10,First Singular,I,Negative,Future,Ní bhfaighead,I won't get,Ní bhfaighidh mé
+11,First Singular,I,Interrogative,Future,An bhfaighead,Will I get,An bhfaighidh mé
+12,First Singular,I,Neg Interrogative,Future,Ná faighead,Won't I get,Nach bhfaighidh mé
+13,Second Singular,You,Positive,Present,Faighir,You get,Faigheann tú
+14,Second Singular,You,Negative,Present,Ní fhaighir,You don't get,Ní fhaigheann tú
+15,Second Singular,You,Interrogative,Present,An bhfaighir,Do you get,An bhfaigheann tú
+16,Second Singular,You,Neg Interrogative,Present,Ná faighir,Don't you get,Nach bhfaigheann tú
+17,Second Singular,You,Positive,Past,Fuairís,You got,Fuair tú
+18,Second Singular,You,Negative,Past,Ní bhfuairís,You didn't get,Ní bhfuair tú
+19,Second Singular,You,Interrogative,Past,An bhfuairís,Did you get,An bhfuair tú
+20,Second Singular,You,Neg Interrogative,Past,Ná fuairís,Didn't you get,Nach bhfuair tú
+21,Second Singular,You,Positive,Future,Gheobhair,You will get,Gheobhaidh tú
+22,Second Singular,You,Negative,Future,Ní bhfaighir,You won't get,Ní bhfaighidh tú
+23,Second Singular,You,Interrogative,Future,An bhfaighir,Will you get,An bhfaighidh tú
+24,Second Singular,You,Neg Interrogative,Future,Ná faighir,Won't you get,Nach bhfaighidh tú
+25,Third Singular,He/She/It,Positive,Present,Faigheann sé,He gets,Faigheann sé
+26,Third Singular,He/She/It,Negative,Present,Ní fhaigheann sé,He doesn't get,Ní fhaigheann sé
+27,Third Singular,He/She/It,Interrogative,Present,An bhfaigheann sé,Does he get,An bhfaigheann sé
+28,Third Singular,He/She/It,Neg Interrogative,Present,Ná faigheann sé,Doesn't he get,Nach bhfaigheann sé
+29,Third Singular,He/She/It,Positive,Past,Fuair sé,He got,Fuair sé
+30,Third Singular,He/She/It,Negative,Past,Ní bhfuair sé,He didn't get,Ní bhfuair sé
+31,Third Singular,He/She/It,Interrogative,Past,An bhfuair sé,Did he get,An bhfuair sé
+32,Third Singular,He/She/It,Neg Interrogative,Past,Ná fuair sé,Didn't he get,Nach bhfuair sé
+33,Third Singular,He/She/It,Positive,Future,Gheobhaidh sé,He will get,Gheobhaidh sé
+34,Third Singular,He/She/It,Negative,Future,Ní bhfaighidh sé,He won't get,Ní bhfaighidh sé
+35,Third Singular,He/She/It,Interrogative,Future,An bhfaighidh sé,Will he get,An bhfaighidh sé
+36,Third Singular,He/She/It,Neg Interrogative,Future,Ná faighidh sé,Won't he get,Nach bhfaighidh sé
+37,First Plural,We,Positive,Present,Faighimíd,We get,Faighimid
+38,First Plural,We,Negative,Present,Ní fhaighimíd,We don't get,Ní fhaighimid
+39,First Plural,We,Interrogative,Present,An bhfaighimíd,Do we get,An bhfaighimid
+40,First Plural,We,Neg Interrogative,Present,Ná faighimíd,Don't we get,Nach bhfaighimid
+41,First Plural,We,Positive,Past,Fuaireamair,We got,Fuair muid
+42,First Plural,We,Negative,Past,Ní bhfuaireamair,We didn't get,Ní bhfuair muid
+43,First Plural,We,Interrogative,Past,An bhfuaireamair,Did we get,An bhfuair muid
+44,First Plural,We,Neg Interrogative,Past,Ná fuaireamair,Didn't we get,Nach bhfuair muid
+45,First Plural,We,Positive,Future,Gheobhaimíd,We will get,Gheobhaimid
+46,First Plural,We,Negative,Future,Ní bhfaighimíd,We won't get,Ní bhfaighimid
+47,First Plural,We,Interrogative,Future,An bhfaighimíd,Will we get,An bhfaighimid
+48,First Plural,We,Neg Interrogative,Future,Ná faighimíd,Won't we get,Nach bhfaighimid
+49,Second Plural,Youse,Positive,Present,Faigheann sibh,Youse get,Faigheann sibh
+50,Second Plural,Youse,Negative,Present,Ní fhaigheann sibh,Youse don't get,Ní fhaigheann sibh
+51,Second Plural,Youse,Interrogative,Present,An bhfaigheann sibh,Do youse get,An bhfaigheann sibh
+52,Second Plural,Youse,Neg Interrogative,Present,Ná faigheann sibh,Don't youse get,Nach bhfaigheann sibh
+53,Second Plural,Youse,Positive,Past,Fuaireabhair,Youse got,Fuair sibh
+54,Second Plural,Youse,Negative,Past,Ní bhfuaireabhair,Youse didn't get,Ní bhfuair sibh
+55,Second Plural,Youse,Interrogative,Past,An bhfuaireabhair,Did youse get,An bhfuair sibh
+56,Second Plural,Youse,Neg Interrogative,Past,Ná fuaireabhair,Didn't youse get,Nach bhfuair sibh
+57,Second Plural,Youse,Positive,Future,Gheobhaidh sibh,Youse will get,Gheobhaidh sibh
+58,Second Plural,Youse,Negative,Future,Ní bhfaighidh sibh,Youse won't get,Ní bhfaighidh sibh
+59,Second Plural,Youse,Interrogative,Future,An bhfaighidh sibh,Will youse get,An bhfaighidh sibh
+60,Second Plural,Youse,Neg Interrogative,Future,Ná faighidh sibh,Won't youse get,Nach bhfaighidh sibh
+61,Third Plural,They,Positive,Present,Faighid,They get,Faigheann siad
+62,Third Plural,They,Negative,Present,Ní fhaighid,They don't get,Ní fhaigheann siad
+63,Third Plural,They,Interrogative,Present,An bhfaighid,Do they get,An bhfaigheann siad
+64,Third Plural,They,Neg Interrogative,Present,Ná faighid,Don't they get,Nach bhfaigheann siad
+65,Third Plural,They,Positive,Past,Fuaireadar,They got,Fuair siad
+66,Third Plural,They,Negative,Past,Ní bhfuaireadar,They didn't get,Ní bhfuair siad
+67,Third Plural,They,Interrogative,Past,An bhfuaireadar,Did they get,An bhfuair siad
+68,Third Plural,They,Neg Interrogative,Past,Ná fuaireadar,Didn't they get,Nach bhfuair siad
+69,Third Plural,They,Positive,Future,Gheobhaid,They will get,Gheobhaidh siad
+70,Third Plural,They,Negative,Future,Ní bhfaighid,They won't get,Ní bhfaighidh siad
+71,Third Plural,They,Interrogative,Future,An bhfaighid,Will they get,An bhfaighidh siad
+72,Third Plural,They,Neg Interrogative,Future,Ná faighid,Won't they get,Nach bhfaighidh siad
