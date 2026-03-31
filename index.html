@@ -259,7 +259,7 @@
     <div class="mobile-filters mobile-only">
         <div class="filter-row">
             <div class="filter-item">
-                <label>Person:</label>
+                <label>Person - Pronoun:</label>
                 <select id="mPersonPronoun"></select>
             </div>
         </div>
@@ -278,7 +278,7 @@
     <!-- Desktop filters -->
     <div class="filters desktop-only">
         <div class="filter-group">
-            <label for="personPronoun">Person</label>
+            <label for="personPronoun">Person - Pronoun</label>
             <select id="personPronoun">
                 <option value="">All</option>
             </select>
@@ -304,8 +304,7 @@
     <table id="verbTable" class="desktop-only">
         <thead>
             <tr>
-                <th>Person</th>
-                <th>Pronoun</th>
+                <th>Person - Pronoun</th>
                 <th>Form</th>
                 <th>Tense</th>
                 <th>Gaeilge Mumhan (GM)</th>
@@ -428,8 +427,7 @@
             const tbody = document.getElementById('tableBody');
             tbody.innerHTML = filtered.map(row => `
                 <tr>
-                    <td>${row[0]}</td>
-                    <td>${row[1]}</td>
+                    <td>${row[0]} - ${row[1]}</td>
                     <td>${row[2]}</td>
                     <td>${row[3]}</td>
                     <td class="irish">${row[4]}</td>
@@ -511,7 +509,7 @@
                     renderTable();
                 })
                 .catch(err => {
-                    document.getElementById('tableBody').innerHTML = '<tr><td colspan="8">Error loading data. Please try again.</td></tr>';
+                    document.getElementById('tableBody').innerHTML = '<tr><td colspan="7">Error loading data. Please try again.</td></tr>';
                     document.getElementById('conjugationList').innerHTML = '<div class="conj-item">Error loading data. Please try again.</div>';
                     console.error('Failed to load CSV:', err);
                 });
