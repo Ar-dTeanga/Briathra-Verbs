@@ -86,63 +86,67 @@ struct ContentView: View {
                 .padding(.bottom, 12)
 
                 // Filters
-                VStack(spacing: 8) {
-                    HStack(spacing: 0) {
-                        HStack(spacing: 4) {
-                            Text("Person:")
-                                .font(.subheadline)
-                                .foregroundColor(.secondary)
-                            Picker("Person", selection: $selectedPronoun) {
-                                ForEach(pronouns, id: \.self) { pronoun in
-                                    Text(pronoun).tag(pronoun)
+                GeometryReader { geo in
+                    let halfWidth = geo.size.width / 2
+                    VStack(spacing: 8) {
+                        HStack(spacing: 0) {
+                            HStack(spacing: 4) {
+                                Text("Person:")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                                Picker("Person", selection: $selectedPronoun) {
+                                    ForEach(pronouns, id: \.self) { pronoun in
+                                        Text(pronoun).tag(pronoun)
+                                    }
                                 }
+                                .pickerStyle(.menu)
                             }
-                            .pickerStyle(.menu)
-                        }
-                        .frame(maxWidth: .infinity, alignment: .leading)
+                            .frame(width: halfWidth, alignment: .leading)
 
-                        HStack(spacing: 4) {
-                            Text("Dialect:")
-                                .font(.subheadline)
-                                .foregroundColor(.secondary)
-                            Picker("Dialect", selection: $selectedDialect) {
-                                ForEach(Dialect.allCases) { dialect in
-                                    Text(dialect.rawValue).tag(dialect)
+                            HStack(spacing: 4) {
+                                Text("Dialect:")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                                Picker("Dialect", selection: $selectedDialect) {
+                                    ForEach(Dialect.allCases) { dialect in
+                                        Text(dialect.rawValue).tag(dialect)
+                                    }
                                 }
+                                .pickerStyle(.menu)
                             }
-                            .pickerStyle(.menu)
+                            .frame(width: halfWidth, alignment: .trailing)
                         }
-                        .frame(maxWidth: .infinity, alignment: .trailing)
-                    }
 
-                    HStack(spacing: 0) {
-                        HStack(spacing: 4) {
-                            Text("Tense:")
-                                .font(.subheadline)
-                                .foregroundColor(.secondary)
-                            Picker("Tense", selection: $selectedTense) {
-                                ForEach(tenses, id: \.self) { tense in
-                                    Text(tense).tag(tense)
+                        HStack(spacing: 0) {
+                            HStack(spacing: 4) {
+                                Text("Tense:")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                                Picker("Tense", selection: $selectedTense) {
+                                    ForEach(tenses, id: \.self) { tense in
+                                        Text(tense).tag(tense)
+                                    }
                                 }
+                                .pickerStyle(.menu)
                             }
-                            .pickerStyle(.menu)
-                        }
-                        .frame(maxWidth: .infinity, alignment: .leading)
+                            .frame(width: halfWidth, alignment: .leading)
 
-                        HStack(spacing: 4) {
-                            Text("Form:")
-                                .font(.subheadline)
-                                .foregroundColor(.secondary)
-                            Picker("Form", selection: $selectedForm) {
-                                ForEach(FormFilter.allCases) { form in
-                                    Text(form.rawValue).tag(form)
+                            HStack(spacing: 4) {
+                                Text("Form:")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                                Picker("Form", selection: $selectedForm) {
+                                    ForEach(FormFilter.allCases) { form in
+                                        Text(form.rawValue).tag(form)
+                                    }
                                 }
+                                .pickerStyle(.menu)
                             }
-                            .pickerStyle(.menu)
+                            .frame(width: halfWidth, alignment: .trailing)
                         }
-                        .frame(maxWidth: .infinity, alignment: .trailing)
                     }
                 }
+                .frame(height: 70)
                 .padding(.horizontal)
                 .padding(.bottom, 8)
 
